@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "magiclysm_addon",
+    "name": "追加 - Magiclysm アドオン",
+    "authors": [ "YasuYasu" ],
+    "description": "Magiclysmのアドオンで、魔法使いに相応しい銃を追加します。このmodのアイテムはアイテム名の末尾に[MA]と付きます",
+    "category": "content",
+    "dependencies": [ "dda","magiclysm" ]
+  }
+]

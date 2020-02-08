@@ -1,0 +1,92 @@
+[
+  {
+    "id": "44_magic",
+    "type": "AMMO",
+    "name": { "str": "セクス専用マナカートリッジ[MA]" },
+    "description": "マナカートリッジ専用拳銃 セクスの専用カートリッジです。このカートリッジには魔力が込められています。",
+    "weight": "10 g",
+    "volume": "250 ml",
+    "price": 180,
+    "price_postapoc": 2000,
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 5,
+    "stack_size": 5,
+    "ammo_type": "44_magic",
+    "range": 16,
+    "damage": 40,
+    "pierce": 4,
+    "dispersion": 30,
+    "recoil": 1070,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "44_magic_magus",
+    "copy-from": "44_magic",
+    "type": "AMMO",
+    "name": { "str": "セクス専用マナカートリッジ[魔][MA]" },
+    "description": "マナカートリッジ専用拳銃 セクスの専用カートリッジです。このカートリッジには魔法使いの魔力が込められています。",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.9, "damage": 0.9, "pierce": 3,  "recoil": 0.7 },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES"] }
+  },
+  {
+    "id": "44_magic_fire",
+    "copy-from": "44_magic",
+    "type": "AMMO",
+    "name": { "str": "セクス専用マナカートリッジ[炎][MA]" },
+    "description": "マナカートリッジ専用拳銃 セクスの専用カートリッジです。このカートリッジにはケルビニストの魔力が込められています。",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": 0.7, "recoil": 0.7 },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","INCENDIARY"] }
+  },
+  {
+    "id": "44_magic_ice",
+    "copy-from": "44_magic",
+    "type": "AMMO",
+    "name": { "str": "セクス専用マナカートリッジ[氷][MA]" },
+    "description": "マナカートリッジ専用拳銃 セクスの専用カートリッジです。このカートリッジにはケルビニストの魔力が込められています。",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": 0.7, "recoil": 0.7 },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","TANGLE"] }
+  },
+  {
+    "id": "44_magic_thunder",
+    "copy-from": "44_magic",
+    "type": "AMMO",
+    "name": { "str": "セクス専用マナカートリッジ[雷][MA]" },
+    "description": "マナカートリッジ専用拳銃 セクスの専用カートリッジです。このカートリッジにはストームシェイパーの魔力が込められています。",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": 0.7, "recoil": 0.7 },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","BOUNCE","LIGHTNING"] }
+  },
+  {
+    "id": "44_magic_earth",
+    "copy-from": "44_magic",
+    "type": "AMMO",
+    "name": { "str": "セクス専用マナカートリッジ[地][MA]" },
+    "description": "マナカートリッジ専用拳銃 セクスの専用カートリッジです。このカートリッジにはアースシェイパーの魔力が込められています。",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": 0.7, "recoil": 0.7 },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","CUSTOM_EXPLOSION"] },
+    "explosion": { "power": 1, "distance_factor": 0.002 ,"shrapnel": 1},
+    "shrapnel": {"casing_mass": 20,"fragment_mass": 0.002}  
+  },
+  {
+    "id": "44_magic_wood",
+    "copy-from": "44_magic",
+    "type": "AMMO",
+    "name": { "str": "セクス専用マナカートリッジ[木][MA]" },
+    "description": "マナカートリッジ専用拳銃 セクスの専用カートリッジです。このカートリッジにはドルイドの魔力が込められています。",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": 0.7, "recoil": 0.7 },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","BLINDS_EYES"] }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "22_magic_speedloader8",
+    "type": "MAGAZINE",
+    "name": "ウーヌム専用スピードローダー[MA]",
+    "description": "マナカートリッジ弾専用拳銃 ウーヌムのスピードローダーです。これを使用する事で素早いリロードが可能となります。",
+    "weight": "64 g",
+    "volume": "250 ml",
+    "price": 600,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "22_magic",
+    "capacity": 8,
+    "flags": [ "SPEEDLOADER" ]
+  }
+]

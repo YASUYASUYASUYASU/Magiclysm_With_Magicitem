@@ -1,0 +1,17 @@
+[
+  {
+    "id": "9mm_magic_speedloader6",
+    "type": "MAGAZINE",
+    "name": "トリア専用スピードローダー[MA]",
+    "description": "マナカートリッジ弾専用拳銃 トリアのスピードローダーです。これを使用する事で素早いリロードが可能となります。",
+    "weight": "64 g",
+    "volume": "250 ml",
+    "price": 600,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "9x19_magic",
+    "capacity": 6,
+    "flags": [ "SPEEDLOADER" ]
+  }
+]
