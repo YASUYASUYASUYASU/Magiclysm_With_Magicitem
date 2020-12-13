@@ -15,10 +15,10 @@
     "material": [ "steel", "wood","copper","silver","gold" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "45_magic",
+    "ammo": "44_magic",
     "dispersion": 280,
     "durability": 8,
-    "clip_size": 6,    "magazines": [ [ "45_magic", [ "45_magic_speedloader6" ] ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "44_magic": 6 } } ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],

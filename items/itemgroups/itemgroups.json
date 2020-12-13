@@ -1,0 +1,70 @@
+[
+  {
+    "id": "enchanted_rings_common",
+    "type": "item_group",
+    "//": "all the common enchanted rings",
+    "subtype": "collection",
+    "items": [
+      { "item": "mnecklace_strength_1_MA", "prob": 5 },
+      { "item": "mnecklace_dexterity_1_MA", "prob": 5 },
+      { "item": "mnecklace_intelligence_1_MA", "prob": 5 },
+      { "item": "mnecklace_perception_1_MA", "prob": 5 },
+      { "item": "mnecklace_speed_3_MA", "prob": 5 },
+      { "item": "mnecklace_protection_2_MA", "prob": 5 },
+      { "item": "mnecklace_wizardry_minor_MA", "prob": 2 },
+      { "item": "mnecklace_stamina_minor_MA", "prob": 2 }
+    ]
+  },
+  {
+    "id": "enchanted_rings_uncommon",
+    "type": "item_group",
+    "//": "all the uncommon enchanted rings",
+    "subtype": "collection",
+    "items": [
+      { "item": "mnecklace_strength_2_MA", "prob": 5 },
+      { "item": "mnecklace_dexterity_2_MA", "prob": 5 },
+      { "item": "mnecklace_intelligence_2_MA", "prob": 5 },
+      { "item": "mnecklace_dodge_bonus_MA", "prob": 5 },
+      { "item": "mnecklace_perception_2_MA", "prob": 5 },
+      { "item": "mnecklace_speed_5_MA", "prob": 5 },
+      { "item": "mnecklace_protection_4_MA", "prob": 5 },
+      { "item": "mnecklace_wizardry_lesser_MA", "prob": 2 },
+      { "item": "mnecklace_stamina_lesser_MA", "prob": 2 }
+    ]
+  },
+  {
+    "id": "enchanted_rings_unusual",
+    "type": "item_group",
+    "//": "all the unusual enchanted rings",
+    "subtype": "collection",
+    "items": [
+      { "item": "mnecklace_strength_3_MA", "prob": 5 },
+      { "item": "mnecklace_dexterity_3_MA", "prob": 5 },
+      { "item": "mnecklace_dodge_bonus_2_MA", "prob": 5 },
+      { "item": "mnecklace_intelligence_3_MA", "prob": 5 },
+      { "item": "mnecklace_perception_3_MA", "prob": 5 },
+      { "item": "mnecklace_speed_7_MA", "prob": 5 },
+      { "item": "mnecklace_protection_6_MA", "prob": 5 },
+      { "item": "mnecklace_wizardry_moderate_MA", "prob": 2 },
+      { "item": "mnecklace_stamina_moderate_MA", "prob": 2 }
+    ]
+  },
+  {
+    "id": "enchanted_rings_rare",
+    "type": "item_group",
+    "//": "all the rare enchanted rings.  High end loot for boss fights, treasure rooms, etc.",
+    "subtype": "collection",
+    "items": [
+      { "item": "mnecklace_strength_4_MA", "prob": 5 },
+      { "item": "mnecklace_dexterity_4_MA", "prob": 5 },
+      { "item": "mnecklace_intelligence_4_MA", "prob": 5 },
+      { "item": "mnecklace_perception_4_MA", "prob": 5 },
+      { "item": "mnecklace_speed_10_MA", "prob": 5 },
+      { "item": "mnecklace_protection_8_MA", "prob": 5 },
+      { "item": "mnecklace_wizardry_greater_MA", "prob": 2 },
+      { "item": "mnecklace_stamina_greater_MA", "prob": 2 },
+      { "item": "mring_eye_MA", "prob": 2 },
+      { "item": "mnecklace_eye_MA", "prob": 2 }
+    ]
+  }
+]

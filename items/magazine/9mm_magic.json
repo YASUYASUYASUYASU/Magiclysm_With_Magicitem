@@ -12,6 +12,7 @@
     "color": "light_gray",
     "ammo_type": "9x19_magic",
     "capacity": 6,
-    "flags": [ "SPEEDLOADER" ]
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9x19_magic": 8  } } ]    
   }
 ]

@@ -19,7 +19,7 @@
     "dispersion": 280,
     "durability": 8,
     "clip_size": 5,
-    "magazines": [ [ "454_magic", [ "454_magic_speedloader5" ] ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "454_magic": 5 } } ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],

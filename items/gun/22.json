@@ -19,7 +19,7 @@
     "dispersion": 280,
     "durability": 8,
     "clip_size": 8,
-    "magazines": [ [ "22_magic", [ "22_magic_speedloader8" ] ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "22_magic": 8 } } ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -29,6 +29,5 @@
       [ "rail", 1 ],
       [ "sights", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+      [ "underbarrel", 1 ]    ]
   }

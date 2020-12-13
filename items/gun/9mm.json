@@ -20,7 +20,7 @@
     "dispersion": 340,
     "durability": 9,
     "clip_size": 6,
-    "magazines": [ [ "9x19_magic", [ "9mm_magic_speedloader6" ] ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "9x19_magic": 6 } } ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],

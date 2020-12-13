@@ -16,10 +16,11 @@
     "symbol": "(",
     "color": "dark_gray",
     "ammo": [ "40_magic" ],
-    "ranged_damage": 1,
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "dispersion": 320,
     "durability": 8,
-    "clip_size": 6,    "magazines": [ [ "40_magic", [ "40_magic_speedloader6" ] ] ],
+    "clip_size": 6,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "40_magic": 6 } } ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],

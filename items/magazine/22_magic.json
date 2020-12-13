@@ -12,6 +12,7 @@
     "color": "light_gray",
     "ammo_type": "22_magic",
     "capacity": 8,
-    "flags": [ "SPEEDLOADER" ]
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "22_magic": 8 } } ]
   }
 ]

@@ -12,6 +12,7 @@
     "color": "light_gray",
     "ammo_type": "454_magic",
     "capacity": 5,
-    "flags": [ "SPEEDLOADER" ]
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "454_magic": 5  } } ]
   }
 ]
