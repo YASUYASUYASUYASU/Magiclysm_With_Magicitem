@@ -13,8 +13,9 @@
     "color": "yellow",
     "count": 5,
     "stack_size": 5,
+    "range": 13,
     "ammo_type": "22_magic",
-    "proportional": { "range": 0.6, "damage": { "damage_type": "bullet", "amount": 0.5 }, "dispersion": 1.2 },
+    "damage": { "damage_type": "bullet", "amount": 12 },
     "dispersion": 60,
     "recoil": 150,
     "effects": [ "COOKOFF" ]

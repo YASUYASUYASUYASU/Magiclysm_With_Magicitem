@@ -15,7 +15,7 @@
     "stack_size": 5,
     "ammo_type": "38_magic",
     "range": 14,
-    "relative": { "damage": { "damage_type": "bullet", "amount": -2, "armor_penetration": 4 } },
+    "damage": { "damage_type": "bullet", "amount": 22, "armor_penetration": 4 } ,
     "dispersion": 30,
     "recoil": 250,
     "effects": [ "COOKOFF" ]
