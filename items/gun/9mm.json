@@ -5,7 +5,6 @@
     "type": "GUN",
     "name": "マナカートリッジ専用拳銃 トリア[MA]",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
-    "name_plural": "magic_revolver_ver3",
     "description": "魔法使いの為に設計されたマナカートリッジ弾専用拳銃 トリアです。これを使いこなせるようになれば、あなたも一人前の魔法使いです。",
     "weight": "935 g",
     "volume": "500 ml",

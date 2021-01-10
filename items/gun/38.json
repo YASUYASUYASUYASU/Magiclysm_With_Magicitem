@@ -5,7 +5,6 @@
     "type": "GUN",
     "name": "マナカートリッジ専用拳銃 デュオ[MA]",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
-    "name_plural": "magic_revolver_ver1",
     "description": "魔法使いの為に設計されたマナカートリッジ弾専用拳銃 デュオです。あなたのスキルの成長に伴い、ウーヌム以上の大口径のマナカートリッジを使う事が可能になりました。",
     "weight": "907 g",
     "volume": "500 ml",

@@ -5,7 +5,6 @@
     "type": "GUN",
     "name": "マナカートリッジ専用拳銃 セプテム[MA]",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
-    "name_plural": "magic_revolver_ver7",
     "description": "魔法使いの為に設計されたマナカートリッジ弾専用拳銃 セプテムです。この銃をゾンビ達が見ればきっと裸足で逃げ出す事でしょう",
     "weight": "1790 g",
     "volume": "750 ml",

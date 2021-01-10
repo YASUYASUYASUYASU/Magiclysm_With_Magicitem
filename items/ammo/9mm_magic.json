@@ -74,8 +74,7 @@
     "dispersion": 0,
     "proportional": { "range": 0.8, "damage": { "damage_type": "bullet", "amount": 0.7 }, "recoil": 0.7  },
     "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","CUSTOM_EXPLOSION"] },
-    "explosion": { "power": 1, "distance_factor": 0.002 ,"shrapnel": 1},
-    "shrapnel": {"casing_mass": 20,"fragment_mass": 0.002}
+    "explosion": { "power": 1, "shrapnel": {  "casing_mass": 20, "recovery": 10, "drop": "shrapnel" } }
   },
   {
     "id": "9x19_magic_wood",
