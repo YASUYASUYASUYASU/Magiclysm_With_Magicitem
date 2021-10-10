@@ -1,10 +1,10 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "magiclysm_addon",
-    "name": "追加 - Magiclysm アドオン",
+    "ident": "Magiclysm_With_Magicitem",
+    "name": "追加 - Magiclysm_With_Magicitem",
     "authors": [ "YasuYasu" ],
-    "description": "Magiclysmのアドオンで、魔法の銃や魔法アクセサリなど魔法使いをサポートするアイテムを追加します。このmodのアイテムはアイテム名の末尾に[MA]と付きます",
+    "description": "Magiclysmのアドオンで、魔法の銃や魔法アクセサリなど魔法使いをサポートするアイテムを追加します。このmodのアイテムはアイテム名の末尾に[MWA]と付きます",
     "category": "content",
     "dependencies": [ "dda","magiclysm" ]
   }

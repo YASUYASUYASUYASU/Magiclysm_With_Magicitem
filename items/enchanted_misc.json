@@ -1,0 +1,255 @@
+[
+  {
+    "name": { "str": "無限のスキットル[MWMI]" },
+    "id": "PSY_magi_mflask_hip_whiskey_2",
+    "type": "GENERIC",
+    "copy-from": "flask_hip",
+    "price_postapoc": "850 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "whiskey",
+      "msg": "You open the flask and discover it full of sweet, sweet, whiskey!",
+      "container": "PSY_magi_mflask_hip_whiskey_2",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のワインボトル[MWMI]" },
+    "id": "PSY_magi_wine_inf",
+    "type": "GENERIC",
+    "copy-from": "bottle_glass",
+    "price_postapoc": "850 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "wine_chardonnay",
+      "msg": "ワインボトルの中にはいい香りのするワインが大量に入っていました!",
+      "container": "PSY_magi_wine_inf",
+      "target_charges": 3,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限の牛乳ビン[MWMI]" },
+    "id": "PSY_magi_milk_inf",
+    "type": "GENERIC",
+    "copy-from": "jar_glass_sealed",
+    "price_postapoc": "850 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "milk",
+      "msg": "瓶の中には新鮮な牛乳が入っていました!",
+      "container": "PSY_magi_milk_inf",
+      "target_charges": 1,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_1",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_1",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_2",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream_artificial",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_2",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_3",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream_choc",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_3",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_4",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream_candy",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_4",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_5",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream_fruit",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_5",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_6",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream_custard",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_6",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_7",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream_sorbet",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_7",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限のアイスタブ[MWMI]" },
+    "id": "PSY_magi_ice_inf_8",
+    "type": "GENERIC",
+    "copy-from": "plastic_bucket",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "icecream_gelato",
+      "msg": "アイスタブを開けると、美味しそうなアイスクリームが沢山入ってました!",
+      "container": "PSY_magi_ice_inf_8",
+      "target_charges": 7,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無限の卵パック[MWMI]" },
+    "id": "PSY_magi_egg_inf",
+    "type": "GENERIC",
+    "copy-from": "carton_egg",
+    "price_postapoc": "8500 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "egg_bird",
+      "msg": "卵パックを開けると、新鮮な卵が入っていました!",
+      "container": "PSY_magi_egg_inf",
+      "target_charges": 2,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "name": { "str": "無尽俵[MWMI]" },
+    "id": "PSY_magi_rice_inf",
+    "type": "GENERIC",
+    "copy-from": "tawara",
+    "price_postapoc": "50000 USD",
+    "category": "tools",
+    "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true } },
+    "use_action": {
+      "target": "dry_rice",
+      "msg": "米俵を開けると、新鮮な米があふれんばかりに出てきました!",
+      "container": "PSY_magi_rice_inf",
+      "target_charges": 4,
+      "moves": 50,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "PSY_magi_pet_carrier",
+    "type": "TOOL",
+    "name": { "str": "魔法のペットキャリー[MWMI]" },
+    "description": "A plastic container meant to hold pets for transport.  Use it on a suitable animal to capture, use it on an empty tile to release.",
+    "weight": "1000 g",
+    "volume": "5 L",
+    "price": "1000 USD",
+    "price_postapoc": "1000 USD",
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "steel", "plastic" ],
+    "symbol": "#",
+    "looks_like": "pet_carrier",
+    "color": "light_gray",
+    "properties": [ [ "creature_size_capacity", "HUGE" ] ],
+    "use_action": [ "CAPTURE_MONSTER_ACT" ],
+    "flags": [ "TRADER_AVOID","TARDIS" ]
+  },
+  {
+    "id": "PSY_magi_magic_scarf",
+    "type": "ARMOR",
+    "copy-from": "keffiyeh",
+    "looks_like": "scarf",
+    "name": { "str": "詠唱のスカーフ[MWMI]" },
+    "description": "魔力のこもったスカーフです。これを身に着けることで熟練魔法使いのような魔法詠唱が可能といわれています。",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "color": "cyan",
+    "covers": [ "mouth" ],
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_magic_scarf" } ] }
+  }
+]

@@ -1,9 +1,9 @@
 [
   {
-    "id": "Kar98k_teneblae",
+    "id": "PSY_magi_Kar98k_teneblae",
     "copy-from": "mosin91_30",
     "type": "GUN",
-    "name": { "str_sp": "ﾓｰｾﾞﾙ Kar98k ﾃﾈﾌﾞﾗｴ[MA]" },
+    "name": { "str_sp": "ﾓｰｾﾞﾙ Kar98k ﾃﾈﾌﾞﾗｴ[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作したkar98kの最新モデルです。弾丸に若干の毒の特性を与える魔法が銃身に込められています。",
     "volume": "3120 ml",
     "longest_side": "1100 mm",
@@ -29,10 +29,10 @@
     "proportional": { "price": 3, "price_postaopoc": 3, "bashing": 1.1, "weight": 0.9, "dispersion": 0.9 },
     "relative": { "to_hit": 1 }
   },{
-    "id": "type38_ignis",
+    "id": "PSY_magi_type38_ignis",
     "copy-from": "mosin91_30",
     "type": "GUN",
-    "name": { "str_sp": "三八式歩兵銃 ｲｸﾞﾆｽ[MA]" },
+    "name": { "str_sp": "三八式歩兵銃 ｲｸﾞﾆｽ[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作した三八式歩兵銃の最新モデルです。弾丸に若干の炎の特性を与える魔法が銃身に込められています。",
     "volume": "3120 ml",
     "longest_side": "1276 mm",
@@ -58,10 +58,10 @@
     "proportional": { "price": 3, "price_postaopoc": 3, "bashing": 1.1, "weight": 0.9, "dispersion": 0.9 },
     "relative": { "to_hit": 1 }
   },{
-    "id": "M1903_electrica",
+    "id": "PSY_magi_M1903_electrica",
     "copy-from": "mosin91_30",
     "type": "GUN",
-    "name": { "str_sp": "ｽﾌﾟﾘﾝｸﾞﾌｨｰﾙﾄﾞ M1903 ｴﾚｸﾄﾘｶ[MA]" },
+    "name": { "str_sp": "ｽﾌﾟﾘﾝｸﾞﾌｨｰﾙﾄﾞ M1903 ｴﾚｸﾄﾘｶ[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作したM1903の最新モデルです。弾丸に若干の雷の特性を与える魔法が銃身に込められています。",
     "volume": "3120 ml",
     "longest_side": "1115 mm",
@@ -87,10 +87,10 @@
     "proportional": { "price": 3, "price_postaopoc": 3, "bashing": 1.1, "weight": 0.9, "dispersion": 0.9 },
     "relative": { "to_hit": 1 }
   },{
-    "id": "enfield_acidus",
+    "id": "PSY_magi_enfield_acidus",
     "copy-from": "mosin91_30",
     "type": "GUN",
-    "name": { "str_sp": "ｴﾝﾌｨｰﾙﾄﾞ Mk III ｱｷﾄﾞｩｽ[MA]" },
+    "name": { "str_sp": "ｴﾝﾌｨｰﾙﾄﾞ Mk III ｱｷﾄﾞｩｽ[MWMI]" },
     "description": "7.62x51mmNATO弾を装填する、カニス・インダストリーズが制作したｴﾝﾌｨｰﾙﾄﾞの最新モデルです。弾丸に若干の酸の特性を与える魔法が銃身に込められています。",
     "volume": "3120 ml",
     "longest_side": "1130 mm",

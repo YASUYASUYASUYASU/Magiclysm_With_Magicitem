@@ -1,9 +1,9 @@
 [
   {
     "type": "recipe",
-    "result": "magic_revolver_ver1",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "result": "PSY_magi_magic_revolver_ver1",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 1 ],
     "difficulty": 1,
@@ -21,9 +21,9 @@
      ]
   },{
     "type": "recipe",
-    "result": "magic_revolver_ver2",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "result": "PSY_magi_magic_revolver_ver2",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 3 ],
     "difficulty": 3,
@@ -36,16 +36,16 @@
      ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
-      [ [ "magic_revolver_ver1", 1 ] ],
+      [ [ "PSY_magi_magic_revolver_ver1", 1 ] ],
       [ [ "pipe"               , 1 ] ],
       [ [ "spring"             , 1 ] ],
       [ [ "scrap"              , 2 ] ]
     ]
   },{
     "type": "recipe",
-    "result": "magic_revolver_ver3",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "result": "PSY_magi_magic_revolver_ver3",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 3,
@@ -58,7 +58,7 @@
      ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
-      [ [ "magic_revolver_ver2", 1  ] ],
+      [ [ "PSY_magi_magic_revolver_ver2", 1  ] ],
       [ [ "pipe"               , 1  ] ],
       [ [ "spring"             , 1  ] ],
       [ [ "scrap"              , 4  ] ],
@@ -66,9 +66,9 @@
     ]
   },{
     "type": "recipe",
-    "result": "magic_revolver_ver4",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "result": "PSY_magi_magic_revolver_ver4",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 7 ],
     "difficulty": 5,
@@ -82,7 +82,7 @@
      ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
-      [ [ "magic_revolver_ver3", 1  ] ],
+      [ [ "PSY_magi_magic_revolver_ver3", 1  ] ],
       [ [ "pipe"               , 1  ] ],
       [ [ "spring"             , 1  ] ],
       [ [ "scrap"              , 4  ] ],
@@ -90,9 +90,9 @@
     ]
   },{
     "type": "recipe",
-    "result": "magic_revolver_ver5",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "result": "PSY_magi_magic_revolver_ver5",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 7 ],
     "difficulty": 5,
@@ -106,7 +106,7 @@
      ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
-      [ [ "magic_revolver_ver4", 1  ] ],
+      [ [ "PSY_magi_magic_revolver_ver4", 1  ] ],
       [ [ "pipe"               , 1  ] ],
       [ [ "spring"             , 1  ] ],
       [ [ "scrap"              , 4  ] ],
@@ -114,9 +114,9 @@
     ]
   },{
     "type": "recipe",
-    "result": "magic_revolver_ver6",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "result": "PSY_magi_magic_revolver_ver6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 9 ],
     "difficulty": 7,
@@ -130,7 +130,7 @@
      ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
-      [ [ "magic_revolver_ver5"      , 1  ] ],
+      [ [ "PSY_magi_magic_revolver_ver5"      , 1  ] ],
       [ [ "pipe"                     , 1  ] ],
       [ [ "spring"                   , 1  ] ],
       [ [ "scrap"                    , 4  ] ],
@@ -139,9 +139,9 @@
     ]
   },{
     "type": "recipe",
-    "result": "magic_revolver_ver7",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_WEAPONS",
+    "result": "PSY_magi_magic_revolver_ver7",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 11 ],
     "difficulty": 8,
@@ -155,11 +155,11 @@
      ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
-      [ [ "magic_revolver_ver5"      , 1  ] ],
+      [ [ "PSY_magi_magic_revolver_ver6", 1  ] ],
       [ [ "pipe"                     , 1  ] ],
       [ [ "spring"                   , 1  ] ],
       [ [ "crystallized_mana"        , 20 ] ],
-      [ [ "dragon_black_scale"       , 5  ] ],
+      [ [ "black_dragon_tanned_hide" , 1  ] ],
       [ [ "dragon_essence"           , 1  ] ]
     ]
   }

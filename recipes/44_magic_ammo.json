@@ -1,9 +1,9 @@
 [
   {
     "type": "recipe",
-    "result": "44_magic",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_AMMO",
+    "result": "PSY_magi_44_magic",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 1,
@@ -18,9 +18,9 @@
      ]
   },{
     "type": "recipe",
-    "result": "44_magic_magus",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_AMMO",
+    "result": "PSY_magi_44_magic_magus",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 1,
@@ -35,9 +35,9 @@
      ]
   },{
     "type": "recipe",
-    "result": "44_magic_fire",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_AMMO",
+    "result": "PSY_magi_44_magic_fire",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 1,
@@ -52,26 +52,9 @@
      ]
   },{
     "type": "recipe",
-    "result": "44_magic_ice",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_AMMO",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 5 ],
-    "difficulty": 1,
-    "time": "1 m",
-    "autolearn": true,
-    "qualities": [
-      { "id": "MANA_FOCUS", "level": 1 }
-     ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [
-       [ [ "rune_kelvinist",  1 ] ]
-     ]
-  },{
-    "type": "recipe",
-    "result": "44_magic_thunder",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_AMMO",
+    "result": "PSY_magi_44_magic_thunder",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 1,
@@ -86,9 +69,9 @@
      ]
   },{
     "type": "recipe",
-    "result": "44_magic_earth",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_AMMO",
+    "result": "PSY_magi_44_magic_earth",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 1,
@@ -103,9 +86,9 @@
      ]
   },{
     "type": "recipe",
-    "result": "44_magic_wood",
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_AMMO",
+    "result": "PSY_magi_44_magic_wood",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 1,

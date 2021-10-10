@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_bolt_1",
+    "name": { "str": "下級杖(ライトニング・ボルト)[MWMI]", "str_pl": "下級杖(ライトニング・ボルト)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ライトニング・ボルトを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_bolt_2",
+    "name": { "str": "中級杖(ライトニング・ボルト)[MWMI]", "str_pl": "中級杖(ライトニング・ボルト)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ライトニング・ボルトを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_bolt_3",
+    "name": { "str": "上級杖(ライトニング・ボルト)[MWMI]", "str_pl": "上級杖(ライトニング・ボルト)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ライトニング・ボルトを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_storm_1",
+    "name": { "str": "下級杖(ライトニング・ストーム)[MWMI]", "str_pl": "下級杖(ライトニング・ストーム)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ライトニング・ストームを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_storm", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_storm_2",
+    "name": { "str": "中級杖(ライトニング・ストーム)[MWMI]", "str_pl": "中級杖(ライトニング・ストーム)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ライトニング・ストームを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_storm", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_storm_3",
+    "name": { "str": "上級杖(ライトニング・ストーム)[MWMI]", "str_pl": "上級杖(ライトニング・ストーム)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ライトニング・ストームを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_storm", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_stormshaper_ionization_1",
+    "name": { "str": "下級杖(イオニゼーション)[MWMI]", "str_pl": "下級杖(イオニゼーション)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。イオニゼーションを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_ionization", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_stormshaper_ionization_2",
+    "name": { "str": "中級杖(イオニゼーション)[MWMI]", "str_pl": "中級杖(イオニゼーション)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。イオニゼーションを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_ionization", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_stormshaper_ionization_3",
+    "name": { "str": "上級杖(イオニゼーション)[MWMI]", "str_pl": "上級杖(イオニゼーション)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。イオニゼーションを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_ionization", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

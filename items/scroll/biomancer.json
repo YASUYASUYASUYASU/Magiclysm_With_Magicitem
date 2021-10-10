@@ -1,0 +1,95 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_light_healing_talisman_1",
+    "name": "キュア・ライト・ウーンズの札(初級)[MWMI]",
+    "description": "キュア・ライト・ウーンズの魔法が閉じ込められた札です。使用することでキュア・ライト・ウーンズを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 2 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_light_healing_talisman_2",
+    "name": "キュア・ライト・ウーンズの札(中級)[MWMI]",
+    "description": "キュア・ライト・ウーンズの魔法が閉じ込められた札です。使用することでキュア・ライト・ウーンズを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 4 },
+    "copy-from": "PSY_magi_base",
+    "material": [ "wood" ],
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_light_healing_talisman_3",
+    "name": "キュア・ライト・ウーンズの札(上級)[MWMI]",
+    "description": "キュア・ライト・ウーンズの魔法が閉じ込められた札です。使用することでキュア・ライト・ウーンズを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 6 },
+    "copy-from": "PSY_magi_base",
+    "material": [ "wood" ],
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_vicious_tentacle_talisman_1",
+    "name": "ビシャス・テンタクルの札(初級)[MWMI]",
+    "description": "ビシャス・テンタクルの魔法が閉じ込められた札です。使用することでビシャス・テンタクルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "vicious_tentacle", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_vicious_tentacle_talisman_2",
+    "name": "ビシャス・テンタクルの札(中級)[MWMI]",
+    "description": "ビシャス・テンタクルの魔法が閉じ込められた札です。使用することでビシャス・テンタクルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "vicious_tentacle", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_vicious_tentacle_talisman_3",
+    "name": "ビシャス・テンタクルの札(上級)[MWMI]",
+    "description": "ビシャス・テンタクルの魔法が閉じ込められた札です。使用することでビシャス・テンタクルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "vicious_tentacle", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_bio_bonespear_talisman_1",
+    "name": "コンジャー・ボーンスピアの札(初級)[MWMI]",
+    "description": "コンジャー・ボーンスピアの魔法が閉じ込められた札です。使用することでコンジャー・ボーンスピアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_bonespear", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_bio_bonespear_talisman_2",
+    "name": "コンジャー・ボーンスピアの札(中級)[MWMI]",
+    "description": "コンジャー・ボーンスピアの魔法が閉じ込められた札です。使用することでコンジャー・ボーンスピアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_bonespear", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_bio_bonespear_talisman_3",
+    "name": "コンジャー・ボーンスピアの札(上級)[MWMI]",
+    "description": "コンジャー・ボーンスピアの魔法が閉じ込められた札です。使用することでコンジャー・ボーンスピアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_bonespear", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

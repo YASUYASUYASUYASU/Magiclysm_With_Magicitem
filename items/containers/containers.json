@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tawara",
+    "type": "GENERIC",
+    "category": "container",
+    "looks_like": "keg",
+    "name": { "str": "米俵", "str_pl": "米俵" },
+    "description": "わらを円柱形に編んで作られた袋です。かつて米や芋などの農産物や、木炭や塩魚など各種の産品を包装する為に使われていました",
+    "weight": "15000 g",
+    "volume": "60050 ml",
+    "price": 10000,
+    "price_postapoc": 250,
+    "to_hit": -4,
+    "bashing": 6,
+    "material": [ "straw" ],
+    "symbol": "}",
+    "color": "light_cyan",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "60 L",
+        "max_contains_weight": "120 kg"
+      }
+    ],
+    "qualities": [ [ "CONTAIN", 1 ] ]
+  }
+]

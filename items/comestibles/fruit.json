@@ -1,0 +1,22 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_fruit",
+    "name": { "str": "マジックフルーツ[MWMI]" },
+    "looks_like": "apple",
+    "weight": "118 g",
+    "color": "yellow",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "healthy": 4,
+    "calories": 105,
+    "description": "マナを注入したフルーツです。食べるとマナが回復します。",
+    "price": 120,
+    "price_postapoc": 100,
+    "material": [ "fruit" ],
+    "volume": "500 ml",
+    "fun": 5,
+    "vitamins": [ [ "vitA", 1 ], [ "vitC", 17 ], [ "iron", 1 ] ],
+    "use_action": { "type": "cast_spell", "spell_id": "potion_recover_mana", "no_fail": true, "level": 1 }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_mana_talisman_1",
+    "name": "ライフ・コンバージョンの札(初級)[MWMI]",
+    "description": "ライフ・コンバージョンの魔法が閉じ込められた札です。使用することでライフ・コンバージョンを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_mana", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_mana_talisman_2",
+    "name": "ライフ・コンバージョンの札(中級)[MWMI]",
+    "description": "ライフ・コンバージョンの魔法が閉じ込められた札です。使用することでライフ・コンバージョンを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_mana", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_mana_talisman_3",
+    "name": "ライフ・コンバージョンの札(上級)[MWMI]",
+    "description": "ライフ・コンバージョンの魔法が閉じ込められた札です。使用することでライフ・コンバージョンを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_mana", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_zombie_talisman_1",
+    "name": "サモン・ゾンビの札(初級)[MWMI]",
+    "description": "サモン・ゾンビの魔法が閉じ込められた札です。使用することでサモン・ゾンビを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_zombie", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_zombie_talisman_2",
+    "name": "サモン・ゾンビの札(中級)[MWMI]",
+    "description": "サモン・ゾンビの魔法が閉じ込められた札です。使用することでサモン・ゾンビを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_zombie", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_zombie_talisman_3",
+    "name": "サモン・ゾンビの札(上級)[MWMI]",
+    "description": "サモン・ゾンビの魔法が閉じ込められた札です。使用することでサモン・ゾンビを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_zombie", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_wisps_talisman_1",
+    "name": "イグニス・ファトゥスの札(初級)[MWMI]",
+    "description": "イグニス・ファトゥスの魔法が閉じ込められた札です。使用することでイグニス・ファトゥスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_wisps", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_wisps_talisman_2",
+    "name": "イグニス・ファトゥスの札(中級)[MWMI]",
+    "description": "イグニス・ファトゥスの魔法が閉じ込められた札です。使用することでイグニス・ファトゥスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_wisps", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_wisps_talisman_3",
+    "name": "イグニス・ファトゥスの札(上級)[MWMI]",
+    "description": "イグニス・ファトゥスの魔法が閉じ込められた札です。使用することでイグニス・ファトゥスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_wisps", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]
