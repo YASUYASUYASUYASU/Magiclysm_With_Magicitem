@@ -1,0 +1,78 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_missile_talisman_1",
+    "name": "マジック・ミサイルの巻物(初級)[MWMI]",
+    "description": "マジック・ミサイルの魔法が閉じ込められた巻物です。使用することでマジック・ミサイルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "magic_missile", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_missile_talisman_2",
+    "name": "マジック・ミサイルの巻物(中級)[MWMI]",
+    "description": "マジック・ミサイルの魔法が閉じ込められた巻物です。使用することでマジック・ミサイルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "magic_missile", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_missile_talisman_3",
+    "name": "マジック・ミサイルの巻物(上級)[MWMI]",
+    "description": "マジック・ミサイルの魔法が閉じ込められた巻物です。使用することでマジック・ミサイルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "magic_missile", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_phase_door_talisman_1",
+    "name": "フェイズ・ドアの巻物(初級)[MWMI]",
+    "description": "フェイズ・ドアの魔法が閉じ込められた巻物です。使用することでフェイズ・ドアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 4 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_phase_door_talisman_2",
+    "name": "フェイズ・ドアの巻物(中級)[MWMI]",
+    "description": "フェイズ・ドアの魔法が閉じ込められた巻物です。使用することでフェイズ・ドアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 6 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_phase_door_talisman_3",
+    "name": "フェイズ・ドアの巻物(上級)[MWMI]",
+    "description": "フェイズ・ドアの魔法が閉じ込められた巻物です。使用することでフェイズ・ドアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 8 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_shadow_field_talisman_1",
+    "name": "シャドウ・フィールドの巻物(初級)[MWMI]",
+    "description": "シャドウ・フィールドの魔法が閉じ込められた巻物です。使用することでシャドウ・フィールドを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "shadow_field", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_shadow_field_talisman_2",
+    "name": "シャドウ・フィールドの巻物(中級)[MWMI]",
+    "description": "シャドウ・フィールドの魔法が閉じ込められた巻物です。使用することでシャドウ・フィールドを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "shadow_field", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_shadow_field_talisman_3",
+    "name": "シャドウ・フィールドの巻物(上級)[MWMI]",
+    "description": "シャドウ・フィールドの魔法が閉じ込められた巻物です。使用することでシャドウ・フィールドを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "shadow_field", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

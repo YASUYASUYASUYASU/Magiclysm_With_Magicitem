@@ -1,0 +1,39 @@
+  {
+    "id": "PSY_magi_magic_revolver_ver2",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "マナカートリッジ専用拳銃 デュオ[MWMI]",
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "description": "魔法使いの為に設計されたマナカートリッジ弾専用拳銃 デュオです。あなたのスキルの成長に伴い、ウーヌム以上の大口径のマナカートリッジを使う事が可能になりました。",
+    "weight": "907 g",
+    "volume": "500 ml",
+    "price": 22400,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": [ "steel", "wood" ],
+    "color": "dark_gray",
+    "ammo": "PSY_magi_38_magic",
+    "dispersion": 480,
+    "durability": 8,
+    "clip_size": 6,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_magi_38_magic": 6 },
+        "allowed_speedloaders": [ "PSY_magi_38_magic_speedloader6" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  }

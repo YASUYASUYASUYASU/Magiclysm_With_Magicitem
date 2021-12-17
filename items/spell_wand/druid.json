@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_druid_veggrasp_1",
+    "name": { "str": "下級杖(ベジテイティブ・グラスプ)[MWMI]", "str_pl": "下級杖(ベジテイティブ・グラスプ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ベジテイティブ・グラスプを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_veggrasp", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_druid_veggrasp_2",
+    "name": { "str": "中級杖(ベジテイティブ・グラスプ)[MWMI]", "str_pl": "中級杖(ベジテイティブ・グラスプ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ベジテイティブ・グラスプを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_veggrasp", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_druid_veggrasp_3",
+    "name": { "str": "上級杖(ベジテイティブ・グラスプ)[MWMI]", "str_pl": "上級杖(ベジテイティブ・グラスプ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ベジテイティブ・グラスプを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_veggrasp", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_druid_rootstrike_1",
+    "name": { "str": "下級杖(ルート・ストライク)[MWMI]", "str_pl": "下級杖(ルート・ストライク)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ルート・ストライクを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_druid_rootstrike_2",
+    "name": { "str": "中級杖(ルート・ストライク)[MWMI]", "str_pl": "中級杖(ルート・ストライク)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ルート・ストライクを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_druid_rootstrike_3",
+    "name": { "str": "上級杖(ルート・ストライク)[MWMI]", "str_pl": "上級杖(ルート・ストライク)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ルート・ストライクを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_cats_1",
+    "name": { "str": "下級杖(バグ・オブ・キャッツ)[MWMI]", "str_pl": "下級杖(バグ・オブ・キャッツ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。バグ・オブ・キャッツを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_cats", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_cats_2",
+    "name": { "str": "中級杖(バグ・オブ・キャッツ)[MWMI]", "str_pl": "中級杖(バグ・オブ・キャッツ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。バグ・オブ・キャッツを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_cats", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_cats_3",
+    "name": { "str": "上級杖(バグ・オブ・キャッツ)[MWMI]", "str_pl": "上級杖(バグ・オブ・キャッツ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。バグ・オブ・キャッツを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_cats", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

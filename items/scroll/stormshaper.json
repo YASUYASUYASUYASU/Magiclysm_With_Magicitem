@@ -1,0 +1,87 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_lightning_bolt_talisman_1",
+    "name": "ライトニング・ボルトの石板(初級)[MWMI]",
+    "description": "ライトニング・ボルトの魔法が閉じ込められた石板です。使用することでライトニング・ボルトを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_lightning_bolt_talisman_2",
+    "name": "ライトニング・ボルトの石板(中級)[MWMI]",
+    "description": "ライトニング・ボルトの魔法が閉じ込められた石板です。使用することでライトニング・ボルトを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_lightning_bolt_talisman_3",
+    "name": "ライトニング・ボルトの石板(上級)[MWMI]",
+    "description": "ライトニング・ボルトの魔法が閉じ込められた石板です。使用することでライトニング・ボルトを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_windrun_talisman_1",
+    "name": "ウィンドランニングの石板(初級)[MWMI]",
+    "description": "ウィンドランニングの魔法が閉じ込められた石板です。使用することでウィンドランニングを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "windrun", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_windrun_talisman_2",
+    "name": "ウィンドランニングの石板(中級)[MWMI]",
+    "description": "ウィンドランニングの魔法が閉じ込められた石板です。使用することでウィンドランニングを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "windrun", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_windrun_talisman_3",
+    "name": "ウィンドランニングの石板(上級)[MWMI]",
+    "description": "ウィンドランニングの魔法が閉じ込められた石板です。使用することでウィンドランニングを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "windrun", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_thorns_zap_talisman_1",
+    "name": "リペリング・アークの石板(初級)[MWMI]",
+    "description": "リペリング・アークの魔法が閉じ込められた石板です。使用することでリペリング・アークを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_repelling_arc", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_thorns_zap_talisman_2",
+    "name": "リペリング・アークの石板(中級)[MWMI]",
+    "description": "リペリング・アークの魔法が閉じ込められた石板です。使用することでリペリング・アークを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_repelling_arc", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_thorns_zap_talisman_3",
+    "name": "リペリング・アークの石板(上級)[MWMI]",
+    "description": "リペリング・アークの魔法が閉じ込められた石板です。使用することでリペリング・アークを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_repelling_arc", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

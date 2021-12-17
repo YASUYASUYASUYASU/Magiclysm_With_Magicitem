@@ -1,0 +1,87 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_mirror_image_talisman_1",
+    "name": "ミラー・イメージのカード(初級)[MWMI]",
+    "description": "ミラー・イメージの魔法が閉じ込められたカードです。使用することでミラー・イメージを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "mirror_image", "no_fail": true, "level": 5 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_mirror_image_talisman_2",
+    "name": "ミラー・イメージのカード(中級)[MWMI]",
+    "description": "ミラー・イメージの魔法が閉じ込められたカードです。使用することでミラー・イメージを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "mirror_image", "no_fail": true, "level": 7 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_mirror_image_talisman_3",
+    "name": "ミラー・イメージのカード(上級)[MWMI]",
+    "description": "ミラー・イメージの魔法が閉じ込められたカードです。使用することでミラー・イメージを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "mirror_image", "no_fail": true, "level": 10 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_magic_motorcycle_talisman_1",
+    "name": "サモン・モジョーサイクルのカード(初級)[MWMI]",
+    "description": "サモン・モジョーサイクルの魔法が閉じ込められたカードです。使用することでサモン・モジョーサイクルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_magic_motorcycle", "no_fail": true, "level": 5 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_magic_motorcycle_talisman_2",
+    "name": "サモン・モジョーサイクルのカード(中級)[MWMI]",
+    "description": "サモン・モジョーサイクルの魔法が閉じ込められたカードです。使用することでサモン・モジョーサイクルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_magic_motorcycle", "no_fail": true, "level": 7 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_magic_motorcycle_talisman_3",
+    "name": "サモン・モジョーサイクルのカード(上級)[MWMI]",
+    "description": "サモン・モジョーサイクルの魔法が閉じ込められたカードです。使用することでサモン・モジョーサイクルを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_magic_motorcycle", "no_fail": true, "level": 10 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_floating_disk_talisman_1",
+    "name": "サモン・フローティング・ディスクのカード(初級)[MWMI]",
+    "description": "サモン・フローティング・ディスクの魔法が閉じ込められたカードです。使用することでサモン・フローティング・ディスクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_floating_disk", "no_fail": true, "level": 5 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_floating_disk_talisman_2",
+    "name": "サモン・フローティング・ディスクのカード(中級)[MWMI]",
+    "description": "サモン・フローティング・ディスクの魔法が閉じ込められたカードです。使用することでサモン・フローティング・ディスクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_floating_disk", "no_fail": true, "level": 7 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_floating_disk_talisman_3",
+    "name": "サモン・フローティング・ディスクのカード(上級)[MWMI]",
+    "description": "サモン・フローティング・ディスクの魔法が閉じ込められたカードです。使用することでサモン・フローティング・ディスクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_floating_disk", "no_fail": true, "level": 10 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

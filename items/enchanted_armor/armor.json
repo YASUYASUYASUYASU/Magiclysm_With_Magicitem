@@ -1,0 +1,630 @@
+[
+  {
+    "id": "PSY_magi_hayate_bandana_head",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "疾風のバンダナ" },
+    "description": "風の紋章が刻まれたバンダナです。装備すると速度が上昇します",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "material": [ "cotton","mana" ],
+    "symbol": "[",
+    "looks_like": "scarf",
+    "color": "blue",
+    "warmth": 5,
+    "material_thickness": 0.1,
+    "coverage": 75,
+    "covers": [ "head" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_hayate_tshirt",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "疾風の服" },
+    "description": "風の紋章が刻まれた服です。装備すると速度が上昇します",
+    "weight": "250 g",
+    "volume": "750 ml",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "material": [ "cotton","mana" ],
+    "symbol": "[",
+    "looks_like": "longshirt",
+    "color": "white",
+    "covers": [ "torso","arm_l", "arm_r" ],
+    "coverage": 70,
+    "encumbrance": 5,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "350 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "9 cm",
+        "moves": 80
+      }
+    ],
+    "warmth": 10,
+    "material_thickness": 0.1,
+    "flags": [ "VARSIZE", "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_hayate_bracelet",
+    "type": "ARMOR",
+    "name": { "str": "疾風のブレスレット" },
+    "description": "風の紋章が刻まれたブレスレットです。装備すると速度が上昇します",
+    "weight": "30 g",
+    "volume": "25 ml",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "material": [ "silver" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "flags": [ "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_hayate_boots",
+    "type": "ARMOR",
+    "name": { "str": "疾風のブーツ", "str_pl": "疾風のブーツ" },
+    "description": "風の紋章が刻まれたブーツです。装備すると速度が上昇します",
+    "weight": "1060 g",
+    "volume": "2500 ml",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [ "leather", "rubber","mana" ],
+    "symbol": "[",
+    "looks_like": "dress_shoes",
+    "color": "dark_gray",
+    "warmth": 20,
+    "material_thickness": 2.5,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATERPROOF" ],
+    "encumbrance": 12,
+    "coverage": 90, 
+    "covers": ["foot_l", "foot_r" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 },
+            { "value": "MOVE_COST", "add": -15 }
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_head_kyodan",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "教団の帽子" },
+    "description": "どこか聞いたことのない教団が使用している帽子です。装備することで魔力が強化されます。",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "price": 600,
+    "price_postapoc": 10,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "scarf",
+    "color": "blue",
+    "warmth": 5,
+    "material_thickness": 0.1,
+    "coverage": 80,
+    "covers": [ "head" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 2000 },
+            { "value": "REGEN_MANA", "multiply": 0.5  },
+            { "value": "REGEN_MANA", "multiply": 0.5  }
+          ]
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_tshirt_kyodan",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "教団の服" },
+    "description": "どこか聞いたことのない教団が使用している服です。装備することで魔力が強化されます。",
+    "weight": "250 g",
+    "volume": "750 ml",
+    "price": 1500,
+    "price_postapoc": 50,
+    "material": [ "cotton","mana" ],
+    "symbol": "[",
+    "looks_like": "longshirt",
+    "color": "white",
+    "covers": [ "torso","arm_l", "arm_r" ],
+    "coverage": 90,
+    "encumbrance": 5,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "350 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "9 cm",
+        "moves": 80
+      }
+    ],
+    "warmth": 10,
+    "material_thickness": 0.1,
+    "flags": [ "VARSIZE", "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 1000 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }  },
+  {
+    "id": "PSY_magi_bracelet_kyodan",
+    "type": "ARMOR",
+    "name": { "str": "教団の手袋" },
+    "description": "どこか聞いたことのない教団が使用している手袋です。装備することで魔力が強化されます。",
+    "weight": "30 g",
+    "volume": "25 ml",
+    "price": 25000,
+    "price_postapoc": 25,
+    "material": [ "leather","mana" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "hand_l", "hand_r" ],
+    "coverage": 100,
+    "warmth": 15,
+    "flags": [ "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 500 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_boots_kyodan",
+    "type": "ARMOR",
+    "name": { "str": "教団の靴", "str_pl": "教団の靴" },
+    "description": "どこか聞いたことのない教団が使用している靴です。装備することで魔力が強化されます。",
+    "weight": "1060 g",
+    "volume": "2500 ml",
+    "price": 10000,
+    "price_postapoc": 750,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [ "leather", "rubber","mana" ],
+    "symbol": "[",
+    "looks_like": "dress_shoes",
+    "color": "dark_gray",
+    "warmth": 20,
+    "material_thickness": 2.5,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATERPROOF" ],
+    "encumbrance": 12,
+    "coverage": 90,
+    "covers": [ "foot_l", "foot_r" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 500 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_head_sister",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "教団のベール" },
+    "description": "どこか聞いたことのない教団が使用しているベールです。装備することで魔力が強化されます。",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "price": 600,
+    "price_postapoc": 10,
+    "material": [ "cotton","mana" ],
+    "symbol": "[",
+    "looks_like": "scarf",
+    "color": "blue",
+    "warmth": 10,
+    "coverage": 80,
+    "covers": [ "head" ],
+    "material_thickness": 0.1,
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 1000 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_tshirt_sister",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "教団の服(シスター)" },
+    "description": "どこか聞いたことのない教団が使用している服です。装備することで魔力が強化されます。",
+    "weight": "250 g",
+    "volume": "750 ml",
+    "price": 1500,
+    "price_postapoc": 50,
+    "material": [ "cotton","mana" ],
+    "symbol": "[",
+    "looks_like": "longshirt",
+    "color": "white",
+    "covers": [ "torso","arm_l", "arm_r" ],
+    "coverage": 90,
+    "encumbrance": 5,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "350 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "9 cm",
+        "moves": 80
+      }
+    ],
+    "warmth": 10,
+    "material_thickness": 0.1,
+    "flags": [ "VARSIZE", "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 2000 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_head_bouei",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "防衛者の兜" },
+    "description": "防衛者と呼ばれる集団が装備する兜です。装備することでや多少の保護が得られます",
+    "weight": "2175 g",
+    "volume": "2750 ml",
+    "price": 40000,
+    "price_postapoc": 5000,
+    "bashing": 10,
+    "material": [ "steel", "leather","mana" ],
+    "symbol": "[",
+    "looks_like": "helmet_barbute",
+    "color": "light_gray",
+    "covers": [ "head","mouth","eyes" ], 
+    "coverage": 100,
+    "encumbrance": 30 ,
+    "warmth": 10,
+    "material_thickness": 6,
+    "environmental_protection": 3,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "VARSIZE", "STURDY", "HELMET_COMPAT" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_tshirt_bouei",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "防衛者の鎧" },
+    "description": "防衛者と呼ばれる集団が装備する鎧です。装備することでや多少の保護が得られます",
+    "weight": "10 kg",
+    "volume": "30 L",
+    "price": 780000,
+    "price_postapoc": 6000,
+    "to_hit": -5,
+    "bashing": 8,
+    "material": [ "steel", "leather","mana" ],
+    "symbol": "[",
+    "looks_like": "armor_lightplate",
+    "color": "light_gray",
+    "warmth": 20,
+    "material_thickness": 6,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "OUTER" ],
+    "encumbrance": 45,
+    "coverage": 100,
+    "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_bracelet_bouei",
+    "type": "ARMOR",
+    "name": { "str": "防衛者の籠手" },
+    "description": "防衛者と呼ばれる集団が装備する籠手です。装備することでや多少の保護が得られます",
+    "weight": "880 g",
+    "volume": "1500 ml",
+    "price": 40000,
+    "price_postapoc": 3000,
+    "to_hit": -2,
+    "bashing": 7,
+    "material": [ "iron", "leather","mana" ],
+    "symbol": "[",
+    "looks_like": "fire_gauntlets",
+    "color": "light_gray",
+    "warmth": 20,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "STURDY" ],
+    "encumbrance": 20,
+    "coverage": 100,
+    "covers": [ "hand_l", "hand_r" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_boots_bouei",
+    "type": "ARMOR",
+    "name": { "str": "防衛者のグリーブ", "str_pl": "防衛者のグリーブ" },
+    "description": "防衛者と呼ばれる集団が装備するグリーブです。装備することでや多少の保護が得られます",
+    "weight": "1890 g",
+    "volume": "2250 ml",
+    "price": 50000,
+    "price_postapoc": 6000,
+    "to_hit": -2,
+    "bashing": 7,
+    "material": [ "iron", "leather","mana" ],
+    "symbol": "[",
+    "looks_like": "boots_steel",
+    "color": "light_gray",
+    "warmth": 20,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+    "encumbrance": 28,
+    "coverage": 100,
+    "covers": [ "foot_l", "foot_r" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_head_val",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "ヴァルキリーの兜" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する兜です。装備することでや多少の保護が得られます",
+    "weight": "2175 g",
+    "volume": "2750 ml",
+    "price": 40000,
+    "price_postapoc": 5000,
+    "bashing": 10,
+    "material": [ "steel", "leather","mana" ],
+    "environmental_protection": 3,
+    "symbol": "[",
+    "looks_like": "helmet_barbute",
+    "color": "light_gray",
+    "covers": [ "head" ], 
+    "coverage": 40,
+    "encumbrance": 10,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_tshirt_val",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "ヴァルキリーの鎧" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する鎧です。装備することでや多少の保護が得られます",
+    "weight": "10 kg",
+    "volume": "30 L",
+    "price": 780000,
+    "price_postapoc": 6000,
+    "to_hit": -5,
+    "bashing": 8,
+    "material": [ "steel", "leather","mana" ],
+    "symbol": "[",
+    "looks_like": "armor_lightplate",
+    "color": "light_gray",
+    "warmth": 20,
+    "material_thickness": 6,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "OUTER" ],
+    "encumbrance": 45,
+    "coverage": 100,
+    "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_bracelet_val",
+    "type": "ARMOR",
+    "name": { "str": "ヴァルキリーの籠手" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する籠手です。装備することでや多少の保護が得られます",
+    "weight": "880 g",
+    "volume": "1500 ml",
+    "price": 40000,
+    "price_postapoc": 3000,
+    "to_hit": -2,
+    "bashing": 7,
+    "material": [ "iron", "leather","mana" ],
+    "symbol": "[",
+    "looks_like": "fire_gauntlets",
+    "color": "light_gray",
+    "warmth": 20,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "STURDY" ],
+    "encumbrance": 20,
+    "coverage": 100,
+    "covers": [ "hand_l", "hand_r" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_boots_val",
+    "type": "ARMOR",
+    "name": { "str": "ヴァルキリーの靴", "str_pl": "ヴァルキリーの靴" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する靴です。装備することでや多少の保護が得られます",
+    "weight": "1890 g",
+    "volume": "2250 ml",
+    "price": 50000,
+    "price_postapoc": 6000,
+    "to_hit": -2,
+    "bashing": 7,
+    "material": [ "iron", "leather","mana" ],
+    "symbol": "[",
+    "looks_like": "boots_steel",
+    "color": "light_gray",
+    "warmth": 20,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ],
+    "encumbrance": 28,
+    "coverage": 100,
+    "covers": [ "foot_l", "foot_r" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  }
+
+]

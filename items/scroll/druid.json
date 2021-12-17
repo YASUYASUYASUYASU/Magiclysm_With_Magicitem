@@ -1,0 +1,95 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_druid_rootstrike_talisman_1",
+    "name": "ルート・ストライクの札(初級)[MWMI]",
+    "description": "ルート・ストライクの魔法が閉じ込められた札です。使用することでルート・ストライクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_druid_rootstrike_talisman_2",
+    "name": "ルート・ストライクの札(中級)[MWMI]",
+    "description": "ルート・ストライクの魔法が閉じ込められた札です。使用することでルート・ストライクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_druid_rootstrike_talisman_3",
+    "name": "ルート・ストライクの札(上級)[MWMI]",
+    "description": "ルート・ストライクの魔法が閉じ込められた札です。使用することでルート・ストライクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_fatigue_talisman_1",
+    "name": "ネイチャーズ・トランスの札(初級)[MWMI]",
+    "description": "ネイチャーズ・トランスの魔法が閉じ込められた札です。使用することでネイチャーズ・トランスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_fatigue", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_fatigue_talisman_2",
+    "name": "ネイチャーズ・トランスの札(中級)[MWMI]",
+    "description": "ネイチャーズ・トランスの魔法が閉じ込められた札です。使用することでネイチャーズ・トランスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_fatigue", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+   },
+   {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_fatigue_talisman_3",
+    "name": "ネイチャーズ・トランスの札(上級)[MWMI]",
+    "description": "ネイチャーズ・トランスの魔法が閉じ込められた札です。使用することでネイチャーズ・トランスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_fatigue", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fungicide_talisman_1",
+    "name": "キル・ファンガスの札(初級)[MWMI]",
+    "description": "キル・ファンガスの魔法が閉じ込められた札です。使用することでキル・ファンガスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "fungicide", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fungicide_talisman_2",
+    "name": "キル・ファンガスの札(中級)[MWMI]",
+    "description": "キル・ファンガスの魔法が閉じ込められた札です。使用することでキル・ファンガスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "fungicide", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fungicide_talisman_3",
+    "name": "キル・ファンガスの札(上級)[MWMI]",
+    "description": "キル・ファンガスの魔法が閉じ込められた札です。使用することでキル・ファンガスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "fungicide", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

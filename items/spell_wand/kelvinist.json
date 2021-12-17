@@ -1,0 +1,122 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_nova_flare_1",
+    "name": { "str": "下級杖(ノヴァ・フレア)[MWMI]", "str_pl": "下級杖(ノヴァ・フレア)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ノヴァ・フレアを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "nova_flare", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_nova_flare_2",
+    "name": { "str": "中級杖(ノヴァ・フレア)[MWMI]", "str_pl": "中級杖(ノヴァ・フレア)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ノヴァ・フレアを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "nova_flare", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_nova_flare_3",
+    "name": { "str": "上級杖(ノヴァ・フレア)[MWMI]", "str_pl": "上級杖(ノヴァ・フレア)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ノヴァ・フレアを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "nova_flare", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_ice_spike_1",
+    "name": { "str": "下級杖(アイス・スパイク)[MWMI]", "str_pl": "下級杖(アイス・スパイク)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。アイス・スパイクを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_ice_spike_2",
+    "name": { "str": "中級杖(アイス・スパイク)[MWMI]", "str_pl": "中級杖(アイス・スパイク)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。アイス・スパイクを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_ice_spike_3",
+    "name": { "str": "上級杖(アイス・スパイク)[MWMI]", "str_pl": "上級杖(アイス・スパイク)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。アイス・スパイクを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_frost_spray_1",
+    "name": { "str": "下級杖(フロスト・スプレー)[MWMI]", "str_pl": "下級杖(フロスト・スプレー)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フロスト・スプレーを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "frost_spray", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_frost_spray_2",
+    "name": { "str": "中級杖(フロスト・スプレー)[MWMI]", "str_pl": "中級杖(フロスト・スプレー)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フロスト・スプレーを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "frost_spray", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_frost_spray_3",
+    "name": { "str": "上級杖(フロスト・スプレー)[MWMI]", "str_pl": "上級杖(フロスト・スプレー)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フロスト・スプレーを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "frost_spray", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_freezing_touch_1",
+    "name": { "str": "下級杖(フリージング・タッチ)[MWMI]", "str_pl": "下級杖(フリージング・タッチ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フリージング・タッチを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "freezing_touch", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_freezing_touch_2",
+    "name": { "str": "中級杖(フリージング・タッチ)[MWMI]", "str_pl": "中級杖(フリージング・タッチ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フリージング・タッチを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "freezing_touch", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_freezing_touch_3",
+    "name": { "str": "上級杖(フリージング・タッチ)[MWMI]", "str_pl": "上級杖(フリージング・タッチ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フリージング・タッチを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "freezing_touch", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

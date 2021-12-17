@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_smite_1",
+    "name": { "str": "下級杖(スマイト)[MWMI]", "str_pl": "下級杖(スマイト)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。スマイトを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_smite_2",
+    "name": { "str": "中級杖(スマイト)[MWMI]", "str_pl": "中級杖(スマイト)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。スマイトを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_smite_3",
+    "name": { "str": "上級杖(スマイト)[MWMI]", "str_pl": "上級杖(スマイト)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。スマイトを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_skeleton_1",
+    "name": { "str": "下級杖(サモン・スケルトン)[MWMI]", "str_pl": "下級杖(サモン・スケルトン)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。サモン・スケルトンを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_skeleton", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_skeleton_2",
+    "name": { "str": "中級杖(サモン・スケルトン)[MWMI]", "str_pl": "中級杖(サモン・スケルトン)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。サモン・スケルトンを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_skeleton", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_skeleton_3",
+    "name": { "str": "上級杖(サモン・スケルトン)[MWMI]", "str_pl": "上級杖(サモン・スケルトン)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。サモン・スケルトンを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_skeleton", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_decayed_pouncer_1",
+    "name": { "str": "下級杖(サモン・ゾンビピューマ)[MWMI]", "str_pl": "下級杖(サモン・ゾンビピューマ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。サモン・ゾンビピューマを詠唱する機能をもっています。",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_decayed_pouncer", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_decayed_pouncer_2",
+    "name": { "str": "中級杖(サモン・ゾンビピューマ)[MWMI]", "str_pl": "中級杖(サモン・ゾンビピューマ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。サモン・ゾンビピューマを詠唱する機能をもっています。",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_decayed_pouncer", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_decayed_pouncer_3",
+    "name": { "str": "上級杖(サモン・ゾンビピューマ)[MWMI]", "str_pl": "上級杖(サモン・ゾンビピューマ)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。サモン・ゾンビピューマを詠唱する機能をもっています。",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_decayed_pouncer", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

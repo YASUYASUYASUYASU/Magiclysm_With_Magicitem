@@ -1,0 +1,162 @@
+[
+  {
+    "id": "PSY_magi_magic_backpack",
+    "type": "ARMOR",
+    "name": { "str": "魔法のバッグ[MWMI]" },
+    "description": "魔法の技術と知識を結集した魔法のバッグです。このバッグに入れたものは別次元の空間に保存される為、重量を感じず食品も腐りません。",
+    "weight": "633 g",
+    "volume": "2 L",
+    "price_postapoc": "1000 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "green",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "encumbrance": 2,
+    "max_encumbrance": 25,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ],
+    "warmth": 6,
+    "material_thickness": 2,
+    "flags": [ "BELTED","TARDIS" ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_1",
+    "type": "ARMOR",
+    "name": { "str": "魔法のバッグ+1[MWMI]" },
+    "description": "魔法の技術と知識を結集した魔法のバッグです。このバッグに入れたものは別次元の空間に保存される為、重量を感じず食品も腐りません。",
+    "weight": "633 g",
+    "volume": "2 L",
+    "price_postapoc": "3000 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "green",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "encumbrance": 2,
+    "max_encumbrance": 25,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "40 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ],
+    "warmth": 6,
+    "material_thickness": 2,
+    "flags": [ "BELTED","TARDIS" ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_2",
+    "type": "ARMOR",
+    "name": { "str": "魔法のバッグ+2[MWMI]" },
+    "description": "魔法の技術と知識を結集した魔法のバッグです。このバッグに入れたものは別次元の空間に保存される為、重量を感じず食品も腐りません。",
+    "weight": "633 g",
+    "volume": "2 L",
+    "price_postapoc": "5000 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "green",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "encumbrance": 2,
+    "max_encumbrance": 25,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "60 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ],
+    "warmth": 6,
+    "material_thickness": 2,
+    "flags": [ "BELTED","TARDIS" ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_3",
+    "type": "ARMOR",
+    "name": { "str": "魔法のバッグ+3[MWMI]" },
+    "description": "魔法の技術と知識を結集した魔法のバッグです。このバッグに入れたものは別次元の空間に保存される為、重量を感じず食品も腐りません。",
+    "weight": "633 g",
+    "volume": "2 L",
+    "price_postapoc": "7000 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "green",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "encumbrance": 2,
+    "max_encumbrance": 25,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "80 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ],
+    "warmth": 6,
+    "material_thickness": 2,
+    "flags": [ "BELTED","TARDIS" ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_4",
+    "type": "ARMOR",
+    "name": { "str": "魔法のバッグ+4[MWMI]" },
+    "description": "魔法の技術と知識を結集した魔法のバッグです。このバッグに入れたものは別次元の空間に保存される為、重量を感じず食品も腐りません。",
+    "weight": "633 g",
+    "volume": "2 L",
+    "price_postapoc": "9000 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "green",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "encumbrance": 2,
+    "max_encumbrance": 25,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "100 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ],
+    "warmth": 6,
+    "material_thickness": 2,
+    "flags": [ "BELTED","TARDIS" ]
+  }
+]

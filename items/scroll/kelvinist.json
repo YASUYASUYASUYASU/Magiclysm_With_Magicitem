@@ -1,0 +1,171 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fireball_talisman_1",
+    "name": "ファイアボールの札(初級)[MWMI]",
+    "description": "ファイアボールの魔法が閉じ込められた札です。使用することでファイアボールを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "fireball", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fireball_talisman_2",
+    "name": "ファイアボールの札(中級)[MWMI]",
+    "description": "ファイアボールの魔法が閉じ込められた札です。使用することでファイアボールを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "fireball", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fireball_talisman_3",
+    "name": "ファイアボールの札(上級)[MWMI]",
+    "description": "ファイアボールの魔法が閉じ込められた札です。使用することでファイアボールを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "fireball", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_point_flare_talisman_1",
+    "name": "ポイント・フレアの札(初級)[MWMI]",
+    "description": "ポイント・フレアの魔法が閉じ込められた札です。使用することでポイント・フレアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "point_flare", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_point_flare_talisman_2",
+    "name": "ポイント・フレアの札(中級)[MWMI]",
+    "description": "ポイント・フレアの魔法が閉じ込められた札です。使用することでポイント・フレアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "point_flare", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_point_flare_talisman_3",
+    "name": "ポイント・フレアの札(上級)[MWMI]",
+    "description": "ポイント・フレアの魔法が閉じ込められた札です。使用することでポイント・フレアを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "point_flare", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_burning_hands_talisman_1",
+    "name": "バーニング・ハンズの札(初級)[MWMI]",
+    "description": "バーニング・ハンズの魔法が閉じ込められた札です。使用することでバーニング・ハンズを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "burning_hands", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_burning_hands_talisman_2",
+    "name": "バーニング・ハンズの札(中級)[MWMI]",
+    "description": "バーニング・ハンズの魔法が閉じ込められた札です。使用することでバーニング・ハンズを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "burning_hands", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_burning_hands_talisman_3",
+    "name": "バーニング・ハンズの札(上級)[MWMI]",
+    "description": "バーニング・ハンズの魔法が閉じ込められた札です。使用することでバーニング・ハンズを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "burning_hands", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_ice_spike_talisman_1",
+    "name": "アイス・スパイクの札(初級)[MWMI]",
+    "description": "アイス・スパイクの魔法が閉じ込められた札です。使用することでアイス・スパイクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_ice_spike_talisman_2",
+    "name": "アイス・スパイクの札(中級)[MWMI]",
+    "description": "アイス・スパイクの魔法が閉じ込められた札です。使用することでアイス・スパイクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_ice_spike_talisman_3",
+    "name": "アイス・スパイクの札(上級)[MWMI]",
+    "description": "アイス・スパイクの魔法が閉じ込められた札です。使用することでアイス・スパイクを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_glide_ice_talisman_1",
+    "name": "グライド・オン・アイスの札(初級)[MWMI]",
+    "description": "グライド・オン・アイスの魔法が閉じ込められた札です。使用することでグライド・オン・アイスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "glide_ice", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_glide_ice_talisman_2",
+    "name": "グライド・オン・アイスの札(中級)[MWMI]",
+    "description": "グライド・オン・アイスの魔法が閉じ込められた札です。使用することでグライド・オン・アイスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "glide_ice", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_glide_ice_talisman_3",
+    "name": "グライド・オン・アイスの札(上級)[MWMI]",
+    "description": "グライド・オン・アイスの魔法が閉じ込められた札です。使用することでグライド・オン・アイスを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "glide_ice", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_cone_cold_talisman_1",
+    "name": "コーン・オブ・コールドの札(初級)[MWMI]",
+    "description": "コーン・オブ・コールドの魔法が閉じ込められた札です。使用することでコーン・オブ・コールドを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "cone_cold", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_cone_cold_talisman_2",
+    "name": "コーン・オブ・コールドの札(中級)[MWMI]",
+    "description": "コーン・オブ・コールドの魔法が閉じ込められた札です。使用することでコーン・オブ・コールドを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "cone_cold", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_cone_cold_talisman_3",
+    "name": "コーン・オブ・コールドの札(上級)[MWMI]",
+    "description": "コーン・オブ・コールドの魔法が閉じ込められた札です。使用することでコーン・オブ・コールドを詠唱します。",
+    "use_action": { "type": "cast_spell", "spell_id": "cone_cold", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]
