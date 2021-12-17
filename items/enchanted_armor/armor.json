@@ -387,8 +387,8 @@
     "warmth": 20,
     "material_thickness": 6,
     "environmental_protection": 3,
-    "flags": [ "VARSIZE", "OUTER" ],
-    "encumbrance": 45,
+    "flags": [ "VARSIZE", "OUTER", "STURDY" ],
+    "encumbrance": 20,
     "coverage": 100,
     "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ],
     "relic_data": {
@@ -533,8 +533,8 @@
     "warmth": 20,
     "material_thickness": 6,
     "environmental_protection": 3,
-    "flags": [ "VARSIZE", "OUTER" ],
-    "encumbrance": 45,
+    "flags": [ "VARSIZE", "OUTER", "STURDY" ],
+    "encumbrance": 20,
     "coverage": 100,
     "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ],
     "relic_data": {
