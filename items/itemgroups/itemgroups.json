@@ -228,5 +228,14 @@
     "//": "lesser enchanted bracers",
     "subtype": "collection",
     "items": [ { "item": "mbracer_defense_lesser_xl", "prob": 10 }, { "item": "mbracer_lightning_lesser_xl", "prob": 10 } ]
+  },
+  {
+    "id": "enchanted_tokens_tool",
+    "type": "item_group",
+    "//": "all the tool tokens",
+    "subtype": "collection",
+    "items": [
+      { "item": "mtoken_halligan", "prob": 20 }
+    ]
   }
 ]

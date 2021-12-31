@@ -311,5 +311,192 @@
       "moves": 200,
       "msg": "裏面に刻まれた呪文を唱えると、六尺棒は急速に変化し、真新しい魔法硬貨になりました！"
     }
+  },
+  {
+    "copy-from": "mtoken",
+    "type": "GENERIC",
+    "id": "mtoken_hammer",
+    "name": "hammer token",
+    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a hammer.",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "hammer_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine hammer!"
+    }
+  },
+  {
+    "id": "hammer_mtoken",
+    "type": "GENERIC",
+    "category": "tools",
+    "looks_like": "hammer",
+    "name": { "str": "hammer" },
+    "description": "持ち手が木製になっている、磁気除去済みの鋼鉄製くぎ抜き金づちです。ハンマー、釘、木材を所持していれば、隣接したドアや窓に板を打ち付けることができます。その他にも無数の用途があります。",
+    "weight": "566 g",
+    "volume": "350 ml",
+    "price": 700,
+    "price_postapoc": 100,
+    "to_hit": -1,
+    "bashing": 9,
+    "material": [ "steel", "wood" ],
+    "symbol": ";",
+    "color": "brown",
+    "qualities": [ [ "HAMMER", 3 ], [ "PRY", 1 ], [ "HAMMER_FINE", 1 ] ],
+    "use_action": [ 
+      "HAMMER",
+      "CROWBAR",
+      {
+          "type": "transform",
+          "menu_text": "詠唱する",
+          "target": "mtoken_hammer",
+          "active": false,
+          "moves": 100,
+          "msg": "裏面に刻まれた呪文を唱えると、ハンマーは急速に変化し、真新しい魔法硬貨になりました！"
+      }
+    ],
+    "flags": [ "BELT_CLIP", "NONCONDUCTIVE" ]
+  },
+  {
+    "copy-from": "mtoken",
+    "type": "GENERIC",
+    "id": "mtoken_screwdriver_set",
+    "name": "screwdriver set token",
+    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a screwdriver.",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "screwdriver_set_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine screwdriver set!"
+    }
+  },
+  {
+    "id": "screwdriver_set_mtoken",
+    "type": "GENERIC",
+    "category": "tools",
+    "looks_like": "screwdriver_set",
+    "name": { "str": "screwdriver set" },
+    "description": "This is a set of screwdrivers in several sizes and blade types.  Guaranteed to have the right tools for more precise work.",
+    "weight": "340 g",
+    "volume": "500 ml",
+    "price": 2000,
+    "price_postapoc": 250,
+    "to_hit": -1,
+    "bashing": 2,
+    "cutting": 6,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "yellow",
+    "qualities": [ [ "SCREW", 1 ], [ "SCREW_FINE", 1 ] ],
+    "flags": [ "BELT_CLIP" ],
+    "use_action": [ 
+      {
+        "type": "transform",
+        "menu_text": "詠唱する",
+        "target": "mtoken_screwdriver_set",
+        "active": false,
+        "moves": 100,
+        "msg": "裏面に刻まれた呪文を唱えると、ドライバーセットは急速に変化し、真新しい魔法硬貨になりました！"
+      }
+    ]
+  },
+  {
+    "copy-from": "mtoken",
+    "type": "GENERIC",
+    "id": "mtoken_crowbar",
+    "name": "crowbar token",
+    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a crowbar.",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "crowbar_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine crowbar!"
+    }
+  },
+  {
+    "id": "crowbar_mtoken",
+    "type": "GENERIC",
+    "category": "tools",
+    "looks_like": "crowbar",
+    "name": { "str": "crowbar" },
+    "description": "This is a hefty prying tool.  Use it to open locked doors without destroying them or to lift manhole covers.  You could also wield it to bash some heads in.",
+    "weight": "1200 g",
+    "volume": "500 ml",
+    "price": 1300,
+    "price_postapoc": 500,
+    "to_hit": -1,
+    "bashing": 20,
+    "cutting": 1,
+    "material": "steel",
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "PRY", 3 ], [ "HAMMER", 1 ] ],
+    "use_action": [ 
+      "HAMMER",
+      "CROWBAR",
+      {
+        "type": "transform",
+        "menu_text": "詠唱する",
+        "target": "mtoken_crowbar",
+        "active": false,
+        "moves": 100,
+        "msg": "裏面に刻まれた呪文を唱えると、バールは急速に変化し、真新しい魔法硬貨になりました！"
+      }
+    ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "BELT_CLIP" ]
+  },
+  {
+    "copy-from": "mtoken",
+    "type": "GENERIC",
+    "id": "mtoken_halligan",
+    "looks_like": "mtoken_crowbar",
+    "name": "魔法硬貨(ハリガンバール)",
+    "description": "裏面に刻まれた呪文を読み上げると表面に描かれた物に変化する、大きな銀貨です。この硬貨にはハリガンバールが描かれています。",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "halligan_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "裏面に刻まれた呪文を唱えると、魔法硬貨は急速に変化し、真新しいハリガンバールになりました！"
+    }
+  },
+  {
+    "id": "halligan_mtoken",
+    "type": "GENERIC",
+    "category": "tools",
+    "looks_like": "halligan",
+    "name": { "str": "Halligan bar" },
+    "description": "This is a heavy multiple-use tool commonly carried by firefighters, law enforcement, and military rescue units.  Use it to open locked doors without destroying them or to lift manhole covers.  You could also wield it to bash some heads in.",
+    "weight": "3600 g",
+    "volume": "1250 ml",
+    "price": 7500,
+    "price_postapoc": 1500,
+    "bashing": 40,
+    "cutting": 5,
+    "material": "steel",
+    "symbol": ";",
+    "color": "dark_gray",
+    "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
+    "qualities": [ [ "PRY", 4 ], [ "HAMMER", 2 ], [ "DIG", 1 ] ],
+    "use_action": [ 
+    "HAMMER",
+    "CROWBAR",
+    {
+      "type": "transform",
+      "menu_text": "詠唱する",
+      "target": "mtoken_halligan",
+      "active": false,
+      "moves": 200,
+      "msg": "裏面に刻まれた呪文を唱えると、ハリガンバールは急速に変化し、真新しい魔法硬貨になりました！"
+    }
+    ],
+    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "STAB" ]
   }
 ]
