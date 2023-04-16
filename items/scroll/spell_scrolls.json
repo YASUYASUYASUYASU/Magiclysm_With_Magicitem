@@ -1,0 +1,11 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_summon_horse",
+    "//": "Classless spell",
+    "name": { "str": "呪文書(サモン・ホース)", "str_pl": "呪文書(サモン・ホース)" },
+    "description": "荒涼とした大地に念じてウマを召喚します。",
+    "use_action": { "type": "learn_spell", "spells": [ "summon_horse" ] }
+  }
+]

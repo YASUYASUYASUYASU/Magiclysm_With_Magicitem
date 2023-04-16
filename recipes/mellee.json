@@ -214,5 +214,20 @@
       [ [ "leather", 2 ] ],
       [ [ "rag", 2 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_rapier_estoc",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "reversible": true,
+    "time": "5 s",
+    "autolearn": true,
+    "components": [ 
+      [ [ "PSY_magi_magic_rapier", 1 ] ],
+      [ [ "PSY_magi_magic_estoc", 1 ] ]
+    ]
   }
 ]

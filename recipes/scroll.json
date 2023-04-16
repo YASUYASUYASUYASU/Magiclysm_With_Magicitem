@@ -12,7 +12,6 @@
     "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "using": [ [ "scroll_pen", 10 ] ],
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 10 ] ],
        [ [ "rune_animist",   1 ] ]
      ]
@@ -30,7 +29,6 @@
     "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "using": [ [ "scroll_pen", 10 ] ],
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 15 ] ],
        [ [ "rune_animist",   2 ] ]
      ]
@@ -48,7 +46,6 @@
     "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "using": [ [ "scroll_pen", 10 ] ],
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 20 ] ],
        [ [ "rune_animist",   2 ] ]
      ]
@@ -56,17 +53,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_zombie_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 10 ] ],
        [ [ "rune_animist",   1 ] ]
      ]
@@ -74,17 +62,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_zombie_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 15 ] ],
        [ [ "rune_animist",   2 ] ]
      ]
@@ -92,17 +71,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_zombie_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 20 ] ],
        [ [ "rune_animist",   2 ] ]
      ]
@@ -110,17 +80,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_wisps_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 10 ] ],
        [ [ "rune_animist",   1 ] ]
      ]
@@ -128,17 +89,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_wisps_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 15 ] ],
        [ [ "rune_animist",   2 ] ]
      ]
@@ -146,17 +98,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_wisps_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 20 ] ],
        [ [ "rune_animist",   2 ] ]
      ]
@@ -164,17 +107,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_light_healing_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_biomancer",   1 ] ]
      ]
@@ -182,17 +116,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_light_healing_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_biomancer",   2 ] ]
      ]
@@ -200,17 +125,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_light_healing_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 200 ] ],
        [ [ "rune_biomancer",   2 ] ]
      ]
@@ -218,17 +134,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_vicious_tentacle_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_biomancer",   1 ] ]
      ]
@@ -236,17 +143,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_vicious_tentacle_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_biomancer",   2 ] ]
      ]
@@ -254,17 +152,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_vicious_tentacle_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_biomancer",   2 ] ]
      ]
@@ -272,17 +161,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_bio_bonespear_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_biomancer",   1 ] ]
      ]
@@ -290,17 +170,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_bio_bonespear_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_biomancer",   2 ] ]
      ]
@@ -308,17 +179,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_bio_bonespear_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_biomancer",   2 ] ]
      ]
@@ -326,17 +188,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_druid_rootstrike_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_druid",   1 ] ]
      ]
@@ -344,17 +197,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_druid_rootstrike_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_druid",   2 ] ]
      ]
@@ -362,17 +206,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_druid_rootstrike_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_druid",   2 ] ]
      ]
@@ -380,17 +215,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_recover_fatigue_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_druid",   1 ] ]
      ]
@@ -398,17 +224,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_recover_fatigue_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_druid",   2 ] ]
      ]
@@ -416,17 +233,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_recover_fatigue_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_druid",   2 ] ]
      ]
@@ -434,17 +242,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_fungicide_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_druid",   1 ] ]
      ]
@@ -452,17 +251,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_fungicide_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_druid",   2 ] ]
      ]
@@ -470,17 +260,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_fungicide_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_druid",   2 ] ]
      ]
@@ -488,17 +269,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_stonefist_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 10 ] ],
        [ [ "rune_earthshaper",   1 ] ]
      ]
@@ -506,17 +278,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_stonefist_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 15 ] ],
        [ [ "rune_earthshaper",   2 ] ]
      ]
@@ -524,17 +287,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_stonefist_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 20 ] ],
        [ [ "rune_earthshaper",   2 ] ]
      ]
@@ -542,17 +296,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_eshaper_piercing_bolt_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 10 ] ],
        [ [ "rune_earthshaper",   1 ] ]
      ]
@@ -560,17 +305,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_eshaper_piercing_bolt_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 15 ] ],
        [ [ "rune_earthshaper",   2 ] ]
      ]
@@ -578,17 +314,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_eshaper_piercing_bolt_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 20 ] ],
        [ [ "rune_earthshaper",   2 ] ]
      ]
@@ -596,17 +323,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_earthshaper_stoneskin_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 10 ] ],
        [ [ "rune_earthshaper",   1 ] ]
      ]
@@ -614,17 +332,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_earthshaper_stoneskin_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 15 ] ],
        [ [ "rune_earthshaper",   2 ] ]
      ]
@@ -632,17 +341,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_earthshaper_stoneskin_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 20 ] ],
        [ [ "rune_earthshaper",   2 ] ]
      ]
@@ -650,17 +350,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_fireball_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_kelvinist",   1 ] ]
      ]
@@ -668,17 +359,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_fireball_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -686,17 +368,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_fireball_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -704,17 +377,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_point_flare_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_kelvinist",   1 ] ]
      ]
@@ -722,17 +386,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_point_flare_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -740,17 +395,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_point_flare_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -758,17 +404,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_burning_hands_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_kelvinist",   1 ] ]
      ]
@@ -776,17 +413,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_burning_hands_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -794,17 +422,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_burning_hands_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -812,17 +431,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_ice_spike_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_kelvinist",   1 ] ]
      ]
@@ -830,17 +440,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_ice_spike_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -848,71 +449,35 @@
   {
     "type": "recipe",
     "result": "PSY_magi_ice_spike_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "splinter", 10 ] ],
-       [ [ "rune_kelvinist",   2 ] ]
-     ]
-  },
-  {
-    "type": "recipe",
-    "result": "PSY_magi_glide_ice_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
-    "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "splinter", 15 ] ],
-       [ [ "rune_kelvinist",   1 ] ]
-     ]
-  },
-  {
-    "type": "recipe",
-    "result": "PSY_magi_glide_ice_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
-    "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
   },
   {
     "type": "recipe",
-    "result": "PSY_magi_glide_ice_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "result": "PSY_magi_glide_ice_talisman_1",
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
+       [ [ "splinter", 10 ] ],
+       [ [ "rune_kelvinist",   1 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_glide_ice_talisman_2",
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
+    "components": [
+       [ [ "splinter", 15 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_glide_ice_talisman_3",
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
+    "components": [
        [ [ "splinter", 20 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -920,17 +485,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_cone_cold_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 10 ] ],
        [ [ "rune_kelvinist",   1 ] ]
      ]
@@ -938,17 +494,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_cone_cold_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 15 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -956,17 +503,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_cone_cold_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "splinter", 20 ] ],
        [ [ "rune_kelvinist",   2 ] ]
      ]
@@ -974,17 +512,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_magic_missile_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 10 ] ],
        [ [ "rune_magus",   1 ] ]
      ]
@@ -992,53 +521,26 @@
   {
     "type": "recipe",
     "result": "PSY_magi_magic_missile_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "paper", 10 ] ],
+       [ [ "paper", 15 ] ],
        [ [ "rune_magus",   2 ] ]
      ]
   },
   {
     "type": "recipe",
     "result": "PSY_magi_magic_missile_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "paper", 10 ] ],
+       [ [ "paper", 20 ] ],
        [ [ "rune_magus",   2 ] ]
      ]
   },
   {
     "type": "recipe",
     "result": "PSY_magi_phase_door_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 10 ] ],
        [ [ "rune_magus",   1 ] ]
      ]
@@ -1046,53 +548,26 @@
   {
     "type": "recipe",
     "result": "PSY_magi_phase_door_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "paper", 10 ] ],
+       [ [ "paper", 15 ] ],
        [ [ "rune_magus",   2 ] ]
      ]
   },
   {
     "type": "recipe",
     "result": "PSY_magi_phase_door_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "paper", 10 ] ],
+       [ [ "paper", 20 ] ],
        [ [ "rune_magus",   2 ] ]
      ]
   },
   {
     "type": "recipe",
     "result": "PSY_magi_shadow_field_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "paper", 10 ] ],
        [ [ "rune_magus",   1 ] ]
      ]
@@ -1100,53 +575,26 @@
   {
     "type": "recipe",
     "result": "PSY_magi_shadow_field_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "paper", 10 ] ],
+       [ [ "paper", 15 ] ],
        [ [ "rune_magus",   2 ] ]
      ]
   },
   {
     "type": "recipe",
     "result": "PSY_magi_shadow_field_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
-       [ [ "paper", 10 ] ],
+       [ [ "paper", 20 ] ],
        [ [ "rune_magus",   2 ] ]
      ]
   },
   {
     "type": "recipe",
     "result": "PSY_magi_lightning_bolt_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 10 ] ],
        [ [ "rune_stormshaper",   1 ] ]
      ]
@@ -1154,17 +602,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_lightning_bolt_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 15 ] ],
        [ [ "rune_stormshaper",   2 ] ]
      ]
@@ -1172,17 +611,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_lightning_bolt_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 20 ] ],
        [ [ "rune_stormshaper",   2 ] ]
      ]
@@ -1190,17 +620,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_windrun_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 10 ] ],
        [ [ "rune_stormshaper",   1 ] ]
      ]
@@ -1208,17 +629,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_windrun_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 15 ] ],
        [ [ "rune_stormshaper",   2 ] ]
      ]
@@ -1226,17 +638,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_windrun_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 20 ] ],
        [ [ "rune_stormshaper",   2 ] ]
      ]
@@ -1244,17 +647,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_thorns_zap_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 10 ] ],
        [ [ "rune_stormshaper",   1 ] ]
      ]
@@ -1262,17 +656,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_thorns_zap_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 15 ] ],
        [ [ "rune_stormshaper",   2 ] ]
      ]
@@ -1280,17 +665,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_thorns_zap_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "pebble", 20 ] ],
        [ [ "rune_stormshaper",   2 ] ]
      ]
@@ -1298,17 +674,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_mirror_image_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   1 ] ]
@@ -1317,17 +684,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_mirror_image_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   2 ] ]
@@ -1336,17 +694,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_mirror_image_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "amplifier", 4 ] ],
@@ -1356,17 +705,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_magic_motorcycle_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   1 ] ]
@@ -1375,17 +715,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_magic_motorcycle_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   2 ] ]
@@ -1394,17 +725,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_magic_motorcycle_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "amplifier", 4 ] ],
@@ -1414,17 +736,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_floating_disk_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   1 ] ]
@@ -1433,17 +746,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_floating_disk_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   2 ] ]
@@ -1452,17 +756,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_floating_disk_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "amplifier", 4 ] ],
@@ -1472,17 +767,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_floating_disk_talisman_1",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(初級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 1 ],
-    "difficulty": 1,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   1 ] ]
@@ -1491,17 +777,8 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_floating_disk_talisman_2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(中級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 3,
-    "time": "15 m",
-    "autolearn": true,
-    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "rune_technomancer",   2 ] ]
@@ -1510,22 +787,12 @@
   {
     "type": "recipe",
     "result": "PSY_magi_summon_floating_disk_talisman_3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_スクロール(上級)",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 3 ],
-    "difficulty": 5,
-    "time": "15 m",
-    "book_learn": [ [ "enchantment_basic", 4 ] ],
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "using": [ [ "scroll_pen", 10 ] ],
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
     "components": [
-       [ [ "crystallized_mana", 5 ] ],
        [ [ "cable"  , 2 ] ],
        [ [ "e_scrap", 1 ] ],
        [ [ "amplifier", 4 ] ],
        [ [ "rune_technomancer",   2 ] ]
      ]
   }
-
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "mutation",
+    "id": "WINGS_MANA",
+    "name": { "str": "マナの翼" },
+    "points": 0,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "ネックレスから放出されるマナが翼を象っており、落下ダメージを無効化します",
+    "flags": [ "WINGS_2" ]
+  }
+]

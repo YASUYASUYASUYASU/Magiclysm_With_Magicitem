@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE", "MSX++ZaragaTiles" ],
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "MSX++ZaragaTiles", "MshockXottoplus" ],
     "tiles-new": [
       {
         "file": "tiles/Magiclysm_With_Magicitem_large.png",
@@ -46,10 +46,46 @@
         "sprite_height":32,
         "sprite_width":32,
         "tiles": [
-          { "id": "PSY_magi_shield_kite_fleeze" ,"fg": 21, "rotates": false },
+          { "id": "PSY_magi_shield_kite_fleeze"                 ,"fg": 21, "rotates": false },
           { "id": "overlay_worn_PSY_magi_shield_kite_fleeze"    ,"fg": 22, "rotates": false },
-          { "id": "PSY_magi_shield_kite_thunder","fg": 25, "rotates": false },
-          { "id": "overlay_worn_PSY_magi_shield_kite_thunder"   ,"fg": 26, "rotates": false }
+          { "id": "PSY_magi_shield_kite_thunder"                ,"fg": 25, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_shield_kite_thunder"   ,"fg": 26, "rotates": false },
+          { "id": "PSY_magi_shield_kite_fire"                   ,"fg": 29, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_shield_kite_fire"      ,"fg": 30, "rotates": false }
+        ]
+      },
+      {
+        "file": "tiles/Magiclysm_With_Magicitem_akamadousi.png",
+        "sprite_height":40,
+        "sprite_width":32,
+        "sprite_offset_y":-8,
+        "tiles": [
+          { "id": "PSY_magi_magic_rapier"                    ,"fg": 37, "rotates": false },
+          { "id": "overlay_wielded_PSY_magi_magic_rapier"    ,"fg": 38, "rotates": false },
+          { "id": "PSY_magi_trenchcoat"                      ,"fg": 39, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_trenchcoat"         ,"fg": 39, "rotates": false },
+          { "id": "PSY_magi_tricorne"                        ,"fg": 40, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_tricorne"           ,"fg": 40, "rotates": false }
+        ]
+      },
+      {
+        "file": "tiles/Magiclysm_With_Magicitem_aomadousi.png",
+        "sprite_height":40,
+        "sprite_width":32,
+        "sprite_offset_y":-8,
+        "tiles": [
+          { "id": "PSY_magi_magic_estoc"                    ,"fg": 41, "rotates": false },
+          { "id": "overlay_wielded_PSY_magi_magic_estoc"    ,"fg": 42, "rotates": false },
+          { "id": "PSY_magi_fencer_Armor"                   ,"fg": 43, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_fencer_Armor"      ,"fg": 43, "rotates": false },
+          { "id": "PSY_magi_fencer_head"                    ,"fg": 44, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_fencer_head"       ,"fg": 44, "rotates": false },
+          { "id": "PSY_magi_fencer_gloves"                  ,"fg": 45, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_fencer_gloves"     ,"fg": 45, "rotates": false },
+          { "id": "PSY_magi_fencer_boots"                   ,"fg": 46, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_fencer_boots"      ,"fg": 46, "rotates": false },
+          { "id": "PSY_magi_magic_rapier_estoc"             ,"fg": 47, "rotates": false },
+          { "id": "overlay_wielded_PSY_magi_magic_rapier_estoc"    ,"fg": 48, "rotates": false }
         ]
       }
     ]

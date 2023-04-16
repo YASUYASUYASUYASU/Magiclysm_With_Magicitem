@@ -227,14 +227,13 @@
     "description": "A plastic container meant to hold pets for transport.  Use it on a suitable animal to capture, use it on an empty tile to release.",
     "weight": "1000 g",
     "volume": "5 L",
-    "price": "1000 USD",
-    "price_postapoc": "1000 USD",
     "bashing": 1,
     "cutting": 1,
     "material": [ "steel", "plastic" ],
     "symbol": "#",
-    "looks_like": "pet_carrier",
     "color": "light_gray",
+    "price": "1000 USD",
+    "price_postapoc": "1000 USD",
     "properties": [ [ "creature_size_capacity", "HUGE" ] ],
     "use_action": [ "CAPTURE_MONSTER_ACT" ],
     "flags": [ "TRADER_AVOID","TARDIS" ]
@@ -242,15 +241,11 @@
   {
     "id": "PSY_magi_magic_scarf",
     "type": "ARMOR",
-    "copy-from": "keffiyeh",
-    "looks_like": "scarf",
+    "copy-from": "knit_scarf",
     "name": { "str": "詠唱のスカーフ[MWMI]" },
     "description": "魔力のこもったスカーフです。これを身に着けることで熟練魔法使いのような魔法詠唱が可能といわれています。",
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
-    "material": [ "cotton" ],
-    "color": "cyan",
-    "covers": [ "mouth" ],
     "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_magic_scarf" } ] }
   }
 ]

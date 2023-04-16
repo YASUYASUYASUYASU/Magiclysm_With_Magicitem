@@ -1,0 +1,17 @@
+[
+  {
+    "id": "mon_claygolem_weak",
+    "type": "MONSTER",
+    "name": "不完全な粘土ゴーレム",
+    "copy-from": "mon_claygolem",
+    "description": "粘土で作られた人型のゴーレムです。しかし不完全なのかなんだか頼りなさそうです",
+    "proportional": { 
+      "hp": 0.6,
+      "speed": 0.8,
+      "armor_bash": 0.8,
+      "armor_cut": 0.8,
+      "armor_bullet": 0.8
+
+    }
+  }
+]

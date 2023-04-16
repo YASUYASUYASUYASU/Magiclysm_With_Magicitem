@@ -42,13 +42,6 @@
     "mutations": [ "LOVES_BOOKS" ]
   },
   {
-    "id": "PSY_magi_ench_glasses_self_aware",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "SELFAWARE" ]
-  },
-  {
     "id": "PSY_magi_ench_beauty_hair_ornaments_1",
     "type": "enchantment",
     "has": "WORN",
@@ -80,6 +73,6 @@
     "type": "enchantment",
     "has": "WORN",
     "condition": "ALWAYS",
-    "mutations": [ "WINGS_BIRD" ]
+    "mutations": [ "WINGS_MANA" ]
   }
 ]

@@ -1,0 +1,39 @@
+[
+  {
+    "type": "technique",
+    "id": "MWMI_SPIN",
+    "name": "回転攻撃(常時)",
+    "melee_allowed": true,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_tec": false,
+    "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
+    "aoe": "spin",
+    "description": "周囲８マスの隣接する敵を攻撃します(常時発動)",
+    "attack_vectors": [ "WEAPON" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_WIDE",
+    "name": "一掃攻撃(常時)",
+    "melee_allowed": true,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_tec": false,
+    "weighting": 2,
+    "messages": [ "You swing in a wide arc through %s", "<npcname> swings in a wide arc through %s" ],
+    "aoe": "wide",
+    "description": "扇状に薙ぎ払い攻撃を行います(常時発動)",
+    "attack_vectors": [ "WEAPON" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_IMPALE",
+    "name": "串刺し攻撃(常時)",
+    "melee_allowed": true,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_tec": false,
+    "messages": [ "You pierce straight through %s", "<npcname> pierces through %s" ],
+    "aoe": "impale",
+    "description": "対象とその後ろの敵を攻撃します(常時発動)",
+    "attack_vectors": [ "WEAPON" ]
+  }
+]

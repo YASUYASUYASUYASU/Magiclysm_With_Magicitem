@@ -1,10 +1,10 @@
 [
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(ロングソード)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_longsword",
     "name": "longsword token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a longsword.",
+    "copy-from": "mtoken_longsword",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -15,26 +15,11 @@
     }
   },
   {
+    "//1": "魔法硬貨(ロングソード)のtransform先の独自のロングソード(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "longsword_mtoken",
     "type": "TOOL",
-    "symbol": "/",
-    "looks_like": "longsword",
-    "color": "light_gray",
     "name": { "str": "longsword" },
-    "description": "This is a classic medieval sword, in between the lighter arming sword and later two-handed swords in size.  It requires a larger baldric or scabbard, compared to smaller swords.",
-    "price": 130000,
-    "price_postapoc": 6000,
-    "material": [ "steel" ],
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
-    "techniques": [ "WBLOCK_2" ],
-    "weight": "1814 g",
-    "volume": "2750 ml",
-    "longest_side": "120 cm",
-    "bashing": 11,
-    "cutting": 30,
-    "to_hit": { "grip": "weapon", "length": "long", "surface": "line", "balance": "good" },
-    "category": "weapons",
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ],
+    "copy-from": "longsword",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -45,11 +30,11 @@
     }
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(アーミングソード)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_arming_sword",
     "name": { "str": "arming sword token" },
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case an arming sword.",
+    "copy-from": "mtoken_arming_sword",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -60,26 +45,11 @@
     }
   },
   {
+    "//1": "魔法硬貨(アーミングソード)のtransform先の独自のアーミングソード(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "arming_sword_mtoken",
     "type": "TOOL",
-    "symbol": "/",
-    "looks_like": "arming_sword",
-    "color": "light_gray",
     "name": { "str": "arming sword" },
-    "description": "This is a classic medieval sword, just the right size to use one-handed.",
-    "price": 100000,
-    "price_postapoc": 4500,
-    "material": [ "steel" ],
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
-    "techniques": [ "WBLOCK_2" ],
-    "weight": "1360 g",
-    "volume": "2 L",
-    "longest_side": "90 cm",
-    "bashing": 6,
-    "cutting": 29,
-    "to_hit": { "grip": "weapon", "length": "long", "surface": "line", "balance": "good" },
-    "category": "weapons",
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ],
+    "copy-from": "arming_sword",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -90,11 +60,11 @@
     }
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(ブロードソード)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_broadsword",
-    "name": "broadsword token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a broadsword.",
+    "name": { "str": "broadsword token" },
+    "copy-from": "mtoken_broadsword",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -105,26 +75,11 @@
     }
   },
   {
+    "//1": "魔法硬貨(ブロードソード)のtransform先の独自のブロードソード(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "broadsword_mtoken",
     "type": "TOOL",
     "name": { "str": "broadsword" },
-    "looks_like": "broadsword",
-    "description": "This is an early modern sword that saw use in the 16th, 17th, and 18th centuries.  Called 'broad' to contrast with the slimmer rapiers.",
-    "weight": "1133 g",
-    "volume": "1750 ml",
-    "longest_side": "100 cm",
-    "price": 120000,
-    "price_postapoc": 5000,
-    "bashing": 6,
-    "cutting": 27,
-    "to_hit": { "grip": "weapon", "length": "long", "surface": "line", "balance": "good" },
-    "material": [ "steel" ],
-    "symbol": "/",
-    "color": "light_gray",
-    "techniques": [ "WBLOCK_2" ],
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 9 ] ],
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
-    "category": "weapons",
+    "copy-from": "broadsword",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -135,11 +90,11 @@
     }
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(バトルアックス)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_battleaxe",
     "name": { "str": "battleaxe token" },
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a battle axe.",
+    "copy-from": "mtoken_battleaxe",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -150,26 +105,11 @@
     }
   },
   {
+    "//1": "魔法硬貨(バトルアックス)のtransform先の独自のバトルアックス(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "battleaxe_mtoken",
     "type": "TOOL",
-    "looks_like": "battleaxe",
     "name": { "str": "battle axe" },
-    "description": "This is a huge axe designed for warfare.  Though intended for use as a weapon, it can also be pressed into service as a rather clumsy woodcutting tool.",
-    "weight": "2002 g",
-    "volume": "2500 ml",
-    "longest_side": "100 cm",
-    "price": 40000,
-    "price_postapoc": 12000,
-    "bashing": 19,
-    "cutting": 38,
-    "to_hit": { "grip": "weapon", "length": "long", "surface": "line", "balance": "uneven" },
-    "material": [ "steel", "wood" ],
-    "symbol": "/",
-    "color": "light_gray",
-    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
-    "qualities": [ [ "AXE", 2 ], [ "BUTCHER", -20 ] ],
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_AXE" ],
-    "category": "weapons",
+    "copy-from": "battleaxe",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -180,11 +120,11 @@
     }
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(パイク)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_pike",
     "name": "pike token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a pike.",
+    "copy-from": "mtoken_pike",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -195,26 +135,11 @@
     }
   },
   {
+    "//1": "魔法硬貨(パイク)のtransform先の独自のパイク(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "pike_mtoken",
     "type": "GENERIC",
     "name": { "ctxt": "weapon", "str": "pike" },
-    "looks_like": "pike",
-    "description": "This is a medieval weapon consisting of a wood shaft tipped with an iron spearhead.",
-    "weight": "2500 g",
-    "volume": "3500 ml",
-    "longest_side": "300 cm",
-    "price": 40000,
-    "price_postapoc": 5000,
-    "bashing": 9,
-    "cutting": 32,
-    "to_hit": { "grip": "weapon", "length": "long", "surface": "point", "balance": "neutral" },
-    "material": [ "iron", "wood" ],
-    "symbol": "/",
-    "color": "brown",
-    "techniques": [ "IMPALE", "WBLOCK_1" ],
-    "qualities": [ [ "COOK", 1 ] ],
-    "flags": [ "DURABLE_MELEE", "POLEARM", "SPEAR", "REACH_ATTACK", "REACH3", "NONCONDUCTIVE", "ALWAYS_TWOHAND" ],
-    "category": "weapons",
+    "copy-from": "pike",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -225,11 +150,11 @@
     }
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(メイス)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_mace",
     "name": "mace token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a mace.",
+    "copy-from": "mtoken_mace",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -240,26 +165,11 @@
     }
   },
   {
+    "//1": "魔法硬貨(メイス)のtransform先の独自のメイス(性能は同じで再度硬貨に戻せるようにしてあります)",
     "type": "GENERIC",
     "id": "mace_mtoken",
     "name": { "str": "mace" },
-    "looks_like": "mace",
-    "description": "A medieval weapon consisting of a wood handle with a heavy iron end.  It is heavy and slow, but its crushing damage is devastating.",
-    "weight": "1500 g",
-    "color": "dark_gray",
-    "symbol": "/",
-    "material": [ "iron", "wood" ],
-    "techniques": [ "SWEEP" ],
-    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "BELT_CLIP" ],
-    "volume": "1250 ml",
-    "longest_side": "80 cm",
-    "//": "Same total damage and slightly higher weight than a morningstar - exchanged.",
-    "bashing": 40,
-    "to_hit": { "grip": "weapon", "length": "short", "surface": "any", "balance": "neutral" },
-    "price": 100000,
-    "price_postapoc": 6000,
-    "qualities": [ [ "HAMMER", 1 ] ],
-    "category": "weapons",
+    "copy-from": "mace",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -270,11 +180,11 @@
     }
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(クォータースタッフ)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_q_staff",
     "name": "quarterstaff token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a quarterstaff.",
+    "copy-from": "mtoken_q_staff",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -285,24 +195,11 @@
     }
   },
   {
+    "//1": "魔法硬貨(クォータースタッフ)のtransform先の独自のクォータースタッフ(性能は同じで再度硬貨に戻せるようにしてあります)",
     "type": "GENERIC",
     "id": "q_staff_mtoken",
-    "looks_like": "q_staff",
-    "symbol": "/",
-    "color": "brown",
     "name": { "str": "quarterstaff", "str_pl": "quarterstaves" },
-    "description": "A smooth and sturdy staff.  Light and well-balanced, it is surprisingly easy to handle.",
-    "price": 4000,
-    "material": [ "wood" ],
-    "techniques": [ "WBLOCK_2", "RAPID", "SWEEP" ],
-    "flags": [ "SHEATH_SPEAR", "ALWAYS_TWOHAND" ],
-    "weight": "1500 g",
-    "volume": "1500 ml",
-    "longest_side": "180 cm",
-    "bashing": 26,
-    "category": "weapons",
-    "to_hit": { "grip": "weapon", "length": "long", "surface": "any", "balance": "good" },
-    "price_postapoc": 1000,
+    "copy-from": "q_staff",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -313,11 +210,11 @@
     }
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(ハンマー)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_hammer",
     "name": "hammer token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a hammer.",
+    "copy-from": "mtoken_hammer",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -328,24 +225,12 @@
     }
   },
   {
+    "//1": "魔法硬貨(ハンマー)のtransform先の独自のハンマー(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "hammer_mtoken",
     "type": "GENERIC",
-    "category": "tools",
-    "looks_like": "hammer",
     "name": { "str": "hammer" },
-    "description": "持ち手が木製になっている、磁気除去済みの鋼鉄製くぎ抜き金づちです。ハンマー、釘、木材を所持していれば、隣接したドアや窓に板を打ち付けることができます。その他にも無数の用途があります。",
-    "weight": "566 g",
-    "volume": "350 ml",
-    "price": 700,
-    "price_postapoc": 100,
-    "to_hit": -1,
-    "bashing": 9,
-    "material": [ "steel", "wood" ],
-    "symbol": ";",
-    "color": "brown",
-    "qualities": [ [ "HAMMER", 3 ], [ "PRY", 1 ], [ "HAMMER_FINE", 1 ] ],
+    "copy-from": "hammer",
     "use_action": [ 
-      "HAMMER",
       "CROWBAR",
       {
           "type": "transform",
@@ -355,15 +240,14 @@
           "moves": 100,
           "msg": "裏面に刻まれた呪文を唱えると、ハンマーは急速に変化し、真新しい魔法硬貨になりました！"
       }
-    ],
-    "flags": [ "BELT_CLIP", "NONCONDUCTIVE" ]
+    ]
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(ドライバーセット)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_screwdriver_set",
     "name": "screwdriver set token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a screwdriver.",
+    "copy-from": "mtoken_screwdriver_set",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -374,24 +258,12 @@
     }
   },
   {
+    "//1": "魔法硬貨(ドライバーセット)のtransform先の独自のドライバーセット(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "screwdriver_set_mtoken",
     "type": "GENERIC",
     "category": "tools",
-    "looks_like": "screwdriver_set",
     "name": { "str": "screwdriver set" },
-    "description": "This is a set of screwdrivers in several sizes and blade types.  Guaranteed to have the right tools for more precise work.",
-    "weight": "340 g",
-    "volume": "500 ml",
-    "price": 2000,
-    "price_postapoc": 250,
-    "to_hit": -1,
-    "bashing": 2,
-    "cutting": 6,
-    "material": [ "steel", "plastic" ],
-    "symbol": ";",
-    "color": "yellow",
-    "qualities": [ [ "SCREW", 1 ], [ "SCREW_FINE", 1 ] ],
-    "flags": [ "BELT_CLIP" ],
+    "copy-from": "screwdriver_set",
     "use_action": [ 
       {
         "type": "transform",
@@ -404,11 +276,11 @@
     ]
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(バール)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_crowbar",
     "name": "crowbar token",
-    "description": "A large silver coin that, when activated by uttering the word on the back, turns into the item pictured on the front, in this case a crowbar.",
+    "copy-from": "mtoken_crowbar",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -419,25 +291,12 @@
     }
   },
   {
+    "//1": "魔法硬貨(バール)のtransform先の独自のバール(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "crowbar_mtoken",
     "type": "GENERIC",
-    "category": "tools",
-    "looks_like": "crowbar",
     "name": { "str": "crowbar" },
-    "description": "This is a hefty prying tool.  Use it to open locked doors without destroying them or to lift manhole covers.  You could also wield it to bash some heads in.",
-    "weight": "1200 g",
-    "volume": "500 ml",
-    "price": 1300,
-    "price_postapoc": 500,
-    "to_hit": -1,
-    "bashing": 20,
-    "cutting": 1,
-    "material": "steel",
-    "symbol": ";",
-    "color": "dark_gray",
-    "qualities": [ [ "PRY", 3 ], [ "HAMMER", 1 ] ],
+    "copy-from": "crowbar",
     "use_action": [ 
-      "HAMMER",
       "CROWBAR",
       {
         "type": "transform",
@@ -447,17 +306,15 @@
         "moves": 100,
         "msg": "裏面に刻まれた呪文を唱えると、バールは急速に変化し、真新しい魔法硬貨になりました！"
       }
-    ],
-    "techniques": [ "WBLOCK_1" ],
-    "flags": [ "BELT_CLIP" ]
+    ]
   },
   {
-    "copy-from": "mtoken",
+    "//1": "既存の魔法硬貨(ハリガンバール)のtransform先を独自の武器に変更させておく",
     "type": "GENERIC",
     "id": "mtoken_halligan",
-    "looks_like": "mtoken_crowbar",
-    "name": "魔法硬貨(ハリガンバール)",
+    "name": { "str": "魔法硬貨(ハリガンバール)" },
     "description": "裏面に刻まれた呪文を読み上げると表面に描かれた物に変化する、大きな銀貨です。この硬貨にはハリガンバールが描かれています。",
+    "copy-from": "mtoken_crowbar",
     "use_action": {
       "type": "transform",
       "menu_text": "Whisper command",
@@ -468,35 +325,21 @@
     }
   },
   {
+    "//1": "魔法硬貨(ハリガンバール)のtransform先の独自のハリガンバール(性能は同じで再度硬貨に戻せるようにしてあります)",
     "id": "halligan_mtoken",
     "type": "GENERIC",
-    "category": "tools",
-    "looks_like": "halligan",
     "name": { "str": "Halligan bar" },
-    "description": "This is a heavy multiple-use tool commonly carried by firefighters, law enforcement, and military rescue units.  Use it to open locked doors without destroying them or to lift manhole covers.  You could also wield it to bash some heads in.",
-    "weight": "3600 g",
-    "volume": "1250 ml",
-    "price": 7500,
-    "price_postapoc": 1500,
-    "bashing": 40,
-    "cutting": 5,
-    "material": "steel",
-    "symbol": ";",
-    "color": "dark_gray",
-    "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
-    "qualities": [ [ "PRY", 4 ], [ "HAMMER", 2 ], [ "DIG", 1 ] ],
+    "copy-from": "halligan",
     "use_action": [ 
-    "HAMMER",
-    "CROWBAR",
-    {
-      "type": "transform",
-      "menu_text": "詠唱する",
-      "target": "mtoken_halligan",
-      "active": false,
-      "moves": 200,
-      "msg": "裏面に刻まれた呪文を唱えると、ハリガンバールは急速に変化し、真新しい魔法硬貨になりました！"
-    }
-    ],
-    "flags": [ "DURABLE_MELEE", "BELT_CLIP", "STAB" ]
+      "CROWBAR",
+      {
+        "type": "transform",
+        "menu_text": "詠唱する",
+        "target": "mtoken_halligan",
+        "active": false,
+        "moves": 200,
+        "msg": "裏面に刻まれた呪文を唱えると、ハリガンバールは急速に変化し、真新しい魔法硬貨になりました！"
+      }
+    ]
   }
 ]

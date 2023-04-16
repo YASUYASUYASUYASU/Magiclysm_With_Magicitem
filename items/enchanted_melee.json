@@ -11,14 +11,12 @@
     "price_postapoc": "1000 USD",
     "to_hit":  2,
     "bashing": 15,
-    "material": [ "iron", "leather","mana" ],
+    "material": [ "iron", "leather" ],
     "symbol": "[",
     "looks_like": "cestus",
     "color": "light_gray",
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
+    "armor": [ { "encumbrance": 5, "coverage": 90, "covers": [ "hand_l", "hand_r" ] } ],
+    "techniques": [ "WBLOCK_1"],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ]
   },
   {
@@ -28,12 +26,7 @@
     "name": { "str": "魔術師のガントレット[MWMI]", "str_pl": "魔術師のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_PURE", "add": 15 } ] } ]
     }
@@ -45,12 +38,7 @@
     "name": { "str": "精霊のガントレット[MWMI]", "str_pl": "精霊のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true },
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_PURE", "add": 5 } ] } ]
@@ -64,12 +52,7 @@
     "name": { "str": "業火のガントレット[MWMI]", "str_pl": "業火のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_HEAT", "add": 15 } ] } ]
     }
@@ -81,12 +64,7 @@
     "name": { "str": "極寒のガントレット[MWMI]", "str_pl": "極寒のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_COLD", "add": 15 } ] } ]
     }
@@ -98,12 +76,7 @@
     "name": { "str": "雷のガントレット[MWMI]", "str_pl": "雷のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_ELEC", "add": 15 } ] } ]
     }
@@ -115,12 +88,7 @@
     "name": { "str": "機工術師のガントレット[MWMI]", "str_pl": "機工術師のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "techniques": [ "WBLOCK_1"],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "charge_info": { "recharge_type": "periodic", "time": "24 h", "regenerate_ammo": true }
     },
@@ -133,12 +101,8 @@
     "name": { "str": "大地のガントレット[MWMI]", "str_pl": "大地のガントレット[MWMI]" },
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
     "techniques": [ "WBLOCK_1", "BRUTAL", "WIDE", "SWEEP"],
-    "flags": [ "UNBREAKABLE_MELEE","UNARMED_WEAPON", "NONCONDUCTIVE" ],
+    "flags": [ "UNBREAKABLE_MELEE","UNARMED_WEAPON", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_BASH", "add": 15 } ] } ]
     }
@@ -151,12 +115,7 @@
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
     "bashing": 20,
-    "techniques": [ "WBLOCK_1" ],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
        "passive_effects": [
          {
@@ -175,12 +134,7 @@
     "description": "魔力が注入されたガントレットです。ガントレットの中央にはルーンが埋め込まれています。",
     "copy-from": "PSY_magi_magic_Gauntlet_MA",
     "bashing": 20,
-    "techniques": [ "WBLOCK_1" ],
-    "covers": [ "hand_l", "hand_r" ],
-    "coverage": 90,
-    "encumbrance": 5,
-    "material_thickness": 1,
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE" ],
+    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
     "relic_data": {
        "passive_effects": [
          {
@@ -190,5 +144,81 @@
          }
        ]
     }
+  },
+  {
+    "id": "PSY_magi_magic_rapier",
+    "type": "TOOL",
+    "name": { "str": "赤魔導士のレイピア[MWMI]" },
+    "description": "A thin sword with an ornate hand guard.  It looks like the preferred weapon of gentlemen and swashbucklers.  Light and quick, it makes any battle a stylish battle.",
+    "copy-from": "rapier",
+    "proportional": { "cutting": 0.9, "weight": 0.9, "volume": 0.9 },
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_SWORD", "MAGIC_FOCUS" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_HEAT", "add": 10 } ] } ]
+    }
+  },
+  {
+    "id": "PSY_magi_magic_estoc",
+    "type": "TOOL",
+    "name": { "str": "青のフェンサーのエストック[MWMI]" },
+    "description": "A thin sword with an ornate hand guard.  It looks like the preferred weapon of gentlemen and swashbucklers.  Light and quick, it makes any battle a stylish battle.",
+    "copy-from": "estoc",
+    "proportional": { "cutting": 0.9, "weight": 0.9, "volume": 0.9 },
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_SWORD", "MAGIC_FOCUS" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "ITEM_DAMAGE_COLD", "add": 10 } ] } ]
+    }
+  },
+  {
+    "id": "PSY_magi_magic_rapier_estoc",
+    "type": "TOOL",
+    "name": { "str": "赤魔導士のレイピア/青のフェンサーのエストック両手持ち[MWMI]" },
+    "description": "赤魔導士のレイピアと青のフェンサーのエストックを両手持に持ちました。これでスタイリッシュに戦いましょう",
+    "copy-from": "estoc",
+    "weight": "2530 g",
+    "volume": "3000 ml",
+    "bashing": 14,
+    "cutting": 40,
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_SWORD", "MAGIC_FOCUS" ],
+    "techniques": [ "RAPID", "WBLOCK_2", "PRECISE" ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 9 ] ],
+    "weapon_category": [ "FENCING_WEAPONRY" ],
+    "relic_data": {
+      "passive_effects": [ 
+        { "has": "WIELD", "condition": "ALWAYS", "values": 
+          [ 
+            { "value": "ITEM_DAMAGE_COLD", "add": 10 },
+            { "value": "ITEM_DAMAGE_HEAT", "add": 10 }
+          ] 
+        } 
+      ]
+    }
+  },
+  {
+    "id": "MWMI_2h_flail_steel",
+    "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str": "妖棍アンバージャック" },
+    "copy-from": "2h_flail_steel",
+    "proportional": { "price": 3.0, "price_postapoc": 3.0, "bashing": 0.8, "weight": 0.8 },
+    "techniques": [ "WBLOCK_1", "BRUTAL", "MWMI_SPIN" ]
+  },
+  {
+    "id": "MWMI_katana",
+    "type": "TOOL",
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "妖刀鎌風" },
+    "copy-from": "katana",
+    "proportional": { "price": 3.0, "price_postapoc": 3.0, "cutting": 0.8, "bashing": 0.8, "weight": 0.8 },
+    "techniques": [ "RAPID", "WBLOCK_2","MWMI_WIDE" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "MWMI_spear_steel",
+    "name": { "str": "妖槍スコーピオン" },
+    "copy-from": "spear_steel",
+    "proportional": { "price": 3.0, "price_postapoc": 3.0, "cutting": 0.8, "bashing": 0.8, "weight": 0.8 },
+    "techniques": [ "WBLOCK_1","MWMI_IMPALE" ]
   }
 ]
