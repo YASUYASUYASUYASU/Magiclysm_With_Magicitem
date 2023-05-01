@@ -148,7 +148,7 @@
   {
     "id": "PSY_magi_magic_rapier",
     "type": "TOOL",
-    "name": { "str": "赤魔導士のレイピア[MWMI]" },
+    "name": { "str": "赤のレイピア[MWMI]" },
     "description": "A thin sword with an ornate hand guard.  It looks like the preferred weapon of gentlemen and swashbucklers.  Light and quick, it makes any battle a stylish battle.",
     "copy-from": "rapier",
     "proportional": { "cutting": 0.9, "weight": 0.9, "volume": 0.9 },
@@ -160,7 +160,7 @@
   {
     "id": "PSY_magi_magic_estoc",
     "type": "TOOL",
-    "name": { "str": "青のフェンサーのエストック[MWMI]" },
+    "name": { "str": "青のエストック[MWMI]" },
     "description": "A thin sword with an ornate hand guard.  It looks like the preferred weapon of gentlemen and swashbucklers.  Light and quick, it makes any battle a stylish battle.",
     "copy-from": "estoc",
     "proportional": { "cutting": 0.9, "weight": 0.9, "volume": 0.9 },
@@ -172,15 +172,15 @@
   {
     "id": "PSY_magi_magic_rapier_estoc",
     "type": "TOOL",
-    "name": { "str": "赤魔導士のレイピア/青のフェンサーのエストック両手持ち[MWMI]" },
-    "description": "赤魔導士のレイピアと青のフェンサーのエストックを両手持に持ちました。これでスタイリッシュに戦いましょう",
+    "name": { "str": "相克の両刺剣[MWMI]" },
+    "description": "赤のレイピアと青のエストックを両手持に持ちました。これでスタイリッシュに戦いましょう",
     "copy-from": "estoc",
     "weight": "2530 g",
     "volume": "3000 ml",
     "bashing": 14,
     "cutting": 40,
-    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_SWORD", "MAGIC_FOCUS" ],
-    "techniques": [ "RAPID", "WBLOCK_2", "PRECISE" ],
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_SWORD", "MAGIC_FOCUS", "ALWAYS_TWOHAND" ],
+    "techniques": [ "WBLOCK_2", "PRECISE" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 9 ] ],
     "weapon_category": [ "FENCING_WEAPONRY" ],
     "relic_data": {

@@ -246,6 +246,18 @@
     "description": "魔力のこもったスカーフです。これを身に着けることで熟練魔法使いのような魔法詠唱が可能といわれています。",
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_magic_scarf" } ] }
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_magic_scarf" } ] },
+    "use_action": { "type": "transform", "msg": "詠唱のスカーフを解きました。", "target": "PSY_magi_magic_scarf_loose", "menu_text": "緩める" }
+  },
+  {
+    "id": "PSY_magi_magic_scarf_loose",
+    "type": "ARMOR",
+    "copy-from": "knit_scarf_loose",
+    "name": { "str": "詠唱のスカーフ(緩)[MWMI]" },
+    "description": "魔力のこもったスカーフです。これを身に着けることで熟練魔法使いのような魔法詠唱が可能といわれています。もし寒いと感じたら、使用して結ぶことができます。",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_magic_scarf" } ] },
+    "use_action": { "type": "transform", "msg": "詠唱のスカーフをしっかり結びました。", "target": "PSY_magi_magic_scarf", "menu_text": "締める" }
   }
 ]
