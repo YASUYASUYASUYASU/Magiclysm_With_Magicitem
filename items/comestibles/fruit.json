@@ -7,7 +7,7 @@
     "healthy": 4,
     "description": "マナを注入したフルーツです。食べるとマナが回復します。",
     "fun": 5,
-    "vitamins": [ [ "vitA", 1 ], [ "vitC", 17 ], [ "iron", 1 ] ],
+    "vitamins": [ [ "vitC", 17 ], [ "iron", 1 ] ],
     "use_action": { "type": "cast_spell", "spell_id": "potion_recover_mana", "no_fail": true, "level": 1 }
   }
 ]
