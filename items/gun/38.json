@@ -10,7 +10,7 @@
     "volume": "500 ml",
     "price": 22400,
     "to_hit": -2,
-    "bashing": 9,
+    "melee_damage": { "bash": 9 },
     "material": [ "steel", "wood" ],
     "color": "dark_gray",
     "ammo": "PSY_magi_38_magic",

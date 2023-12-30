@@ -1,0 +1,126 @@
+[
+  {
+    "//1": "不動詠唱用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_metamagic_still",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_still"
+    },
+    "effect": [
+      { "math": [ "u_spellcasting_adjustment('somatic_difficulty', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "-1" ] },
+      { "math": [ "u_spellcasting_adjustment('cost', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "0.2" ] }
+    ]
+  },
+  {
+    "//1": "高速詠唱用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_metamagic_quicken",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_quicken"
+    },
+    "effect": [
+      { "math": [ "u_spellcasting_adjustment('casting_time', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "-0.95" ] },
+      { "math": [ "u_spellcasting_adjustment('cost', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "1" ] }
+    ]
+  },
+  {
+    "//1": "範囲拡大詠唱用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_metamagic_widen",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_widen"
+    },
+    "effect": [
+      { "math": [ "u_spellcasting_adjustment('aoe', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "1" ] },
+      { "math": [ "u_spellcasting_adjustment('cost', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "0.5" ] }
+    ]
+  },
+  {
+    "//1": "射程距離延長用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_metamagic_reach",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_reach"
+    },
+    "effect": [
+      { "math": [ "u_spellcasting_adjustment('aoe', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "1" ] },
+      { "math": [ "u_spellcasting_adjustment('cost', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "0.5" ] }
+    ]
+  },
+  {
+    "//1": "無音詠唱用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_metamagic_silent",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_silent"
+    },
+    "effect": [
+      { "math": [ "u_spellcasting_adjustment('sound', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "-1" ] },
+      { "math": [ "u_spellcasting_adjustment('cost', 'flag_blacklist': 'CONSUMES_RUNES' )", "=", "0.2" ] }
+    ]
+  },
+  {
+    "//1": "緻密詠唱詠唱用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_metamagic_careful",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_careful"
+    },
+    "effect": [
+      { "math": [ "u_spellcasting_adjustment('casting_time' )", "=", "2" ] },
+      { "math": [ "u_spellcasting_adjustment('difficulty' )", "=", "-5" ] }
+    ]
+  },
+  {
+    "//1": "無心詠唱詠唱用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_metamagic_intuitive",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_intuitive"
+    },
+    "effect": [
+      {
+        "math": [
+          "u_spellcasting_adjustment('concentration', 'flag_blacklist': 'CONSUMES_RUNES', 'flag_whitelist': 'CONCENTRATE' )",
+          "=",
+          "-1"
+        ]
+      },
+      {
+        "math": [
+          "u_spellcasting_adjustment('cost', 'flag_blacklist': 'CONSUMES_RUNES', 'flag_whitelist': 'CONCENTRATE' )",
+          "=",
+          "0.2"
+        ]
+      }
+    ]
+  },
+  {
+    "//1": "マナ軽減用のeoc",
+    "type": "effect_on_condition",
+    "id": "EOC_metamagic_reduction",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": {
+      "u_has_trait": "PSY_metamagic_reduction"
+    },
+    "effect": [
+      { "math": [ "u_spellcasting_adjustment('cost' )", "=", "0.5" ] },
+      { "math": [ "u_spellcasting_adjustment('difficulty' )", "=", "3" ] }
+    ]
+  }
+]

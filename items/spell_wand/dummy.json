@@ -14,7 +14,7 @@
     "volume": "1 L",
     "longest_side": "38 cm",
     "description": "A fake item for all staves.",
-    "bashing": 15,
+    "melee_damage": { "bash": 15 },
     "category": "weapons",
     "to_hit": 1,
     "charges_per_use": 1,

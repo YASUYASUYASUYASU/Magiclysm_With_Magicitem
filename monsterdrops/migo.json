@@ -1,0 +1,12 @@
+[
+  {
+    "//1": "ミ=ゴ達だけのユニークドロップ品を設定(ミゴの爪、☆ライフル(ミ=ゴの試作雷撃銃))",
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "migo_unique_drops",
+    "entries": [
+      { "item": "MWMI_knife_migo", "prob": 2 },
+      { "item": "MWMI_rifle_migo1", "prob": 1 }
+    ]
+  }
+]

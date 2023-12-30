@@ -14,7 +14,7 @@
       { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
-      { "proficiency": "prof_carving", "time_multiplier": 1.2, "fail_multiplier": 1, "learning_time_multiplier": 0.2 }
+      { "proficiency": "prof_carving", "time_multiplier": 1.2, "skill_penalty": 1, "learning_time_multiplier": 0.2 }
     ],
     "using": [ [ "blacksmithing_standard", 16 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],

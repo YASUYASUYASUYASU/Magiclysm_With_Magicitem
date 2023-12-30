@@ -1,0 +1,11 @@
+[
+  {
+    "//1": "牛頭だけのユニークドロップ品を設定(ミノタウロスの斧)",
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "gozu_unique_drops",
+    "entries": [
+      { "item": "MWMI_axe_minotaur", "prob": 1 }
+    ]
+  }
+]

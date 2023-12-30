@@ -1,0 +1,8 @@
+[
+  {
+    "id": "mon_gozu",
+    "type": "MONSTER",
+    "copy-from": "mon_gozu",
+    "death_drops": "gozu_unique_drops"
+  }
+]

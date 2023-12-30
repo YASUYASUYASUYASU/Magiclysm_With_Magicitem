@@ -183,7 +183,15 @@
         { "item": "PSY_magi_mnecklace_safe_5", "prob": 5 },
         { "item": "PSY_magi_mnecklace_electric_safe_1", "prob": 1 },
         { "item": "PSY_magi_mnecklace_acid_safe_1", "prob": 1 },
-        { "item": "PSY_magi_mnecklace_fire_safe_1", "prob": 1 }
+        { "item": "PSY_magi_mnecklace_fire_safe_1", "prob": 1 },
+        { "item": "PSY_magi_bracelet_magicstill"     , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicquicken"   , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicwiden"     , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicreach"     , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicsilent"    , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magiccareful"   , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicintuitive" , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicreduction" , "prob": 5 }
       ]
     }
   },
@@ -299,7 +307,15 @@
         { "item": "PSY_magi_fencer_gloves"       , "prob": 5 },
         { "item": "PSY_magi_fencer_boots"        , "prob": 5 },
         { "item": "PSY_magi_magic_rapier"        , "prob": 5 },
-        { "item": "PSY_magi_magic_estoc"         , "prob": 5 }
+        { "item": "PSY_magi_magic_estoc"         , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicstill"     , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicquicken"   , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicwiden"     , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicreach"     , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicsilent"    , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magiccareful"   , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicintuitive" , "prob": 5 },
+        { "item": "PSY_magi_bracelet_magicreduction" , "prob": 5 }
       ]
     }
   },
@@ -339,6 +355,122 @@
     "extend": {
       "entries": [
         { "item": "mtoken_halligan", "prob": 20 }
+      ]
+    }
+  },
+  {
+    "//1": "minor enchanted wandsに追加した魔法杖を追加する",
+    "id": "enchanted_wands_minor",
+    "type": "item_group",
+    "copy-from": "enchanted_wands_minor",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+        { "item": "PSY_magi_stave_magic_smite_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_skeleton_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_decayed_pouncer_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_light_healing_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_pain_split_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bio_grotesque_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bio_acidicspray_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_druid_veggrasp_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_druid_rootstrike_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_cats_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_shardspray_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_piercing_bolt_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_shardstorm_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_nova_flare_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_ice_spike_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_frost_spray_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_freezing_touch_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_phase_door_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_frost_spray_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_freezing_touch_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_phase_door_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_gravity_well_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_magus_mana_bolt_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_lightning_bolt_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_lightning_storm_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_stormshaper_ionization_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_improved_knock_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bless_1", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_spirit_armor_1", "prob": 10, "charges-min": 3, "charges-max": 24 }
+      ]
+    }
+  },
+  {
+    "//1": "enchanted_wands_lesserに追加した魔法杖を追加する",
+    "id": "enchanted_wands_lesser",
+    "type": "item_group",
+    "copy-from": "enchanted_wands_lesser",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+        { "item": "PSY_magi_stave_magic_smite_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_skeleton_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_decayed_pouncer_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_light_healing_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bio_grotesque_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bio_acidicspray_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_druid_veggrasp_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_druid_rootstrike_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_cats_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_shardspray_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_piercing_bolt_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_shardstorm_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_nova_flare_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_ice_spike_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_frost_spray_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_freezing_touch_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_phase_door_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_frost_spray_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_freezing_touch_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_phase_door_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_gravity_well_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_magus_mana_bolt_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_lightning_bolt_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_lightning_storm_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_stormshaper_ionization_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bless_2", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_spirit_armor_2", "prob": 10, "charges-min": 3, "charges-max": 24 }
+      ]
+    }
+  },
+  {
+    "//1": "enchanted_wands_greaterに追加した魔法杖を追加する",
+    "id": "enchanted_wands_greater",
+    "type": "item_group",
+    "copy-from": "enchanted_wands_greater",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+        { "item": "PSY_magi_stave_magic_smite_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_skeleton_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_decayed_pouncer_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_light_healing_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bio_grotesque_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bio_acidicspray_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_druid_veggrasp_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_druid_rootstrike_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_summon_cats_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_shardspray_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_piercing_bolt_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_eshaper_shardstorm_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_nova_flare_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_ice_spike_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_frost_spray_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_freezing_touch_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_phase_door_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_frost_spray_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_freezing_touch_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_phase_door_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_gravity_well_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_magus_mana_bolt_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_lightning_bolt_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_lightning_storm_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_stormshaper_ionization_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_bless_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
+        { "item": "PSY_magi_stave_magic_spirit_armor_3", "prob": 10, "charges-min": 3, "charges-max": 24 }
       ]
     }
   }

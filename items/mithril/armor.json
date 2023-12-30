@@ -11,7 +11,7 @@
     "price": 60000,
     "price_postapoc": 12000,
     "to_hit": -5,
-    "bashing": 8,
+    "melee_damage": { "bash": 8 },
     "material": [ "steel", "leather" ],
     "symbol": "[",
     "looks_like": "armor_larmor",

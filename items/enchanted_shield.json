@@ -8,7 +8,7 @@
     "weight": "3175 g",
     "volume": "4 L",
     "price": "900 USD",
-    "bashing": 4,
+    "melee_damage": { "bash": 4 },
     "material": [ "wood","iron" ],
     "symbol": "[",
     "color": "light_gray",

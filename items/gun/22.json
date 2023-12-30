@@ -10,7 +10,7 @@
     "volume": "250 ml",
     "price": 10000,
     "to_hit": -2,
-    "bashing": 10,
+    "melee_damage": { "bash": 10 },
     "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "dark_gray",

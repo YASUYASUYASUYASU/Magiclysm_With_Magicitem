@@ -1,0 +1,48 @@
+[
+  {
+    "id": "MWMI_rifle_migo1",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str_sp": "☆ライフル(ミ=ゴの試作雷撃銃)" },
+    "description": "ミ=ゴが研究していた大型の回転弾倉式の試作ライフルです。汚染肉や変異肉をチャンバー内に詰め込み、トリガーを引くことで汚染肉からブロブのエネルギーを取り出し電力に変換して発射する銃です。",
+    "copy-from": "ar15",
+    "weight": "2290 g",
+    "volume": "4610 ml",
+    "longest_side": "1300 mm",
+    "price": "85000 USD",
+    "price_postapoc": 3000,
+    "to_hit": -1,
+    "melee_damage": { "bash": 12 },
+    "material": [ "superalloy", "flesh" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": [ "PSY_migo_flesh" ],
+    "skill": "rifle",
+    "ranged_damage": { "damage_type": "bullet", "amount": 3 },
+    "dispersion": 90,
+    "durability": 7,
+    "barrel_volume": "500 ml",
+    "flags": [ "RELOAD_ONE", "WATERPROOF_GUN", "NEVER_JAMS", "RELOAD_EJECT" ] ,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ],
+      [ "stock accessory", 2 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "clip_size": 10,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_migo_flesh": 10 }
+      }
+    ]
+  }
+]

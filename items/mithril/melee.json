@@ -16,7 +16,7 @@
     "name": { "str": "ミスリルファルクス" },
     "material": [ "mithril_metal" ],
     "weight": "680 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -26,7 +26,7 @@
     "name": { "str": "ミスリルバトルアックス" },
     "material": [ "mithril_metal" ],
     "weight": "1001 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -36,7 +36,7 @@
     "name": { "str": "ミスリル日本刀" },
     "material": [ "mithril_metal" ],
     "weight": "562 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -46,7 +46,7 @@
     "name": { "str": "ミスリルスピア" },
     "material": [ "mithril_metal" ],
     "weight": "699 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -56,7 +56,7 @@
     "name": { "str": "ミスリルレイピア" },
     "material": [ "mithril_metal" ],
     "weight": "500 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -66,7 +66,7 @@
     "name": { "str": "ミスリルエストック" },
     "material": [ "mithril_metal" ],
     "weight": "907 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -76,7 +76,7 @@
     "name": { "str": "ミスリルナイフ" },
     "material": [ "mithril_metal" ],
     "weight": "279 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -86,7 +86,7 @@
     "name": { "str": "ミスリルクロー" },
     "material": [ "mithril_metal" ],
     "weight": "279 g",
-    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -96,7 +96,7 @@
     "name": { "str": "ミスリルハンマー" },
     "material": [ "mithril_metal" ],
     "weight": "279 g",
-    "proportional": { "cutting": 1.5, "bashing": 1.1 },
+    "proportional": { "melee_damage": { "bash": 1.1, "cut": 1.5 } },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   },
   {
@@ -106,8 +106,7 @@
     "name": { "str": "ミスリルおたま" },
     "material": [ "mithril_metal" ],
     "weight": "279 g",
-    "bashing": 15,
-    "cutting": 10,
+    "melee_damage": { "bash": 15, "cut": 10 },
     "extend": { "flags": [ "MAGIC_FOCUS" ] }
   }
 ]

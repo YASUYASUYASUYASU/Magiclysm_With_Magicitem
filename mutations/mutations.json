@@ -1,5 +1,9 @@
 [
   {
+    "type": "mutation_type",
+    "id": "MAGICITEM_META"
+  },
+  {
     "type": "mutation",
     "id": "WINGS_MANA",
     "name": { "str": "マナの翼" },
@@ -8,5 +12,85 @@
     "ugliness": 0,
     "description": "ネックレスから放出されるマナが翼を象っており、落下ダメージを無効化します",
     "flags": [ "WINGS_2" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_still",
+    "name": { "str": "不動詠唱" },
+    "points": 0,
+    "description": "魔法のコストを20%上昇させる代わりに詠唱成功に腕、脚、手の動作制限が詠唱に影響しなくなります。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_still" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_quicken",
+    "name": { "str": "高速詠唱" },
+    "points": 0,
+    "description": "魔法のコストを100%上昇させる代わりに詠唱速度を95%軽減させます。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_quicken" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_widen",
+    "name": { "str": "範囲拡大" },
+    "points": 0,
+    "description": "魔法のコストを50%上昇させる代わりに効果範囲を100%拡大させます。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_widen" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_reach",
+    "name": { "str": "射程延長" },
+    "points": 0,
+    "description": "魔法のコストを50%上昇させる代わりに射程距離を100%拡大させます。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_reach" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_silent",
+    "name": { "str": "無音詠唱" },
+    "points": 0,
+    "description": "魔法のコストを20%上昇させる代わりに詠唱時の音を100%軽減させます。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_silent" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_careful",
+    "name": { "str": "緻密詠唱" },
+    "points": 0,
+    "description": "魔法の詠唱時間を200%にする代わりに魔法の詠唱何度を-5させます。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_careful" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_intuitive",
+    "name": { "str": "無心詠唱" },
+    "points": 0,
+    "description": "魔法のコストを20%増加させる代わりに集中力が詠唱に影響しなくなります。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_intuitive" ]
+  },
+  {
+    "type": "mutation",
+    "id": "PSY_metamagic_reduction",
+    "name": { "str": "マナ消費軽減" },
+    "points": 0,
+    "description": "魔法のコストを50%軽減させる代わりに魔法の難易度が3上昇します。",
+    "category": [ "MAGICITEM_META" ],
+    "active": true,
+    "activated_eocs": [ "EOC_PSY_metamagic_reduction" ]
   }
 ]

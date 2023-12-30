@@ -10,7 +10,7 @@
     "volume": "1 L",
     "price": 60000,
     "to_hit": -3,
-    "bashing": 12,
+    "melee_damage": { "bash": 12 },
     "material": [ "steel", "wood","copper","silver","gold","platinum" ],
     "symbol": "(",
     "color": "dark_gray",

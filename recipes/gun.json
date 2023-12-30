@@ -1,9 +1,11 @@
 [
   {
+    "//1": "各種魔法銃のレシピ",
     "type": "recipe",
     "result": "PSY_magi_magic_revolver_ver1",
     "category": "CC_PSY_MWMI",
     "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 1 ],
     "difficulty": 1,
@@ -22,13 +24,10 @@
   },{
     "type": "recipe",
     "result": "PSY_magi_magic_revolver_ver2",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_WEAPONS",
-    "skill_used": "fabrication",
+    "copy-from": "PSY_magi_magic_revolver_ver1",
     "skills_required": [ "spellcraft", 3 ],
     "difficulty": 3,
     "time": "45 m",
-    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 3 },
       { "id": "SCREW"      , "level": 1 },
@@ -44,13 +43,10 @@
   },{
     "type": "recipe",
     "result": "PSY_magi_magic_revolver_ver3",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_WEAPONS",
-    "skill_used": "fabrication",
+    "copy-from": "PSY_magi_magic_revolver_ver1",
     "skills_required": [ "spellcraft", 5 ],
     "difficulty": 3,
     "time": "45 m",
-    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 3 },
       { "id": "SCREW_FINE",  "level": 1 },
@@ -67,13 +63,10 @@
   },{
     "type": "recipe",
     "result": "PSY_magi_magic_revolver_ver4",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_WEAPONS",
-    "skill_used": "fabrication",
+    "copy-from": "PSY_magi_magic_revolver_ver1",
     "skills_required": [ "spellcraft", 7 ],
     "difficulty": 5,
     "time": "60 m",
-    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 3 },
       { "id": "SCREW_FINE",  "level": 1 },
@@ -91,13 +84,10 @@
   },{
     "type": "recipe",
     "result": "PSY_magi_magic_revolver_ver5",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_WEAPONS",
-    "skill_used": "fabrication",
+    "copy-from": "PSY_magi_magic_revolver_ver1",
     "skills_required": [ "spellcraft", 7 ],
     "difficulty": 5,
     "time": "60 m",
-    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 3 },
       { "id": "SCREW_FINE",  "level": 1 },
@@ -115,13 +105,10 @@
   },{
     "type": "recipe",
     "result": "PSY_magi_magic_revolver_ver6",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_WEAPONS",
-    "skill_used": "fabrication",
+    "copy-from": "PSY_magi_magic_revolver_ver1",
     "skills_required": [ "spellcraft", 9 ],
     "difficulty": 7,
     "time": "60 m",
-    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 3 },
       { "id": "SCREW_FINE",  "level": 1 },
@@ -140,13 +127,10 @@
   },{
     "type": "recipe",
     "result": "PSY_magi_magic_revolver_ver7",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_WEAPONS",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 11 ],
+    "copy-from": "PSY_magi_magic_revolver_ver1",
+    "skills_required": [ "spellcraft", 10 ],
     "difficulty": 8,
     "time": "60 m",
-    "autolearn": true,
     "qualities": [
       { "id": "HAMMER", "level": 3 },
       { "id": "SCREW_FINE",  "level": 1 },

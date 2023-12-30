@@ -40,5 +40,11 @@
     "id": "PSY_magi_454_magic",
     "name": "セプテム専用マナカートリッジ",
     "default": "PSY_magi_454_magic"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "PSY_migo_flesh",
+    "name": "汚染された肉",
+    "default": "PSY_magi_migo_ammo"
   }
 ]

@@ -1,9 +1,11 @@
 [
   {
+    "//1": "各種魔法45口径弾のレシピ",
     "type": "recipe",
     "result": "PSY_magi_45_magic",
     "category": "CC_PSY_MWMI",
     "subcategory": "CSC_PSY_MWMI_AMMO",
+    "activity_level": "LIGHT_EXERCISE",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 6 ],
     "difficulty": 1,
@@ -16,16 +18,11 @@
     "components": [
        [ [ "pebble",  1 ] ]
      ]
-  },{
+  },
+  {
     "type": "recipe",
     "result": "PSY_magi_45_magic_magus",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_AMMO",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 6 ],
-    "difficulty": 1,
-    "time": "1 m",
-    "autolearn": true,
+    "copy-from": "PSY_magi_45_magic",
     "qualities": [
       { "id": "MANA_FOCUS", "level": 1 }
      ],
@@ -33,16 +30,11 @@
     "components": [
        [ [ "rune_magus",  1 ] ]
      ]
-  },{
+  },
+  {
     "type": "recipe",
     "result": "PSY_magi_45_magic_fire",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_AMMO",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 6 ],
-    "difficulty": 1,
-    "time": "1 m",
-    "autolearn": true,
+    "copy-from": "PSY_magi_45_magic",
     "qualities": [
       { "id": "MANA_FOCUS", "level": 1 }
      ],
@@ -50,16 +42,11 @@
     "components": [
        [ [ "rune_kelvinist",  1 ] ]
      ]
-  },{
+  },
+  {
     "type": "recipe",
     "result": "PSY_magi_45_magic_thunder",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_AMMO",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 6 ],
-    "difficulty": 1,
-    "time": "1 m",
-    "autolearn": true,
+    "copy-from": "PSY_magi_45_magic",
     "qualities": [
       { "id": "MANA_FOCUS", "level": 1 }
      ],
@@ -67,16 +54,11 @@
     "components": [
        [ [ "rune_stormshaper",  1 ] ]
      ]
-  },{
+  },
+  {
     "type": "recipe",
     "result": "PSY_magi_45_magic_earth",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_AMMO",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 6 ],
-    "difficulty": 1,
-    "time": "1 m",
-    "autolearn": true,
+    "copy-from": "PSY_magi_45_magic",
     "qualities": [
       { "id": "MANA_FOCUS", "level": 1 }
      ],
@@ -84,16 +66,11 @@
     "components": [
        [ [ "rune_earthshaper",  1 ] ]
      ]
-  },{
+  },
+  {
     "type": "recipe",
     "result": "PSY_magi_45_magic_wood",
-    "category": "CC_PSY_MWMI",
-    "subcategory": "CSC_PSY_MWMI_AMMO",
-    "skill_used": "fabrication",
-    "skills_required": [ "spellcraft", 6 ],
-    "difficulty": 1,
-    "time": "1 m",
-    "autolearn": true,
+    "copy-from": "PSY_magi_45_magic",
     "qualities": [
       { "id": "MANA_FOCUS", "level": 1 }
      ],

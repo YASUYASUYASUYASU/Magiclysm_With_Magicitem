@@ -1,0 +1,8 @@
+[
+  {
+    "id": "mon_balrog",
+    "type": "MONSTER",
+    "copy-from": "mon_balrog",
+    "death_drops": "balrog_unique_drops"
+  }
+]

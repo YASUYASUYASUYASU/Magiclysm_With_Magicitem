@@ -1,31 +1,11 @@
 [
   {
+    "//1": "詠唱のスカーフ用のエンチャント",
     "id": "PSY_magi_ench_magic_scarf",
     "type": "enchantment",
     "has": "WORN",
     "condition": "ALWAYS",
     "mutations": [ "MANA_SUBTLE_SPELL","MANA_SILENT_SPELL" ]
-  },
-  {
-    "id": "PSY_magi_ench_mbracer_siphon_1",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "MANA_SIPHON_1" ]
-  },
-  {
-    "id": "PSY_magi_ench_mbracer_siphon_2",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "MANA_SIPHON_2" ]
-  },
-  {
-    "id": "PSY_magi_ench_mbracer_siphon_3",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "MANA_SIPHON_3" ]
   },
   {
     "id": "PSY_magi_ench_learning_bracelet",
@@ -35,44 +15,75 @@
     "mutations": [ "FASTLEARNER" ]
   },
   {
-    "id": "PSY_magi_ench_glasses_bookworm",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "LOVES_BOOKS" ]
-  },
-  {
-    "id": "PSY_magi_ench_beauty_hair_ornaments_1",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "PRETTY" ]
-  },
-  {
-    "id": "PSY_magi_ench_beauty_hair_ornaments_2",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "PRETTY","BEAUTIFUL" ]
-  },
-  {
-    "id": "PSY_magi_ench_smelly_necklace",
-    "type": "enchantment",
-    "has": "WORN",
-    "condition": "ALWAYS",
-    "mutations": [ "SMELLY" ],
-    "values": [
-      { "value": "ARMOR_CUT", "add": -2 },
-      { "value": "ARMOR_BASH", "add": -2 },
-      { "value": "ARMOR_STAB", "add": -2 },
-      { "value": "ARMOR_BULLET", "add": -1 }
-    ]
-  },
-  {
+    "//1": "天使の羽のネックレス用のエンチャント",
     "id": "PSY_magi_ench_angel_wing",
     "type": "enchantment",
     "has": "WORN",
     "condition": "ALWAYS",
     "mutations": [ "WINGS_MANA" ]
+  },
+  {
+    "//1": "不動詠唱の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_still",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_still" ]
+  },
+  {
+    "//1": "高速詠唱の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_quicken",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_quicken" ]
+  },
+  {
+    "//1": "範囲拡大の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_widen",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_widen" ]
+  },
+  {
+    "//1": "射程延長の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_reach",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_reach" ]
+  },
+  {
+    "//1": "無音詠唱の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_silent",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_silent" ]
+  },
+  {
+    "//1": "緻密詠唱の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_careful",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_careful" ]
+  },
+  {
+    "//1": "無心詠唱の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_intuitive",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_intuitive" ]
+  },
+  {
+    "//1": "マナ軽減の腕輪用のエンチャント",
+    "id": "PSY_magi_ench_metamagic_reduction",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PSY_metamagic_reduction" ]
   }
 ]

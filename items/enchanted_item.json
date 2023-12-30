@@ -568,7 +568,7 @@
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "3000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.10 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.10 } ] } ] }
   },
   {
     "id": "PSY_magi_bracelet_attack_cost_lesser",
@@ -577,7 +577,7 @@
     "description": "見たことがない文字が掘られた銀製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
     "copy-from": "silver_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.15 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.15 } ] } ] }
   },
   {
     "id": "PSY_magi_bracelet_attack_cost_moderate",
@@ -586,7 +586,7 @@
     "description": "見たことがない文字が掘られた金製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
     "copy-from": "gold_bracelet",
     "price_postapoc": "7000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.20 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.20 } ] } ] }
   },
   {
     "id": "PSY_magi_bracelet_attack_cost_greater",
@@ -595,6 +595,109 @@
     "description": "見たことがない文字が掘られたプラチナ製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
     "copy-from": "platinum_bracelet",
     "price_postapoc": "9000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.25 } ] } ] }
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.25 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_grab_power",
+    "type": "ARMOR",
+    "name": { "str": "☆パワーグラブ[MWMI]" },
+    "description": "装備すると強大な力が湧いてくるグローブです。装備することで効果を発揮します",
+    "copy-from": "gloves_leather",
+    "price_postapoc": "9000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 6 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_tiara_1",
+    "type": "ARMOR",
+    "name": { "str": "☆虹の水環[MWMI]" },
+    "description": "強力な防御魔法の施された水環です。装備することで、熱・雷に強い耐性を得ることができます",
+    "copy-from": "copper_circlet",
+    "price_postapoc": "9000 USD",
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT", "add": -20 },{ "value": "ARMOR_ELEC", "add": -20 } ] } ]
+    }
+  },
+  {
+    "id": "PSY_magi_gaurd_1",
+    "type": "ARMOR",
+    "name": { "str": "☆ワンダーバングル[MWMI]" },
+    "description": "射撃武器に対するダメージ軽減魔法を施された腕輪です。これを身に着けることで射撃系武器のダメージを大幅に軽減することができます。",
+    "copy-from": "platinum_bracelet",
+    "price_postapoc": "9000 USD",
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_STAB", "add": -20 },{ "value": "ARMOR_BULLET", "add": -20 } ] } ]
+    }
+  },
+  {
+    "id": "PSY_magi_bracelet_magicstill",
+    "type": "ARMOR",
+    "name": { "str": "不動詠唱の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを20%上昇させる代わりに詠唱成功に腕、脚、手の動作制限が詠唱に影響しなくなります。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_still" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_magicquicken",
+    "type": "ARMOR",
+    "name": { "str": "高速詠唱の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを100%上昇させる代わりに詠唱速度を95%軽減させます。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_quicken" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_magicwiden",
+    "type": "ARMOR",
+    "name": { "str": "範囲拡大の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%上昇させる代わりに効果範囲を100%拡大させます。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_widen" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_magicreach",
+    "type": "ARMOR",
+    "name": { "str": "射程延長の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%上昇させる代わりに射程距離を100%拡大させます。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_reach" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_magicsilent",
+    "type": "ARMOR",
+    "name": { "str": "無音詠唱の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを20%上昇させる代わりに詠唱時の音を100%軽減させます。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_silent" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_magiccareful",
+    "type": "ARMOR",
+    "name": { "str": "緻密詠唱の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法の詠唱時間を200%にする代わりに魔法の詠唱何度を-5させます。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_careful" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_magicintuitive",
+    "type": "ARMOR",
+    "name": { "str": "無心詠唱の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを20%増加させる代わりに集中力が詠唱に影響しなくなります。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_intuitive" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_magicreduction",
+    "type": "ARMOR",
+    "name": { "str": "マナ軽減の腕輪[MWMI]" },
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%軽減させる代わりに魔法の難易度が1上昇します。",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_intuitive" } ] }
   }
 ]
