@@ -6,7 +6,7 @@
     "reload_noise_volume": 10,
     "name": { "str_sp": "☆ライフル(ミ=ゴの試作雷撃銃)" },
     "description": "ミ=ゴが研究していた大型の回転弾倉式の試作ライフルです。汚染肉や変異肉をチャンバー内に詰め込み、トリガーを引くことで汚染肉からブロブのエネルギーを取り出し電力に変換して発射する銃です。",
-    "copy-from": "ar15",
+    "copy-from": "modular_ar15",
     "weight": "2290 g",
     "volume": "4610 ml",
     "longest_side": "1300 mm",
