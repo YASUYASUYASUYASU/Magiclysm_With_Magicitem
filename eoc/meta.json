@@ -119,7 +119,7 @@
       "u_has_trait": "PSY_metamagic_reduction"
     },
     "effect": [
-      { "math": [ "u_spellcasting_adjustment('cost' )", "=", "0.5" ] },
+      { "math": [ "u_spellcasting_adjustment('cost' )", "=", "-0.5" ] },
       { "math": [ "u_spellcasting_adjustment('difficulty' )", "=", "3" ] }
     ]
   }

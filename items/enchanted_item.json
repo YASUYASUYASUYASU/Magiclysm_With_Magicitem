@@ -695,9 +695,9 @@
     "id": "PSY_magi_bracelet_magicreduction",
     "type": "ARMOR",
     "name": { "str": "マナ軽減の腕輪[MWMI]" },
-    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%軽減させる代わりに魔法の難易度が1上昇します。",
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%軽減させる代わりに魔法の難易度が3上昇します。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_intuitive" } ] }
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_reduction" } ] }
   }
 ]
