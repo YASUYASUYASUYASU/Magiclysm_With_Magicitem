@@ -147,39 +147,6 @@
     ]
   },
   {
-    "//1": "知性の指輪+2の合成レシピ(知性の指輪+1を2つを使う)",
-    "type": "recipe",
-    "result": "mring_intelligence_2",
-    "copy-from": "mring_wizardry_lesser",
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "difficulty": 2,
-    "components": [ 
-      [ [ "mring_intelligence_1", 2 ] ]
-    ]
-  },
-  {
-    "//1": "知性の指輪+3の合成レシピ(器用の指輪+2を2つを使う)",
-    "type": "recipe",
-    "result": "mring_intelligence_3",
-    "copy-from": "mring_wizardry_lesser",
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "difficulty": 4,
-    "components": [ 
-      [ [ "mring_intelligence_2", 2 ] ]
-    ]
-  },
-  {
-    "//1": "知性の指輪+4の合成レシピ(器用の指輪+3を2つを使う)",
-    "type": "recipe",
-    "result": "mring_intelligence_4",
-    "copy-from": "mring_wizardry_lesser",
-    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
-    "difficulty": 6,
-    "components": [ 
-      [ [ "mring_dexterity_3", 2 ] ]
-    ]
-  },
-  {
     "//1": "感覚の指輪+2の合成レシピ(感覚の指輪+1を2つを使う)",
     "type": "recipe",
     "result": "mring_perception_2",
