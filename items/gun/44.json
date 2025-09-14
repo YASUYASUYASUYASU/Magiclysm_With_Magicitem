@@ -8,7 +8,7 @@
     "description": "魔法使いの為に設計されたマナカートリッジ弾専用拳銃 セクスです。熟練の魔法使いしか扱えない銃で、その威力も折り紙付きです。",
     "weight": "1200 g",
     "volume": "1 L",
-    "price": 60000,
+    "price": "600 USD",
     "to_hit": -3,
     "melee_damage": { "bash": 12 },
     "material": [ "steel", "wood","copper","silver","gold","platinum" ],

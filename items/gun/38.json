@@ -8,7 +8,7 @@
     "description": "魔法使いの為に設計されたマナカートリッジ弾専用拳銃 デュオです。あなたのスキルの成長に伴い、ウーヌム以上の大口径のマナカートリッジを使う事が可能になりました。",
     "weight": "907 g",
     "volume": "500 ml",
-    "price": 22400,
+    "price": "224 USD",
     "to_hit": -2,
     "melee_damage": { "bash": 9 },
     "material": [ "steel", "wood" ],

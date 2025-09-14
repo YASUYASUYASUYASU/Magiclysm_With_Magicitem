@@ -8,7 +8,7 @@
     "description": "魔法使いの為に設計されたマナカートリッジ弾専用拳銃 クァットゥオルです。トリアに更なる改造を加え、更なる威力のマナカートリッジを使用できるようになりました。",
     "weight": "1200 g",
     "volume": "500 ml",
-    "price": 44000,
+    "price": "440 USD",
     "to_hit": -2,
     "melee_damage": { "bash": 10 },
     "material": [ "steel", "wood","copper","silver" ],

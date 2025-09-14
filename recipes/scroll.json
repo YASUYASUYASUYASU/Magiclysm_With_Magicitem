@@ -766,5 +766,36 @@
        [ [ "amplifier", 4 ] ],
        [ [ "rune_technomancer",   2 ] ]
      ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_summon_floating_disk_talisman_1",
+    "copy-from": "PSY_magi_recover_mana_talisman_1",
+    "components": [
+       [ [ "cable"  , 2 ] ],
+       [ [ "e_scrap", 1 ] ],
+       [ [ "rune_technomancer",   1 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_summon_floating_disk_talisman_2",
+    "copy-from": "PSY_magi_recover_mana_talisman_2",
+    "components": [
+       [ [ "cable"  , 2 ] ],
+       [ [ "e_scrap", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_summon_floating_disk_talisman_3",
+    "copy-from": "PSY_magi_recover_mana_talisman_3",
+    "components": [
+       [ [ "cable"  , 2 ] ],
+       [ [ "e_scrap", 1 ] ],
+       [ [ "amplifier", 4 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
   }
 ]

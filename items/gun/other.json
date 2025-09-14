@@ -11,7 +11,7 @@
     "volume": "4610 ml",
     "longest_side": "1300 mm",
     "price": "85000 USD",
-    "price_postapoc": 3000,
+    "price_postapoc": "30 USD",
     "to_hit": -1,
     "melee_damage": { "bash": 12 },
     "material": [ "superalloy", "flesh" ],
