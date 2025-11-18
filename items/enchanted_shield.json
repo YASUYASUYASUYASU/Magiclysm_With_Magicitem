@@ -4,7 +4,7 @@
     "type": "ARMOR",
     "name": { "str": "雷のカイトシールド[MWMI]" },
     "category": "armor",
-    "description": "雷の力が宿ったカイトシールドです。装備することで雷ダメージを軽減します",
+    "description": "雷の力が宿ったカイトシールドです。装備することで雷ダメージを軽減します[着用時に斬撃・打撃・刺突ダメージ2軽減 銃弾ダメージを1軽減 雷ダメージを5軽減]",
     "weight": "3175 g",
     "volume": "4 L",
     "price": "900 USD",
@@ -41,7 +41,7 @@
     "type": "ARMOR",
     "name": { "str": "氷のヒーターシールド[MWMI]" },
     "category": "armor",
-    "description": "氷の力が宿ったヒーターシールドです。装備することで氷ダメージを軽減します",
+    "description": "氷の力が宿ったヒーターシールドです。装備することで熱ダメージを軽減します[着用時に斬撃・打撃・刺突ダメージ2軽減 銃弾ダメージを1軽減 熱ダメージを5軽減]",
     "copy-from": "PSY_magi_shield_kite_thunder",
     "relic_data": {
       "passive_effects": [
@@ -64,7 +64,7 @@
     "type": "ARMOR",
     "name": { "str": "炎のヒーターシールド[MWMI]" },
     "category": "armor",
-    "description": "炎の力が宿ったヒーターシールドです。装備することで炎ダメージを軽減します",
+    "description": "炎の力が宿ったヒーターシールドです。装備することで氷ダメージを軽減します[着用時に斬撃・打撃・刺突ダメージ2軽減 銃弾ダメージを1軽減 熱ダメージを5軽減]",
     "copy-from": "PSY_magi_shield_kite_thunder",
     "relic_data": {
       "passive_effects": [

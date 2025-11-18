@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mon_fly_mega",
+    "type": "MONSTER",
+    "name": { "str": "frigate fly", "str_pl": "frigate flies" },
+    "copy-from": "mon_fly_mega",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_wasp_mega",
+    "type": "MONSTER",
+    "name": { "str": "giant wasp queen" },
+    "copy-from": "mon_wasp_mega",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }  },
+  {
+    "id": "mon_stag_beetle_mega",
+    "type": "MONSTER",
+    "name": { "str": "titan stag beetle" },
+    "copy-from": "mon_stag_beetle_mega",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_antlion_larva",
+    "type": "MONSTER",
+    "name": { "str": "giant antlion larva", "str_pl": "giant antlion larvae" },
+    "copy-from": "mon_antlion_larva",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

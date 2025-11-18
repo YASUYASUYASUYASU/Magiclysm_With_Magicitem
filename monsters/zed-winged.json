@@ -1,0 +1,9 @@
+[
+  {
+    "type": "MONSTER",
+    "id": "mon_spawn_raptor_electric",
+    "name": { "str": "zaptor" },
+    "copy-from": "mon_spawn_raptor_electric",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

@@ -2,7 +2,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_light_healing_1",
-    "name": { "str": "下級杖(キュア・ライト・ウーンズ)[MWMI]", "str_pl": "下級杖(キュア・ライト・ウーンズ)[MWMI]" },
+    "name": { "str_sp": "下級杖(キュア・ライト・ウーンズ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。キュア・ライト・ウーンズを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -12,7 +12,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_light_healing_2",
-    "name": { "str": "中級杖(キュア・ライト・ウーンズ)[MWMI]", "str_pl": "中級杖(キュア・ライト・ウーンズ)[MWMI]" },
+    "name": { "str_sp": "中級杖(キュア・ライト・ウーンズ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。キュア・ライト・ウーンズを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -22,7 +22,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_light_healing_3",
-    "name": { "str": "上級杖(キュア・ライト・ウーンズ)[MWMI]", "str_pl": "上級杖(キュア・ライト・ウーンズ)[MWMI]" },
+    "name": { "str_sp": "上級杖(キュア・ライト・ウーンズ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。キュア・ライト・ウーンズを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -32,7 +32,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_pain_split_1",
-    "name": { "str": "下級杖(ペイン・スプリット)[MWMI]", "str_pl": "下級杖(ペイン・スプリット)[MWMI]" },
+    "name": { "str_sp": "下級杖(ペイン・スプリット)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ペイン・スプリットを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -42,7 +42,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_bio_grotesque_1",
-    "name": { "str": "下級杖(グロテスク・エンハンスメント)[MWMI]", "str_pl": "下級杖(グロテスク・エンハンスメント)[MWMI]" },
+    "name": { "str_sp": "下級杖(グロテスク・エンハンスメント)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。グロテスク・エンハンスメントを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -52,7 +52,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_bio_grotesque_2",
-    "name": { "str": "中級杖(グロテスク・エンハンスメント)[MWMI]", "str_pl": "中級杖(グロテスク・エンハンスメント)[MWMI]" },
+    "name": { "str_sp": "中級杖(グロテスク・エンハンスメント)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。グロテスク・エンハンスメントを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -62,7 +62,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_bio_grotesque_3",
-    "name": { "str": "上級杖(グロテスク・エンハンスメント)[MWMI]", "str_pl": "上級杖(グロテスク・エンハンスメント)[MWMI]" },
+    "name": { "str_sp": "上級杖(グロテスク・エンハンスメント)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。グロテスク・エンハンスメントを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -72,7 +72,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_bio_acidicspray_1",
-    "name": { "str": "下級杖(アシディック・スプレー)[MWMI]", "str_pl": "下級杖(アシディック・スプレー)[MWMI]" },
+    "name": { "str_sp": "下級杖(アシディック・スプレー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。アシディック・スプレーを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -82,7 +82,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_bio_acidicspray_2",
-    "name": { "str": "中級杖(アシディック・スプレー)[MWMI]", "str_pl": "中級杖(アシディック・スプレー)[MWMI]" },
+    "name": { "str_sp": "中級杖(アシディック・スプレー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。アシディック・スプレーを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -92,7 +92,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_bio_acidicspray_3",
-    "name": { "str": "上級杖(アシディック・スプレー)[MWMI]", "str_pl": "上級杖(アシディック・スプレー)[MWMI]" },
+    "name": { "str_sp": "上級杖(アシディック・スプレー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。アシディック・スプレーを詠唱する機能をもっています。",
     "price": "600 USD",

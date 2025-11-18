@@ -1,0 +1,9 @@
+[
+  {
+    "id": "mon_zomborg_devourer",
+    "type": "MONSTER",
+    "name": { "str": "zomborg devourer" },
+    "copy-from": "mon_zomborg_devourer",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

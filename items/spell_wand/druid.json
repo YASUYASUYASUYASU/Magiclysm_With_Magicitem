@@ -2,7 +2,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_druid_veggrasp_1",
-    "name": { "str": "下級杖(ベジテイティブ・グラスプ)[MWMI]", "str_pl": "下級杖(ベジテイティブ・グラスプ)[MWMI]" },
+    "name": { "str_sp": "下級杖(ベジテイティブ・グラスプ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ベジテイティブ・グラスプを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -12,7 +12,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_druid_veggrasp_2",
-    "name": { "str": "中級杖(ベジテイティブ・グラスプ)[MWMI]", "str_pl": "中級杖(ベジテイティブ・グラスプ)[MWMI]" },
+    "name": { "str_sp": "中級杖(ベジテイティブ・グラスプ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ベジテイティブ・グラスプを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -22,7 +22,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_druid_veggrasp_3",
-    "name": { "str": "上級杖(ベジテイティブ・グラスプ)[MWMI]", "str_pl": "上級杖(ベジテイティブ・グラスプ)[MWMI]" },
+    "name": { "str_sp": "上級杖(ベジテイティブ・グラスプ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ベジテイティブ・グラスプを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -32,7 +32,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_druid_rootstrike_1",
-    "name": { "str": "下級杖(ルート・ストライク)[MWMI]", "str_pl": "下級杖(ルート・ストライク)[MWMI]" },
+    "name": { "str_sp": "下級杖(ルート・ストライク)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ルート・ストライクを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -42,7 +42,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_druid_rootstrike_2",
-    "name": { "str": "中級杖(ルート・ストライク)[MWMI]", "str_pl": "中級杖(ルート・ストライク)[MWMI]" },
+    "name": { "str_sp": "中級杖(ルート・ストライク)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ルート・ストライクを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -52,7 +52,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_druid_rootstrike_3",
-    "name": { "str": "上級杖(ルート・ストライク)[MWMI]", "str_pl": "上級杖(ルート・ストライク)[MWMI]" },
+    "name": { "str_sp": "上級杖(ルート・ストライク)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ルート・ストライクを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -62,7 +62,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_summon_cats_1",
-    "name": { "str": "下級杖(バグ・オブ・キャッツ)[MWMI]", "str_pl": "下級杖(バグ・オブ・キャッツ)[MWMI]" },
+    "name": { "str_sp": "下級杖(バグ・オブ・キャッツ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。バグ・オブ・キャッツを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -72,7 +72,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_summon_cats_2",
-    "name": { "str": "中級杖(バグ・オブ・キャッツ)[MWMI]", "str_pl": "中級杖(バグ・オブ・キャッツ)[MWMI]" },
+    "name": { "str_sp": "中級杖(バグ・オブ・キャッツ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。バグ・オブ・キャッツを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -82,7 +82,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_summon_cats_3",
-    "name": { "str": "上級杖(バグ・オブ・キャッツ)[MWMI]", "str_pl": "上級杖(バグ・オブ・キャッツ)[MWMI]" },
+    "name": { "str_sp": "上級杖(バグ・オブ・キャッツ)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。バグ・オブ・キャッツを詠唱する機能をもっています。",
     "price": "600 USD",

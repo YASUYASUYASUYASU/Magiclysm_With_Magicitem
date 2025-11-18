@@ -1,0 +1,10 @@
+[
+  {
+    "id": "mon_zombie_corrosive",
+    "type": "MONSTER",
+    "name": { "str": "corrosive zombie" },
+    "description": "This zombie has swollen to immense proportions, but still manages to hold itself together with semi-congealed acid all over its bloated, leathery body.  It moves clumsily, but spits from a large reserve of acid with uncanny accuracy.",
+    "copy-from": "mon_zombie_corrosive",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

@@ -3,8 +3,8 @@
     "id": "PSY_magi_hayate_bandana_head",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "疾風のバンダナ" },
-    "description": "風の紋章が刻まれたバンダナです。装備すると速度が上昇します",
+    "name": { "str_sp": "疾風のバンダナ[MWMI]" },
+    "description": "風の紋章が刻まれたバンダナです。装備すると速度が上昇します[速度+5]",
     "copy-from": "headscarf",
     "repairs_like": "headscarf",
     "price": "2000 USD",
@@ -23,8 +23,8 @@
   {
     "id": "PSY_magi_hayate_tshirt",
     "type": "ARMOR",
-    "name": { "str": "疾風の服" },
-    "description": "風の紋章が刻まれた服です。装備すると速度が上昇します",
+    "name": { "str_sp": "疾風の服[MWMI]" },
+    "description": "風の紋章が刻まれた服です。装備すると速度が上昇します[速度+5]",
     "copy-from": "tshirt",
     "repairs_like": "tshirt",
     "price": "2000 USD",
@@ -44,8 +44,8 @@
   {
     "id": "PSY_magi_hayate_bracelet",
     "type": "ARMOR",
-    "name": { "str": "疾風のブレスレット" },
-    "description": "風の紋章が刻まれたブレスレットです。装備すると速度が上昇します",
+    "name": { "str_sp": "疾風のブレスレット[MWMI]" },
+    "description": "風の紋章が刻まれたブレスレットです。装備すると速度が上昇します[速度+5]",
     "copy-from": "silver_bracelet",
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
@@ -64,8 +64,8 @@
   {
     "id": "PSY_magi_hayate_boots",
     "type": "ARMOR",
-    "name": { "str": "疾風のブーツ", "str_pl": "疾風のブーツ" },
-    "description": "風の紋章が刻まれたブーツです。装備すると速度が上昇します",
+    "name": { "str_sp": "疾風のブーツ[MWMI]" },
+    "description": "風の紋章が刻まれたブーツです。装備すると速度が上昇します[速度+5 移動コスト-15]",
     "copy-from": "boots",
     "repairs_like": "boots",
     "price": "2000 USD",
@@ -87,8 +87,8 @@
     "id": "PSY_magi_head_kyodan",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "教団の帽子" },
-    "description": "どこか聞いたことのない教団が使用している帽子です。装備することで魔力が強化されます。",
+    "name": { "str_sp": "教団の帽子[MWMI]" },
+    "description": "どこか聞いたことのない教団が使用している帽子です。装備することで魔力が強化されます。[最大マナ+2000 マナ回復速度50%上昇]",
     "copy-from": "headscarf",
     "warmth": 5,
     "relic_data": { 
@@ -107,8 +107,8 @@
   {
     "id": "PSY_magi_tshirt_kyodan",
     "type": "ARMOR",
-    "name": { "str": "教団の服" },
-    "description": "どこか聞いたことのない教団が使用している服です。装備することで魔力が強化されます。",
+    "name": { "str_sp": "教団の服[MWMI]" },
+    "description": "どこか聞いたことのない教団が使用している服です。装備することで魔力が強化されます。[最大マナ+2000 マナ回復速度50%上昇]",
     "copy-from": "jumpsuit",
     "repairs_like": "jumpsuit",
     "flags": [ "VARSIZE", "FANCY" ],
@@ -126,8 +126,8 @@
   {
     "id": "PSY_magi_bracelet_kyodan",
     "type": "ARMOR",
-    "name": { "str": "教団の手袋" },
-    "description": "どこか聞いたことのない教団が使用している手袋です。装備することで魔力が強化されます。",
+    "name": { "str_sp": "教団の手袋[MWMI]" },
+    "description": "どこか聞いたことのない教団が使用している手袋です。装備することで魔力が強化されます。[最大マナ500 マナ回復速度50%上昇]",
     "copy-from": "gloves_light",
     "repairs_like": "gloves_light",
     "flags": [ "FANCY" ],
@@ -146,8 +146,8 @@
   {
     "id": "PSY_magi_boots_kyodan",
     "type": "ARMOR",
-    "name": { "str": "教団の靴", "str_pl": "教団の靴" },
-    "description": "どこか聞いたことのない教団が使用している靴です。装備することで魔力が強化されます。",
+    "name": { "str_sp": "教団の靴[MWMI]" },
+    "description": "どこか聞いたことのない教団が使用している靴です。装備することで魔力が強化されます。[最大マナ+500 マナ回復速度50%上昇]",
      "copy-from": "dress_shoes",
     "repairs_like": "dress_shoes",
     "relic_data": { 
@@ -166,8 +166,8 @@
     "id": "PSY_magi_head_sister",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "教団のベール" },
-    "description": "どこか聞いたことのない教団が使用しているベールです。装備することで魔力が強化されます。",
+    "name": { "str_sp": "教団のベール[MWMI]" },
+    "description": "どこか聞いたことのない教団が使用しているベールです。装備することで魔力が強化されます。[最大マナ+2000 マナ回復速度50%上昇]",
     "copy-from": "headscarf",
     "repairs_like": "headscarf",
     "armor": [ { "coverage": 80, "covers": [ "head" ] } ],
@@ -186,24 +186,24 @@
   {
     "id": "PSY_magi_tshirt_sister",
     "type": "ARMOR",
-    "name": { "str": "教団の服(シスター)" },
-    "description": "どこか聞いたことのない教団が使用している服です。装備することで魔力が強化されます。",
+   "name": { "str_sp": "教団の服(シスター)[MWMI]" },
+    "description": "どこか聞いたことのない教団が使用している服です。装備することで魔力が強化されます。[最大マナ+2000 マナ回復速度50%上昇]",
+
     "copy-from": "PSY_magi_tshirt_kyodan"
   },
   {
     "id": "PSY_magi_head_bouei",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "防衛者の兜" },
-    "description": "防衛者と呼ばれる集団が装備する兜です。装備することでや多少の保護が得られます",
+    "name": { "str_sp": "防衛者の兜[MWMI]" },
+    "description": "防衛者と呼ばれる集団が装備する兜です。装備することでや多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",
     "copy-from": "helmet_barbute",
     "repairs_like": "helmet_armet",
-    "weight": "2000 g",
-    "volume": "2050 ml",
+    "proportional": { "weight": 0.9, "volume": 0.9 },
     "armor": [
-      { "covers": [ "head" ], "coverage": 100, "encumbrance": 30 },
-      { "covers": [ "mouth" ], "coverage": 100, "encumbrance": 20 },
-      { "covers": [ "eyes" ], "coverage": 100, "encumbrance": 20 }
+      { "covers": [ "head" ], "coverage": 100, "encumbrance": 20 },
+      { "covers": [ "mouth" ], "coverage": 100, "encumbrance": 15 },
+      { "covers": [ "eyes" ], "coverage": 100, "encumbrance": 15 }
     ],
     "warmth": 10,
     "material_thickness": 6,
@@ -226,14 +226,13 @@
   {
     "id": "PSY_magi_tshirt_bouei",
     "type": "ARMOR",
-    "name": { "str": "防衛者の鎧" },
-    "description": "防衛者と呼ばれる集団が装備する鎧です。装備することでや多少の保護が得られます",
+    "name": { "str_sp": "防衛者の鎧[MWMI]" },
+    "description": "防衛者と呼ばれる集団が装備する鎧です。装備することでや多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",
     "copy-from": "armor_lightplate",
     "repairs_like": "armor_lightplate",
-    "weight": "10 kg",
-    "volume": "17500 ml",
     "material_thickness": 6,
     "environmental_protection": 3,
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
     "relic_data": {
       "passive_effects": [
         {
@@ -252,15 +251,13 @@
   {
     "id": "PSY_magi_bracelet_bouei",
     "type": "ARMOR",
-    "name": { "str": "防衛者の籠手" },
-    "description": "防衛者と呼ばれる集団が装備する籠手です。装備することでや多少の保護が得られます",
+    "name": { "str_sp": "防衛者の籠手[MWMI]" },
+    "description": "防衛者と呼ばれる集団が装備する籠手です。装備することでや多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",
     "copy-from": "gloves_plate",
     "repairs_like": "gloves_plate",
-    "weight": "800 g",
-    "volume": "1300 ml",
-    "warmth": 20,
     "material_thickness": 4,
     "environmental_protection": 3,
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
     "relic_data": {
       "passive_effects": [
         {
@@ -279,14 +276,13 @@
   {
     "id": "PSY_magi_boots_bouei",
     "type": "ARMOR",
-    "name": { "str": "防衛者のグリーブ", "str_pl": "防衛者のグリーブ" },
-    "description": "防衛者と呼ばれる集団が装備するグリーブです。装備することでや多少の保護が得られます",
+    "name": { "str_sp": "防衛者のグリーブ[MWMI]" },
+    "description": "防衛者と呼ばれる集団が装備するグリーブです。装備することでや多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",
     "copy-from": "boots_plate",
     "repairs_like": "boots_plate",
-    "weight": "1500 g",
-    "volume": "2250 ml",
     "material_thickness": 4,
     "environmental_protection": 3,
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
     "relic_data": {
       "passive_effects": [
         {
@@ -306,11 +302,9 @@
     "id": "PSY_magi_head_val",
     "type": "TOOL_ARMOR",
     "category": "clothing",
-    "name": { "str": "ヴァルキリーの兜" },
-    "description": "ヴァルキリーと呼ばれる集団が装備する兜です。装備することでや多少の保護が得られます",
+    "name": { "str_sp": "ヴァルキリーの兜[MWMI]" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する兜です。装備することでや多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",
     "copy-from": "PSY_magi_head_bouei",
-    "weight": "1175 g",
-    "volume": "1750 ml",
     "armor": [
       { "covers": [ "head" ], "coverage": 40, "encumbrance": 10 }
     ],
@@ -332,29 +326,28 @@
   {
     "id": "PSY_magi_tshirt_val",
     "type": "ARMOR",
-    "name": { "str": "ヴァルキリーの鎧" },
-    "description": "ヴァルキリーと呼ばれる集団が装備する鎧です。装備することで多少の保護が得られます",
+    "name": { "str_sp": "ヴァルキリーの鎧[MWMI]" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する鎧です。装備することで多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",
     "copy-from": "PSY_magi_tshirt_bouei"
   },
   {
     "id": "PSY_magi_bracelet_val",
     "type": "ARMOR",
-    "name": { "str": "ヴァルキリーの籠手" },
-    "description": "ヴァルキリーと呼ばれる集団が装備する籠手です。装備することでや多少の保護が得られます",
-    "copy-from": "PSY_magi_bracelet_bouei"
+    "name": { "str_sp": "ヴァルキリーの籠手[MWMI]" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する籠手です。装備することでや多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",    "copy-from": "PSY_magi_bracelet_bouei"
   },
   {
     "id": "PSY_magi_boots_val",
     "type": "ARMOR",
-    "name": { "str": "ヴァルキリーの靴", "str_pl": "ヴァルキリーの靴" },
-    "description": "ヴァルキリーと呼ばれる集団が装備する靴です。装備することでや多少の保護が得られます",
+    "name": { "str_sp": "ヴァルキリーの靴[MWMI]" },
+    "description": "ヴァルキリーと呼ばれる集団が装備する靴です。装備することでや多少の保護が得られます[斬撃ダメージ軽減5 打撃ダメージ軽減5 刺突ダメージ軽減5 銃弾ダメージ軽減5]",
     "copy-from": "PSY_magi_boots_bouei"
   },
   {
     "id": "PSY_magi_trenchcoat",
     "type": "ARMOR",
-    "name": { "str": "赤魔導士のトレンチコート[MWMI]" },
-    "description": "赤魔導士と呼ばれる者が装備するコートです。装備すると特殊な効果が発動します。",
+    "name": { "str_sp": "赤魔導士のトレンチコート[MWMI]" },
+    "description": "赤魔導士と呼ばれる者が装備するコートです。装備すると特殊な効果が発動します。[最大マナ+1200]",
     "copy-from": "trenchcoat",
     "proportional": { "weight": 0.9, "volume": 0.9 },
     "price": "2000 USD",
@@ -364,10 +357,10 @@
   {
     "id": "PSY_magi_tricorne",
     "type": "ARMOR",
-    "name": { "str": "赤魔導士の羽帽子[MWMI]" },
-    "description": "赤魔導士と呼ばれる者が装備する羽帽子です。装備すると特殊な効果が発動します。",
+   "name": { "str_sp": "赤魔導士の羽帽子[MWMI]" },
+    "description": "赤魔導士と呼ばれる者が装備する羽帽子です。装備すると特殊な効果が発動します。[最大マナ+800 攻撃コスト-5]",
     "copy-from": "tricorne",
-    "proportional": { "weight": 0.9, "volume": 0.9 },
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
     "relic_data": { "passive_effects": 
@@ -380,10 +373,10 @@
   {
     "id": "PSY_magi_fencer_Armor",
     "type": "ARMOR",
-    "name": { "str": "青のフェンサーのアーマー[MWMI]" },
-    "description": "青のフェンサーと呼ばれるものが装備する鎧です。装備すると特殊な効果が発動します。",
+    "name": { "str_sp": "青のフェンサーのアーマー[MWMI]" },
+    "description": "青のフェンサーと呼ばれるものが装備する鎧です。装備すると特殊な効果が発動します。[最大マナ+1200 攻撃コスト-5]",
     "copy-from": "lc_chainmail_vest",
-    "proportional": { "weight": 1.1, "volume": 1.5 },
+    "proportional": { "weight": 0.8, "volume": 0.9, "encumbrance":0.8 },
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
     "material": [ "iron","leather" ],
@@ -414,36 +407,72 @@
   {
     "id": "PSY_magi_fencer_head",
     "type": "ARMOR",
-    "name": { "str": "青のフェンサーの兜[MWMI]" },
-    "description": "青のフェンサーと呼ばれるものが装備する頭飾りです。装備すると特殊な効果が発動します。",
+    "name": { "str_sp": "青のフェンサーの兜[MWMI]" },
+    "description": "青のフェンサーと呼ばれるものが装備する頭飾りです。装備すると特殊な効果が発動します。[最大マナ+800 攻撃コスト-5]",
     "copy-from": "PSY_magi_head_val",
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
     "relic_data": { "passive_effects": 
       [ 
         { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 800 } ] },
         { "id": "PSY_magi_ench_magic_scarf" }
       ]  
-    }
+    }  
   },
   {
     "id": "PSY_magi_fencer_gloves",
     "type": "ARMOR",
-    "name": { "str": "青のフェンサーのグローブ[MWMI]" },
-    "description": "青のフェンサーと呼ばれるものが装備する手用の防具です。装備すると特殊な効果が発動します。",
+    "name": { "str_sp": "青のフェンサーのグローブ[MWMI]" },
+    "description": "青のフェンサーと呼ばれるものが装備する手用の防具です。装備すると特殊な効果が発動します。[最大マナ+500 攻撃コスト-5]",
     "copy-from": "PSY_magi_bracelet_val",
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 200 } ] } ] }
   },
   {
     "id": "PSY_magi_fencer_boots",
     "type": "ARMOR",
-    "name": { "str": "青のフェンサーのブーツ[MWMI]" },
-    "description": "青のフェンサーと呼ばれるものが装備する足用の防具です。装備すると特殊な効果が発動します。",
+    "name": { "str_sp": "青のフェンサーのブーツ[MWMI]" },
+    "description": "青のフェンサーと呼ばれるものが装備する足用の防具です。装備すると特殊な効果が発動します。[最大マナ+500 攻撃コスト-5]",
     "copy-from": "PSY_magi_boots_bouei",
     "price": "2000 USD",
     "price_postapoc": "2000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 200 } ] } ] }
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 500 },{ "value": "ATTACK_SPEED", "add": -5 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_maid_dress",
+    "type": "ARMOR",
+    "name": { "str_sp": "マジカルメイド服[MWMI]" },
+    "description": "魔法がかけられた特注のメイド服です。装備すると特殊な効果が発動します。[１ターンの回避回数+5]",
+    "copy-from": "maid_dress",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "proportional": { "weight": 0.9, "volume": 0.9, "encumbrance":0.8 },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 5 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_magic_scarf",
+    "type": "ARMOR",
+    "copy-from": "knit_scarf",
+    "name": { "str": "詠唱のスカーフ[MWMI]" },
+    "description": "魔力のこもったスカーフです。これを身に着けることで熟練魔法使いのような魔法詠唱が可能といわれています。",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_magic_scarf" } ] },
+    "use_action": { "type": "transform", "msg": "詠唱のスカーフを解きました。", "target": "PSY_magi_magic_scarf_loose", "menu_text": "緩める" }
+  },
+  {
+    "id": "PSY_magi_magic_scarf_loose",
+    "type": "ARMOR",
+    "copy-from": "knit_scarf_loose",
+    "name": { "str": "詠唱のスカーフ(緩)[MWMI]" },
+    "description": "魔力のこもったスカーフです。これを身に着けることで熟練魔法使いのような魔法詠唱が可能といわれています。もし寒いと感じたら、使用して結ぶことができます。",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_magic_scarf" } ] },
+    "use_action": { "type": "transform", "msg": "詠唱のスカーフをしっかり結びました。", "target": "PSY_magi_magic_scarf", "menu_text": "締める" }
   }
 ]

@@ -1,16 +1,10 @@
 [
   {
     "id": "PSY_magi_454_magic_speedloader5",
+    "copy-from": "PSY_magi_22_magic_speedloader8",
     "type": "MAGAZINE",
     "name": "セプテム専用スピードローダー[MWMI]",
     "description": "マナカートリッジ弾専用拳銃 セプテムのスピードローダーです。これを使用する事で素早いリロードが可能となります。",
-    "looks_like": "22_speedloader8",
-    "weight": "64 g",
-    "volume": "250 ml",
-    "price": 600,
-    "material": "steel",
-    "symbol": "#",
-    "color": "light_gray",
     "ammo_type": "PSY_magi_454_magic",
     "capacity": 5,
     "flags": [ "SPEEDLOADER" ],

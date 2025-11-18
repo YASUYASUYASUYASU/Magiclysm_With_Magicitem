@@ -4,109 +4,99 @@
     "id": "longsword_mithril",
     "copy-from": "longsword_mithril",
     "type": "TOOL",
-    "name": { "str": "ミスリルソード" },
+    "name": { "str": "ミスリルソード[MWMI]" },
     "material": [ "mithril_metal" ],
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "//1": "各種ミスリル武器(魔法の焦点具の機能を追加し、性能を変化)",
     "id": "falx_mithril",
     "copy-from": "falx",
     "type": "TOOL",
-    "name": { "str": "ミスリルファルクス" },
+    "name": { "str": "ミスリルファルクス[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "680 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "battleaxe_mithril",
     "copy-from": "battleaxe",
     "type": "TOOL",
-    "name": { "str": "ミスリルバトルアックス" },
+    "name": { "str": "ミスリルバトルアックス[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "1001 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "katana_mithril",
     "copy-from": "katana",
     "type": "TOOL",
-    "name": { "str": "ミスリル日本刀" },
+    "name": { "str": "ミスリル日本刀[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "562 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "qiang_mithril",
     "copy-from": "qiang",
     "type": "TOOL",
-    "name": { "str": "ミスリルスピア" },
+    "name": { "str": "ミスリルスピア[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "699 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "rapier_mithril",
     "copy-from": "rapier",
     "type": "TOOL",
-    "name": { "str": "ミスリルレイピア" },
+    "name": { "str": "ミスリルレイピア[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "500 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "estoc_mithril",
     "copy-from": "estoc",
     "type": "TOOL",
-    "name": { "str": "ミスリルエストック" },
+    "name": { "str": "ミスリルエストック[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "907 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "knife_combat_mithril",
     "copy-from": "knife_combat",
     "type": "TOOL",
-    "name": { "str": "ミスリルナイフ" },
+    "name": { "str": "ミスリルナイフ[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "279 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "stab": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "bagh_nakha_mithril",
     "copy-from": "bagh_nakha",
     "type": "TOOL",
-    "name": { "str": "ミスリルクロー" },
+    "name": { "str": "ミスリルクロー[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "279 g",
-    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 0.7, "cut": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "warhammer_mithril",
     "copy-from": "warhammer",
     "type": "TOOL",
-    "name": { "str": "ミスリルハンマー" },
+    "name": { "str": "ミスリルハンマー[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "279 g",
-    "proportional": { "melee_damage": { "bash": 1.1, "cut": 1.5 } },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "proportional": { "melee_damage": { "bash": 1.1, "cut": 1.5 },"weight": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   },
   {
     "id": "ladle_mithril",
     "copy-from": "ladle",
     "type": "TOOL",
-    "name": { "str": "ミスリルおたま" },
+    "name": { "str": "ミスリルおたま[MWMI]" },
     "material": [ "mithril_metal" ],
-    "weight": "279 g",
     "melee_damage": { "bash": 15, "cut": 10 },
-    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+    "extend": { "flags": [ "MAGIC_FOCUS","UNBREAKABLE_MELEE" ] }
   }
 ]

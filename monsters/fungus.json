@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mon_fungal_blossom",
+    "type": "MONSTER",
+    "name": { "str": "fungal blossom" },
+    "copy-from": "mon_fungal_blossom",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_fungal_hedgerow",
+    "type": "MONSTER",
+    "name": { "str": "fungal hedgerow" },
+    "copy-from": "mon_fungal_hedgerow",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_fungal_tendril",
+    "type": "MONSTER",
+    "name": { "str": "fungal tendril" },
+    "copy-from": "mon_fungal_tendril",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_fungaloid_tower",
+    "type": "MONSTER",
+    "name": { "str": "fungal tower" },
+    "copy-from": "mon_fungaloid_tower",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_wasp_mega_fungus",
+    "type": "MONSTER",
+    "name": { "str": "giant fungal wasp queen" },
+    "copy-from": "mon_wasp_mega_fungus",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

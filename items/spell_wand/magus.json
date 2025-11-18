@@ -2,7 +2,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_phase_door_1",
-    "name": { "str": "下級杖(フェイズ・ドア)[MWMI]", "str_pl": "下級杖(フェイズ・ドア)[MWMI]" },
+    "name": { "str_sp": "下級杖(フェイズ・ドア)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フェイズ・ドアを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -12,7 +12,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_phase_door_2",
-    "name": { "str": "中級杖(フェイズ・ドア)[MWMI]", "str_pl": "中級杖(フェイズ・ドア)[MWMI]" },
+    "name": { "str_sp": "中級杖(フェイズ・ドア)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フェイズ・ドアを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -22,7 +22,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_phase_door_3",
-    "name": { "str": "上級杖(フェイズ・ドア)[MWMI]", "str_pl": "上級杖(フェイズ・ドア)[MWMI]" },
+    "name": { "str_sp": "上級杖(フェイズ・ドア)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。フェイズ・ドアを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -32,7 +32,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_gravity_well_1",
-    "name": { "str": "下級杖(グラビティ・ウェル)[MWMI]", "str_pl": "下級杖(グラビティ・ウェル)[MWMI]" },
+    "name": { "str_sp": "下級杖(グラビティ・ウェル)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。グラビティ・ウェルを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -42,7 +42,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_gravity_well_2",
-    "name": { "str": "中級杖(グラビティ・ウェル)[MWMI]", "str_pl": "中級杖(グラビティ・ウェル)[MWMI]" },
+    "name": { "str_sp": "中級杖(グラビティ・ウェル)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。グラビティ・ウェルを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -52,7 +52,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_gravity_well_3",
-    "name": { "str": "上級杖(グラビティ・ウェル)[MWMI]", "str_pl": "上級杖(グラビティ・ウェル)[MWMI]" },
+    "name": { "str_sp": "上級杖(グラビティ・ウェル)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。グラビティ・ウェルを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -62,7 +62,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_magus_mana_bolt_1",
-    "name": { "str": "下級杖(マナ・ボルト)[MWMI]", "str_pl": "下級杖(マナ・ボルト)[MWMI]" },
+    "name": { "str_sp": "下級杖(マナ・ボルト)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。マナ・ボルトを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -72,7 +72,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_magus_mana_bolt_2",
-    "name": { "str": "中級杖(マナ・ボルト)[MWMI]", "str_pl": "中級杖(マナ・ボルト)[MWMI]" },
+    "name": { "str_sp": "中級杖(マナ・ボルト)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。マナ・ボルトを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -82,7 +82,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_magus_mana_bolt_3",
-    "name": { "str": "上級杖(マナ・ボルト)[MWMI]", "str_pl": "上級杖(マナ・ボルト)[MWMI]" },
+    "name": { "str_sp": "上級杖(マナ・ボルト)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。マナ・ボルトを詠唱する機能をもっています。",
     "price": "600 USD",

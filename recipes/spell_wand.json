@@ -1,5 +1,6 @@
 [
   {
+    "//1": "各種魔法杖のレシピ",  
     "type": "recipe",
     "result": "PSY_magi_stave_magic_light_healing_1",
     "category": "CC_PSY_MWMI",

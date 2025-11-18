@@ -1,16 +1,10 @@
 [
   {
     "id": "PSY_magi_40_magic_speedloader6",
+    "copy-from": "PSY_magi_22_magic_speedloader8",
     "type": "MAGAZINE",
     "name": "クァットゥオル専用スピードローダー[MWMI]",
     "description": "マナカートリッジ弾専用拳銃 クァットゥオルのスピードローダーです。これを使用する事で素早いリロードが可能となります。",
-    "looks_like": "22_speedloader8",
-    "weight": "64 g",
-    "volume": "250 ml",
-    "price": 600,
-    "material": "steel",
-    "symbol": "#",
-    "color": "light_gray",
     "ammo_type": "PSY_magi_40_magic",
     "capacity": 6,
     "flags": [ "SPEEDLOADER" ],

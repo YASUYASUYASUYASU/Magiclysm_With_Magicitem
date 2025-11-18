@@ -1,5 +1,6 @@
 [
   {
+    "//1": "ガラス片を使ったマナの欠片のレシピ",
     "type": "recipe",
     "result": "crystallized_mana",
     "id_suffix": "using_mwmi",
@@ -15,7 +16,27 @@
     "components": [
        [ [ "glass_shard", 100 ] ]
      ]
-  },{
+  },
+  {
+    "//1": "死体を使ったデナリウス硬貨のレシピ",
+    "type": "recipe",
+    "result": "denarius",
+    "id_suffix": "using_mwmi_corpse",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 2,
+    "time": "30 s",
+    "autolearn": true,
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "components": [
+       [ [ "corpse", 3 ] ]
+     ]
+  },
+  {
+    "//1": "ガラス片を使ったマナクリスタルのレシピ",
     "type": "recipe",
     "result": "small_mana_crystal",
     "id_suffix": "using_mwmi",
@@ -24,7 +45,7 @@
     "activity_level": "LIGHT_EXERCISE",
     "skill_used": "fabrication",
     "skills_required": [ "spellcraft", 2 ],
-    "difficulty": 2,
+    "difficulty": 3,
     "time": "30 m",
     "autolearn": true,
     "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],

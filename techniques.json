@@ -5,11 +5,12 @@
     "name": "回転攻撃(常時)",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_ok": true,
     "crit_tec": false,
     "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
     "aoe": "spin",
     "description": "周囲８マスの隣接する敵を攻撃します(常時発動)",
-    "attack_vectors": [ "WEAPON" ]
+    "attack_vectors": [ "vector_null" ]
   },
   {
     "type": "technique",
@@ -17,12 +18,13 @@
     "name": "一掃攻撃(常時)",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_ok": true,
     "crit_tec": false,
     "weighting": 2,
     "messages": [ "You swing in a wide arc through %s", "<npcname> swings in a wide arc through %s" ],
     "aoe": "wide",
     "description": "扇状に薙ぎ払い攻撃を行います(常時発動)",
-    "attack_vectors": [ "WEAPON" ]
+    "attack_vectors": [ "vector_null" ]
   },
   {
     "type": "technique",
@@ -30,71 +32,48 @@
     "name": "串刺し攻撃(常時)",
     "melee_allowed": true,
     "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_ok": true,
     "crit_tec": false,
     "messages": [ "You pierce straight through %s", "<npcname> pierces through %s" ],
     "aoe": "impale",
     "description": "対象とその後ろの敵を攻撃します(常時発動)",
-    "attack_vectors": [ "WEAPON" ]
+    "attack_vectors": [ "vector_null" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_PENETRATE",
+    "name": "貫通攻撃(常時)",
+    "melee_allowed": true,
+    "crit_ok": true,
+    "crit_tec": false,
+    "flat_bonuses": [
+      { "stat": "arpen", "type": "bash", "scaling-stat": "melee", "scale": 2.0 },
+      { "stat": "arpen", "type": "cut", "scaling-stat": "melee", "scale": 2.0 },
+      { "stat": "arpen", "type": "stab", "scaling-stat": "melee", "scale": 2.0 }
+    ],
+    "messages": [ "You find a weak spot in %s's armor", "<npcname> finds a weak spot in %s's armor" ],
+    "description": "装甲貫通が近接攻撃スキルレベルx2増加(常時)",
+    "attack_vectors": [ "vector_null" ]
   },
   {
     "type": "technique",
     "id": "MWMI_BRUTAL",
     "name": "残忍な一撃(常時)",
     "melee_allowed": true,
+    "crit_ok": true,
     "crit_tec": false,
     "stun_dur": 1,
     "knockback_dist": 1,
-    "//condition": "Basic size filtering, if the target is grabbing you contested roll of strength vs grab strength",
-    "condition": {
-      "and": [
-        { "math": [ "u_val('size')", ">=", "n_val('size')" ] },
-        { "not": { "npc_has_effect": "stunned" } },
-        {
-          "and": [
-            { "not": { "npc_has_species": "NETHER" } },
-            { "not": { "npc_has_species": "NETHER_EMENATION" } },
-            { "not": { "npc_has_species": "LEECH_PLANT" } },
-            { "not": { "npc_has_species": "MIGO" } },
-            { "not": { "npc_has_species": "SLIME" } },
-            { "not": { "npc_has_species": "FUNGUS" } },
-            { "not": { "npc_has_species": "PLANT" } },
-            { "not": { "npc_has_species": "ROBOT" } },
-            { "not": { "npc_has_species": "CYBORG" } },
-            { "not": { "npc_has_species": "HALLUCINATION" } },
-            { "not": { "npc_has_species": "HORROR" } },
-            { "not": { "npc_has_species": "ABERRATION" } },
-            { "not": { "npc_has_species": "KRAKEN" } }
-          ]
-        },
-        {
-          "or": [
-            {
-              "and": [
-                { "npc_has_flag": "GRAB_FILTER" },
-                { "u_has_flag": "GRAB" },
-                {
-                  "roll_contested": { "math": [ "u_val('strength')" ] },
-                  "die_size": 20,
-                  "difficulty": { "math": [ "n_val('grab_strength')" ] }
-                }
-              ]
-            },
-            { "not": { "and": [ { "npc_has_flag": "GRAB_FILTER" }, { "u_has_flag": "GRAB" } ] } }
-          ]
-        }
-      ]
-    },
-    "condition_desc": "* Only works on a <info>non-stunned mundane</info> target of <info>similar or smaller</info> size, may fail on enemies grabbing you",
     "messages": [ "You send %s reeling!", "<npcname> sends %s reeling!" ],
-    "description": "Stun 1 turn, knockback 1 tile, crit only, min 2 melee",
-    "attack_vectors": [ "WEAPON" ]
+    "description": "1ターン混乱付与 １タイルの吹き飛ばし攻撃"
   },
   {
     "type": "technique",
     "id": "MWMI_PRECISE",
-    "name": "精密攻撃",
-    "skill_requirements": [ { "name": "melee", "level": 3 } ],
+    "name": "精密攻撃(常時)",
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
     "melee_allowed": true,
+    "crit_ok": true,
     "crit_tec": false,
     "//condition": "Humanoids of similar size",
     "condition": {
@@ -107,7 +86,70 @@
     "condition_desc": "* Only works on a <info>non-stunned humanoid</info> target of <info>similar or smaller</info> size",
     "messages": [ "You precisely hit %s!", "<npcname> precisely hits %s!" ],
     "stun_dur": 2,
-    "description": "Stun 2 turns, crit only, min 3 melee",
-    "attack_vectors": [ "WEAPON" ]
+    "description": "2ターンのスタン",
+    "attack_vectors": [ "vector_null" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_RAPID",
+    "name": "瞬撃(常時)",
+    "melee_allowed": true,
+    "crit_ok": true,
+    "crit_tec": false,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.5 },
+      { "stat": "damage", "type": "bash", "scale": 0.66 },
+      { "stat": "damage", "type": "cut", "scale": 0.66 },
+      { "stat": "damage", "type": "stab", "scale": 0.66 }
+    ],
+    "messages": [ "You quickly strike %s", "<npcname> quickly strikes %s" ],
+    "description": "行動コスト50%、与ダメージ66%",
+    "attack_vectors": [ "vector_null" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_SWEEP",
+    "name": "薙ぎ払い(常時)",
+    "melee_allowed": true,
+    "crit_ok": true,
+    "crit_tec": false,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "//condition": "Humanoids of similar size and no flying",
+    "condition": {
+      "and": [
+        { "math": [ "u_val('size') + 1 >= n_val('size')" ] },
+        { "math": [ "n_val('size') != 1" ] },
+        { "not": { "npc_has_effect": "downed" } },
+        { "or": [ { "npc_bodytype": "human" }, { "npc_bodytype": "angel" } ] },
+        { "or": [ { "not": { "npc_has_flag": "FLIES" } }, { "npc_has_flag": "DISABLE_FLIGHT" } ] }
+      ]
+    },
+    "condition_desc": "* Only works on a <info>non-downed humanoid</info> target of <info>similar or smaller</info> size incapable of flight",
+    "down_dur": 2,
+    "messages": [ "You sweep %s", "<npcname> sweeps %s" ],
+    "description": "2ターンの転倒",
+    "attack_vectors": [ "vector_null" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_SWEETSPOT",
+    "name": "クリーンヒット(常時)Sweet Spot Hit",
+    "melee_allowed": true,
+    "crit_ok": true,
+    "crit_tec": false,
+    "stun_dur": 1,
+    "knockback_dist": 2,
+    "//": "this should basically always happen if you get the crit",
+    "weighting": 10,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 1.1 },
+      { "stat": "damage", "type": "bash", "scale": 2.5 },
+      { "stat": "damage", "type": "cut", "scale": 2.5 },
+      { "stat": "damage", "type": "stab", "scale": 2.5 }
+    ],
+    "messages": [ "With a loud crack the piston extends, sending %s reeling", "<npcname> sends %s reeling" ],
+    "description": "1ターン気絶、2タイル吹き飛ばし攻撃",
+    "attack_vectors": [ "vector_null" ]
   }
 ]

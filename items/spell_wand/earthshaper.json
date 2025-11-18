@@ -2,7 +2,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_shardspray_1",
-    "name": { "str": "下級杖(シャードスプレー)[MWMI]", "str_pl": "下級杖(シャードスプレー)[MWMI]" },
+    "name": { "str_sp": "下級杖(シャードスプレー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。シャードスプレーを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -12,7 +12,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_shardspray_2",
-    "name": { "str": "中級杖(シャードスプレー)[MWMI]", "str_pl": "中級杖(シャードスプレー)[MWMI]" },
+    "name": { "str_sp": "中級杖(シャードスプレー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。シャードスプレーを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -22,7 +22,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_shardspray_3",
-    "name": { "str": "上級杖(シャードスプレー)[MWMI]", "str_pl": "上級杖(シャードスプレー)[MWMI]" },
+    "name": { "str_sp": "上級杖(シャードスプレー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。シャードスプレーを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -32,7 +32,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_piercing_bolt_1",
-    "name": { "str": "下級杖(ピアシング・ボルト)[MWMI]", "str_pl": "下級杖(ピアシング・ボルト)[MWMI]" },
+    "name": { "str_sp": "下級杖(ピアシング・ボルト)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ピアシング・ボルトを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -42,7 +42,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_piercing_bolt_2",
-    "name": { "str": "中級杖(ピアシング・ボルト)[MWMI]", "str_pl": "中級杖(ピアシング・ボルト)[MWMI]" },
+    "name": { "str_sp": "中級杖(ピアシング・ボルト)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ピアシング・ボルトを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -52,7 +52,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_piercing_bolt_3",
-    "name": { "str": "上級杖(ピアシング・ボルト)[MWMI]", "str_pl": "上級杖(ピアシング・ボルト)[MWMI]" },
+    "name": { "str_sp": "上級杖(ピアシング・ボルト)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ピアシング・ボルトを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -62,7 +62,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_shardstorm_1",
-    "name": { "str": "下級杖(シャードストーム)[MWMI]", "str_pl": "下級杖(シャードストーム)[MWMI]" },
+    "name": { "str_sp": "下級杖(シャードストーム)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。シャードストームを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -72,7 +72,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_shardstorm_2",
-    "name": { "str": "中級杖(シャードストーム)[MWMI]", "str_pl": "中級杖(シャードストーム)[MWMI]" },
+    "name": { "str_sp": "中級杖(シャードストーム)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。シャードストームを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -82,7 +82,7 @@
   {
     "type": "TOOL",
     "id": "PSY_magi_stave_magic_eshaper_shardstorm_3",
-    "name": { "str": "上級杖(シャードストーム)[MWMI]", "str_pl": "上級杖(シャードストーム)[MWMI]" },
+    "name": { "str_sp": "上級杖(シャードストーム)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。シャードストームを詠唱する機能をもっています。",
     "price": "600 USD",

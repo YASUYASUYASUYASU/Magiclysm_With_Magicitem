@@ -25,14 +25,6 @@
   },
   {
     "type": "recipe",
-    "result": "PSY_magi_head_kyodan",
-    "copy-from": "PSY_magi_head_kyodan",
-    "components": [
-       [ [ "PSY_magi_head_sister",  1 ] ]
-     ]
-  },
-  {
-    "type": "recipe",
     "result": "PSY_magi_tshirt_kyodan",
     "copy-from": "PSY_magi_head_kyodan",
     "components": [

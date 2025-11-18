@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mon_zombie_nemesis",
+    "type": "MONSTER",
+    "name": { "str": "relentless hulk" },
+    "copy-from": "mon_zombie_nemesis",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_hulk",
+    "type": "MONSTER",
+    "name": { "str": "zombie hulk" },
+    "copy-from": "mon_zombie_hulk",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "mon_zombie_hulk_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_hunter",
+    "type": "MONSTER",
+    "name": { "str": "zombie hunter" },
+    "copy-from": "mon_zombie_hunter",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_mancroc",
+    "type": "MONSTER",
+    "name": { "str": "zombie snapper" },
+    "copy-from": "mon_zombie_mancroc",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_master",
+    "type": "MONSTER",
+    "name": { "str": "zombie master" },
+    "copy-from": "mon_zombie_master",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_necro",
+    "type": "MONSTER",
+    "name": { "str": "zombie necromancer" },
+    "copy-from": "mon_zombie_necro",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_regenerating",
+    "type": "MONSTER",
+    "name": { "str": "regenerating zombie" },
+    "copy-from": "mon_zombie_regenerating",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

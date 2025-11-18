@@ -4,7 +4,7 @@
     "copy-from": "meat_cooked",
     "weight": "296 g",
     "volume": "250 ml",
-    "spoils_in": "2 day",
+    "spoils_in": "4 day",
     "type": "COMESTIBLE",
     "name": { "str": "ドラゴンの肉(調理済み)" },
     "calories": 402,
