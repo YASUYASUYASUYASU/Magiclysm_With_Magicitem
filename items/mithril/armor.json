@@ -53,7 +53,7 @@
   },
   {
     "id": "gloves_plate_mithril",
-    "copy-from": "armor_lightplate",
+    "copy-from": "gloves_plate",
     "type": "ARMOR",
     "name": { "str": "ミスリルガントレット[MWMI]" },
     "material": [ "mithril_metal", "leather" ],
@@ -62,7 +62,7 @@
   },
   {
     "id": "gloves_plate_mithril_xl",
-    "copy-from": "armor_lightplate_mithril",
+    "copy-from": "gloves_plate_mithril",
     "type": "ARMOR",
     "name": { "str": "XLミスリルガントレット[MWMI]" },
     "material": [ "mithril_metal", "leather" ],
@@ -72,7 +72,7 @@
   },
   {
     "id": "gloves_plate_mithril_xs",
-    "copy-from": "armor_lightplate_mithril",
+    "copy-from": "gloves_plate_mithril",
     "type": "ARMOR",
     "name": { "str": "XSミスリルガントレット[MWMI]" },
     "material": [ "mithril_metal", "leather" ],
@@ -82,7 +82,7 @@
   },
   {
     "id": "boots_plate_mithril",
-    "copy-from": "armor_lightplate",
+    "copy-from": "boots_plate",
     "type": "ARMOR",
     "name": { "str": "ミスリルブーツ[MWMI]" },
     "material": [ "mithril_metal", "leather" ],
@@ -91,7 +91,7 @@
   },
   {
     "id": "boots_plate_mithril_xl",
-    "copy-from": "armor_lightplate_mithril",
+    "copy-from": "boots_plate_mithril",
     "type": "ARMOR",
     "name": { "str": "XLミスリルブーツ[MWMI]" },
     "material": [ "mithril_metal", "leather" ],
@@ -101,7 +101,7 @@
   },
   {
     "id": "boots_plate_mithril_xs",
-    "copy-from": "armor_lightplate_mithril",
+    "copy-from": "boots_plate_mithril",
     "type": "ARMOR",
     "name": { "str": "XSミスリルブーツ[MWMI]" },
     "material": [ "mithril_metal", "leather" ],
