@@ -1,0 +1,16 @@
+[
+  {
+    "id": "mon_zombie_brute_shocker",
+    "type": "MONSTER",
+    "name": { "str": "shocker brute" },
+    "copy-from": "mon_zombie_brute_shocker",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_nullfield",
+    "type": "MONSTER",
+    "name": { "str": "incandescent husk" },
+    "copy-from": "mon_zombie_nullfield",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "default_zombie_death_drops", "prob": 100 },{ "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

@@ -1,7 +1,8 @@
 [
   {
     "id": "PSY_magi_magic_backpack",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "魔法のバッグ[MWMI]" },
     "description": "魔法の技術と知識を結集した魔法のバッグです。このバッグに入れたものは別次元の空間に保存される為、重量を感じず食品も腐りません。",
     "repairs_like": "backpack",
@@ -31,7 +32,8 @@
   },
   {
     "id": "PSY_magi_magic_backpack_1",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "魔法のバッグ+1[MWMI]" },
     "copy-from": "PSY_magi_magic_backpack",
     "price_postapoc": "3000 USD",
@@ -50,7 +52,8 @@
   },
   {
     "id": "PSY_magi_magic_backpack_2",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "魔法のバッグ+2[MWMI]" },
     "copy-from": "PSY_magi_magic_backpack",
     "price_postapoc": "5000 USD",
@@ -69,7 +72,8 @@
   },
   {
     "id": "PSY_magi_magic_backpack_3",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "魔法のバッグ+3[MWMI]" },
     "copy-from": "PSY_magi_magic_backpack",
     "price_postapoc": "7000 USD",
@@ -88,7 +92,8 @@
   },
   {
     "id": "PSY_magi_magic_backpack_4",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "name": { "str": "魔法のバッグ+4[MWMI]" },
     "copy-from": "PSY_magi_magic_backpack",
     "price_postapoc": "9000 USD",

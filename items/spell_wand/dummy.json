@@ -1,6 +1,7 @@
 [
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "abstract": "staff_magic",
     "name": { "str": "Magic Stave" },
     "price": "40 USD",
@@ -18,7 +19,7 @@
     "category": "weapons",
     "to_hit": 1,
     "charges_per_use": 1,
-    "ammo": [ "crystallized_mana" ],
+    "tool_ammo": [ "crystallized_mana" ],
     "pocket_data": [
       {
         "magazine_well": "250 ml",

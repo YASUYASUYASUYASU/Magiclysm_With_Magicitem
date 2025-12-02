@@ -1,8 +1,9 @@
 [
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "PSY_magi_stave_magic_improved_knock_1",
-    "name": { "str": "下級杖(インプローブド・ノック)[MWMI]", "str_pl": "下級杖(インプローブド・ノック)[MWMI]" },
+    "name": { "str_sp": "下級杖(インプローブド・ノック)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。インプローブド・ノックを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -10,9 +11,10 @@
     "use_action": { "type": "cast_spell", "spell_id": "improved_knock", "no_fail": true, "level": 4, "need_wielding": true }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "PSY_magi_stave_magic_bless_1",
-    "name": { "str": "下級杖(ブレス)[MWMI]", "str_pl": "下級杖(ブレス)[MWMI]" },
+    "name": { "str_sp": "下級杖(ブレス)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ブレスを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -20,9 +22,10 @@
     "use_action": { "type": "cast_spell", "spell_id": "bless", "no_fail": true, "level": 4, "need_wielding": true }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "PSY_magi_stave_magic_bless_2",
-    "name": { "str": "中級杖(ブレス)[MWMI]", "str_pl": "中級杖(ブレス)[MWMI]" },
+    "name": { "str_sp": "中級杖(ブレス)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ブレスを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -30,9 +33,10 @@
     "use_action": { "type": "cast_spell", "spell_id": "bless", "no_fail": true, "level": 8, "need_wielding": true }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "PSY_magi_stave_magic_bless_3",
-    "name": { "str": "上級杖(ブレス)[MWMI]", "str_pl": "上級杖(ブレス)[MWMI]" },
+    "name": { "str_sp": "上級杖(ブレス)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。ブレスを詠唱する機能をもっています。",
     "price": "600 USD",
@@ -40,9 +44,10 @@
     "use_action": { "type": "cast_spell", "spell_id": "bless", "no_fail": true, "level": 12, "need_wielding": true }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "PSY_magi_stave_magic_spirit_armor_1",
-    "name": { "str": "下級杖(スピリチュアル・アーマー)[MWMI]", "str_pl": "下級杖(スピリチュアル・アーマー)[MWMI]" },
+    "name": { "str_sp": "下級杖(スピリチュアル・アーマー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。スピリチュアル・アーマーを詠唱する機能をもっています。",
     "price": "200 USD",
@@ -50,9 +55,10 @@
     "use_action": { "type": "cast_spell", "spell_id": "spirit_armor", "no_fail": true, "level": 4, "need_wielding": true }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "PSY_magi_stave_magic_spirit_armor_2",
-    "name": { "str": "中級杖(スピリチュアル・アーマー)[MWMI]", "str_pl": "中級杖(スピリチュアル・アーマー)[MWMI]" },
+    "name": { "str_sp": "中級杖(スピリチュアル・アーマー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。スピリチュアル・アーマーを詠唱する機能をもっています。",
     "price": "400 USD",
@@ -60,9 +66,10 @@
     "use_action": { "type": "cast_spell", "spell_id": "spirit_armor", "no_fail": true, "level": 8, "need_wielding": true }
   },
   {
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "id": "PSY_magi_stave_magic_spirit_armor_3",
-    "name": { "str": "上級杖(スピリチュアル・アーマー)[MWMI]", "str_pl": "上級杖(スピリチュアル・アーマー)[MWMI]" },
+    "name": { "str_sp": "上級杖(スピリチュアル・アーマー)[MWMI]" },
     "copy-from": "staff_magic",
     "description": "マナクリスタルを嵌め込むソケットが付いた、細長い木製の杖です。スピリチュアル・アーマーを詠唱する機能をもっています。",
     "price": "600 USD",

@@ -5,9 +5,9 @@
     "subtype": "collection",
     "id": "balrog_unique_drops",
     "entries": [
-      { "item": "MWMI_zweihander", "prob": 20 },
-      { "item": "MWMI_longsword1", "prob": 20 },
-      { "item": "MWMI_longsword2", "prob": 20 }
+      { "item": "PSY_magi_zweihander", "prob": 20 },
+      { "item": "PSY_magi_longsword1", "prob": 20 },
+      { "item": "PSY_magi_longsword2", "prob": 20 }
     ]
   }
 ]

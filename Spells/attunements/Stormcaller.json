@@ -1,0 +1,18 @@
+[
+  {
+    "id": "electric_demon",
+    "type": "SPELL",
+    "name": { "str": "Electric Demon" },
+    "copy-from": "electric_demon",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "electric_turret",
+    "type": "SPELL",
+    "name": { "str": "Thunder Pillar" },
+    "copy-from": "electric_turret",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "shadow_field",
+    "type": "SPELL",
+    "name": "Shadow Field",
+    "copy-from": "shadow_field",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magic_missile",
+    "type": "SPELL",
+    "name": "Magic Missile",
+    "copy-from": "magic_missile",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "phase_door",
+    "type": "SPELL",
+    "name": "Phase Door",
+    "copy-from": "phase_door",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "dimension_door",
+    "type": "SPELL",
+    "name": "Dimension Door",
+    "copy-from": "dimension_door",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "gravity_well",
+    "type": "SPELL",
+    "name": "Gravity Well",
+    "copy-from": "gravity_well",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_mana_blast",
+    "type": "SPELL",
+    "name": "Mana Blast",
+    "copy-from": "magus_mana_blast",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_mana_bolt",
+    "type": "SPELL",
+    "name": "Mana Bolt",
+    "copy-from": "magus_mana_bolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_haste",
+    "type": "SPELL",
+    "name": "Haste",
+    "copy-from": "magus_haste",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_slow",
+    "type": "SPELL",
+    "name": "Slow",
+    "copy-from": "magus_slow",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_baleful_polymorph",
+    "type": "SPELL",
+    "name": "Baleful Polymorph",
+    "copy-from": "magus_baleful_polymorph",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_mana_beam",
+    "type": "SPELL",
+    "name": "Mana Beam",
+    "copy-from": "magus_mana_beam",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_escape",
+    "type": "SPELL",
+    "name": "Escape",
+    "copy-from": "magus_escape",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "cats_grace",
+    "type": "SPELL",
+    "name": "Cat's Grace",
+    "copy-from": "cats_grace",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "eagles_sight",
+    "type": "SPELL",
+    "name": "Eagle's Sight",
+    "copy-from": "eagles_sight",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "ogres_strength",
+    "type": "SPELL",
+    "name": "Ogre's Strength",
+    "copy-from": "ogres_strength",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "foxs_cunning",
+    "type": "SPELL",
+    "name": "Fox's Cunning",
+    "copy-from": "foxs_cunning",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_force_jar",
+    "type": "SPELL",
+    "name": { "str": "Jar of Force" },
+    "copy-from": "magus_force_jar",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_summon_impact_sling",
+    "type": "SPELL",
+    "name": { "str": "Impact Sling" },
+    "copy-from": "magus_summon_impact_sling",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "インパクトスリングの前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "magus_summon_impact_sling_plus",
+    "type": "SPELL",
+    "name": { "str": "Enhanced Impact Sling" },
+    "copy-from": "magus_summon_impact_sling_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "インパクトスリング+の前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "focused_bolt",
+    "type": "SPELL",
+    "name": "Focused Bolt",
+    "copy-from": "focused_bolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_slowfall",
+    "type": "SPELL",
+    "name": "Slowfall",
+    "copy-from": "magus_slowfall",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_spiderclimb",
+    "type": "SPELL",
+    "name": "Spider Climb",
+    "copy-from": "magus_spiderclimb",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_teleport_mark",
+    "type": "SPELL",
+    "name": "Magus's Mark",
+    "copy-from": "magus_spiderclimb",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_word_of_recall",
+    "type": "SPELL",
+    "name": "Word of Recall",
+    "copy-from": "magus_word_of_recall",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_stop_attack_shield",
+    "type": "SPELL",
+    "name": "Mageshield",
+    "copy-from": "magus_stop_attack_shield",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_far_hand_pull",
+    "type": "SPELL",
+    "name": "Sorcerer's Hand",
+    "copy-from": "magus_far_hand_pull",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_ranged_increase",
+    "type": "SPELL",
+    "name": "Arrowflight",
+    "copy-from": "magus_ranged_increase",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_diamond_imbuement",
+    "type": "SPELL",
+    "name": "Diamond Imbuement",
+    "copy-from": "magus_diamond_imbuement",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_silence",
+    "type": "SPELL",
+    "name": "Silence",
+    "copy-from": "magus_silence",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_light_target",
+    "type": "SPELL",
+    "name": "Faerie Fire",
+    "copy-from": "magus_light_target",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_permanent_light",
+    "type": "SPELL",
+    "name": "Imperishable Light",
+    "copy-from": "magus_permanent_light",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "magus_cannot_move_attack_or_damage_target",
+    "type": "SPELL",
+    "name": "Adamantine Gaol",
+    "copy-from": "magus_cannot_move_attack_or_damage_target",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

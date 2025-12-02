@@ -1,0 +1,18 @@
+[
+  {
+    "id": "magnetismmage_electrolaser",
+    "type": "SPELL",
+    "name": "Electrolaser",
+    "copy-from": "magnetismmage_electrolaser",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "robot_disabler_explosion",
+    "type": "SPELL",
+    "name": "Surge",
+    "copy-from": "robot_disabler_explosion",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

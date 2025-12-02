@@ -1,0 +1,284 @@
+[
+  {
+    "id": "bless",
+    "type": "SPELL",
+    "name": { "str": "Bless" },
+    "copy-from": "bless",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "invisibility",
+    "type": "SPELL",
+    "name": "Invisibility",
+    "copy-from": "invisibility",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "holy_blade",
+    "type": "SPELL",
+    "name": "Mage Blade",
+    "copy-from": "holy_blade",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "holy_blade_plus",
+    "type": "SPELL",
+    "name": "Enhanced Mage Blade",
+    "copy-from": "holy_blade_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "spirit_armor",
+    "type": "SPELL",
+    "name": "Mage Armor",
+    "copy-from": "spirit_armor",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "spirit_armor_plus",
+    "type": "SPELL",
+    "name": "Enhanced Mage Armor",
+    "copy-from": "spirit_armor_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "create_atomic_lamp",
+    "type": "SPELL",
+    "name": "Lamp",
+    "copy-from": "create_atomic_lamp",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "recover_bionic_power",
+    "type": "SPELL",
+    "name": "Manatricity",
+    "copy-from": "recover_bionic_power",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "taze",
+    "type": "SPELL",
+    "name": "Taze",
+    "copy-from": "taze",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "消費ソースをマナに(難易度低下)",
+    "energy_source": "MANA"
+  },
+  {
+    "id": "quantum_tunnel_lesser",
+    "type": "SPELL",
+    "name": "Lesser Quantum Tunnel",
+    "copy-from": "quantum_tunnel_lesser",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "synaptic_stimulation",
+    "type": "SPELL",
+    "name": "Synaptic Stimulation",
+    "copy-from": "synaptic_stimulation",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "laze",
+    "type": "SPELL",
+    "name": "Laze",
+    "copy-from": "laze",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "消費ソースをマナに(難易度低下)",
+    "energy_source": "MANA"
+  },
+  {
+    "id": "animated_blade",
+    "type": "SPELL",
+    "name": { "str": "Animated Blade" },
+    "copy-from": "animated_blade",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "mirror_image",
+    "type": "SPELL",
+    "name": "Mirror Image",
+    "copy-from": "mirror_image",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "holographic_transposition",
+    "type": "SPELL",
+    "name": "Holographic Transposition",
+    "copy-from": "holographic_transposition",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_floating_disk",
+    "type": "SPELL",
+    "name": "Summon Floating Disk",
+    "copy-from": "summon_floating_disk",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_magic_motorcycle",
+    "type": "SPELL",
+    "name": "Summon Mojocycle",
+    "copy-from": "summon_magic_motorcycle",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_magic_comcycle",
+    "type": "SPELL",
+    "name": "Summon Co-op cycle",
+    "copy-from": "summon_magic_comcycle",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "overcharge_eyes",
+    "type": "SPELL",
+    "name": "Optical Sneeze Beam",
+    "copy-from": "overcharge_eyes",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "type": "SPELL",
+    "name": "X-ray Vision",
+    "id": "x-ray",
+    "copy-from": "x-ray",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "消費ソースをマナに(難易度低下)",
+    "energy_source": "MANA"
+  },
+  {
+    "type": "SPELL",
+    "name": "Knock",
+    "id": "knock",
+    "copy-from": "knock",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "type": "SPELL",
+    "name": "Improved Knock",
+    "id": "improved_knock",
+    "copy-from": "improved_knock",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_knifeshot",
+    "type": "SPELL",
+    "name": "Knifeshot",
+    "copy-from": "technomancer_knifeshot",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "消費ソースをマナに(難易度低下)",
+    "energy_source": "MANA"
+  },
+  {
+    "id": "technomancer_knifeshot_superior",
+    "type": "SPELL",
+    "name": "Hypervelocity Knifeshot",
+    "copy-from": "technomancer_knifeshot_superior",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "消費ソースをマナに(難易度低下)",
+    "energy_source": "MANA"
+  },
+  {
+    "id": "technomancer_robot_shutdown",
+    "type": "SPELL",
+    "name": "Shutdown",
+    "copy-from": "technomancer_robot_shutdown",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_conjure_radio",
+    "type": "SPELL",
+    "name": "Speak through the Aether",
+    "copy-from": "technomancer_conjure_radio",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_conjure_ups",
+    "type": "SPELL",
+    "name": "Power Supply",
+    "copy-from": "technomancer_conjure_ups",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_welder",
+    "type": "SPELL",
+    "name": "Voltaic Touch",
+    "copy-from": "technomancer_welder",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_recharge_vehicle",
+    "type": "SPELL",
+    "name": "Imbue with Lightning",
+    "copy-from": "technomancer_recharge_vehicle",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_gain_electronics_computer_spell",
+    "type": "SPELL",
+    "name": "Machine Mind",
+    "copy-from": "technomancer_gain_electronics_computer_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_create_ups_connection",
+    "type": "SPELL",
+    "name": "Power Linkage",
+    "copy-from": "technomancer_create_ups_connection",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_far_sight",
+    "type": "SPELL",
+    "name": "Zoom Lens",
+    "copy-from": "technomancer_far_sight",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_far_sight_plus",
+    "type": "SPELL",
+    "name": "Enhanced Zoom Lens",
+    "copy-from": "technomancer_far_sight_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "technomancer_pain_ignore",
+    "type": "SPELL",
+    "name": { "str": "The Body Mechanical" },
+    "copy-from": "technomancer_pain_ignore",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

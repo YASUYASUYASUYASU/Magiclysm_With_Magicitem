@@ -1,0 +1,19 @@
+[
+  {
+    "id": "flareup",
+    "type": "SPELL",
+    "name": "Flareup",
+    "description": "Cause a localized earthquake, knocking down enemies and overturning the earth.",
+    "copy-from": "flareup",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "flarewhip",
+    "type": "SPELL",
+    "name": "Flarewhip",
+    "copy-from": "flarewhip",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "//1": "真菌花のドロップにMWMIのユニーク装備のドロップ追加",
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "marloss_yellow_drops",
+    "entries": [ { "item": "marloss_gel" }, { "item": "fungal_seeds" }, { "group": "zombie_death_drops_boss", "prob": 15} ]
+  }
+]

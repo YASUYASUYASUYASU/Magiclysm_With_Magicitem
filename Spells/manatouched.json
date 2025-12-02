@@ -1,0 +1,18 @@
+[
+  {
+    "id": "manatouched_crystal",
+    "type": "SPELL",
+    "name": "Crystallize Mana",
+    "copy-from": "manatouched_crystal",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "manatouched_seeker_bolts",
+    "type": "SPELL",
+    "name": "Seeker Bolts",
+    "copy-from": "manatouched_seeker_bolts",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

@@ -191,7 +191,14 @@
         { "item": "PSY_magi_bracelet_magicsilent"    , "prob": 5 },
         { "item": "PSY_magi_bracelet_magiccareful"   , "prob": 5 },
         { "item": "PSY_magi_bracelet_magicintuitive" , "prob": 5 },
-        { "item": "PSY_magi_bracelet_magicreduction" , "prob": 5 }
+        { "item": "PSY_magi_pendant_mugus_1" , "prob": 5 },
+        { "item": "PSY_magi_pendant_animist_1"     , "prob": 5 },
+        { "item": "PSY_magi_pendant_biomancer_1"    , "prob": 5 },
+        { "item": "PSY_magi_pendant_druid_1"   , "prob": 5 },
+        { "item": "PSY_magi_pendant_earthshaper_1" , "prob": 5 },
+        { "item": "PSY_magi_pendant_kelvinist_1" , "prob": 5 },
+        { "item": "PSY_magi_pendant_stormshaper_1"   , "prob": 5 },
+        { "item": "PSY_magi_pendant_technomancer_1" , "prob": 5 }
       ]
     }
   },
@@ -315,7 +322,9 @@
         { "item": "PSY_magi_bracelet_magicsilent"    , "prob": 5 },
         { "item": "PSY_magi_bracelet_magiccareful"   , "prob": 5 },
         { "item": "PSY_magi_bracelet_magicintuitive" , "prob": 5 },
-        { "item": "PSY_magi_bracelet_magicreduction" , "prob": 5 }
+        { "item": "PSY_magi_bracelet_magicreduction" , "prob": 5 },
+        { "item": "PSY_magi_maid_dress" , "prob": 5 },
+        { "item": "bunny_suit_playboy" , "prob": 5 }
       ]
     }
   },
@@ -471,6 +480,64 @@
         { "item": "PSY_magi_stave_magic_stormshaper_ionization_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
         { "item": "PSY_magi_stave_magic_bless_3", "prob": 10, "charges-min": 3, "charges-max": 24 },
         { "item": "PSY_magi_stave_magic_spirit_armor_3", "prob": 10, "charges-min": 3, "charges-max": 24 }
+      ]
+    }
+  },
+  {
+    "//1": "炉がユニークになったのですべての魔法アイテムをゾンビがドロップできるよう追加させる",
+    "id": "drop_magic_item_all_mwmi",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "group": "enchanted_rings_common", "prob": 5 },
+      { "group": "enchanted_rings_uncommon", "prob": 3 },
+      { "group": "enchanted_rings_unusual", "prob": 1 },
+      { "group": "guns_rifle_common", "prob": 5 },
+      { "group": "enchanted_misc", "prob": 2 },
+      { "group": "enchanted_combat_items", "prob": 2 },
+      { "group": "magic_shop_clothes", "prob": 2 },
+      { "group": "enchanted_bracers_lesser", "prob": 2 },
+      { "group": "enchanted_wands_minor", "prob": 2 },
+      { "group": "spell_scroll_tier_0", "prob": 2 },
+      { "group": "spell_scroll_tier_1", "prob": 2 },
+      { "group": "spellbook_tier_0", "prob": 2 },
+      { "group": "spellbook_tier_1", "prob": 2 }
+    ]
+  },
+  {
+    "//1": "ゾンビのデフォルトドロップに魔法アイテムを追加",
+    "id": "default_zombie_death_drops",
+    "type": "item_group",
+    "copy-from": "default_zombie_death_drops",
+    "subtype": "collection",
+    "extend": {
+      "entries": [
+        { "group": "drop_magic_item_all_mwmi", "prob": 3 }
+      ]
+    }
+  },
+  {
+    "//1": "ボスクラスドロップに魔法アイテムを追加",
+    "id": "zombie_death_drops_boss",
+    "type": "item_group",
+    "subtype": "distribution",
+    "extend": {
+      "entries": [
+         { "item": "PSY_magi_2h_flail_steel", "prob": 20 },
+         { "item": "PSY_magi_katana", "prob": 20 },
+         { "item": "PSY_magi_spear_steel", "prob": 20 },
+         { "item": "PSY_magi_axe_minotaur", "prob": 20 },
+         { "item": "PSY_magi_zweihander", "prob": 20 },
+         { "item": "PSY_magi_longsword1", "prob": 20 },
+         { "item": "PSY_magi_longsword2", "prob": 20 },
+         { "item": "PSY_magi_bow1", "prob": 20 },
+         { "item": "PSY_magi_shamshīr1", "prob": 20 },
+         { "item": "PSY_magi_kazekiri", "prob": 20 },
+         { "item": "PSY_magi_crescent_axe", "prob": 20 },
+         { "item": "PSY_magi_whip_snake", "prob": 20 },
+         { "item": "PSY_magi_grab_power", "prob": 20 },
+         { "item": "PSY_magi_tiara_1", "prob": 20 },
+         { "item": "PSY_magi_gaurd_1", "prob": 20 }
       ]
     }
   }

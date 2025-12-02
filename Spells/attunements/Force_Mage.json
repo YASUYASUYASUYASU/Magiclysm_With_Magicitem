@@ -1,0 +1,18 @@
+[
+  {
+    "id": "force_blade",
+    "type": "SPELL",
+    "name": "Force Blade",
+    "copy-from": "force_blade",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "force_magical_armor",
+    "type": "SPELL",
+    "name": "Force Shield",
+    "copy-from": "force_magical_armor",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

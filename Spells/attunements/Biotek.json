@@ -1,0 +1,18 @@
+[
+  {
+    "type": "SPELL",
+    "id": "nitro_boost",
+    "name": "Nitro Boost",
+    "copy-from": "nitro_boost",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biotek_healing",
+    "type": "SPELL",
+    "name": "Jury Rig",
+    "copy-from": "biotek_healing",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

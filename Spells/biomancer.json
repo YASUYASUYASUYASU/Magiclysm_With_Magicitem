@@ -1,0 +1,218 @@
+[
+  {
+    "id": "light_healing",
+    "type": "SPELL",
+    "name": "Cure Light Wounds",
+    "copy-from": "light_healing",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "pain_split",
+    "type": "SPELL",
+    "name": "Pain Split",
+    "copy-from": "pain_split",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "vicious_tentacle",
+    "type": "SPELL",
+    "name": "Vicious Tentacle",
+    "copy-from": "vicious_tentacle",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "vicious_tentacle_plus",
+    "type": "SPELL",
+    "name": "Evolved Vicious Tentacle",
+    "copy-from": "vicious_tentacle_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "bio_grotesque",
+    "type": "SPELL",
+    "name": "Grotesque Enhancement",
+    "copy-from": "bio_grotesque",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "bio_acidicspray",
+    "type": "SPELL",
+    "name": { "str": "Acidic Spray" },
+    "copy-from": "bio_acidicspray",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "bio_fleshpouch",
+    "type": "SPELL",
+    "name": "Flesh Pouch",
+    "copy-from": "bio_fleshpouch",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "bio_bonespear",
+    "type": "SPELL",
+    "name": "Conjure Bonespear",
+    "copy-from": "bio_bonespear",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "bio_bonespear_plus",
+    "type": "SPELL",
+    "name": "Evolved Conjure Bonespear",
+    "copy-from": "bio_bonespear_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_paralytic_dart",
+    "type": "SPELL",
+    "name": "Paralytic Dart",
+    "copy-from": "biomancer_paralytic_dart",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_visceral_projection",
+    "type": "SPELL",
+    "name": "Visceral Projection",
+    "copy-from": "biomancer_visceral_projection",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_coagulant_weave",
+    "type": "SPELL",
+    "name": "Coagulant Weave",
+    "copy-from": "biomancer_coagulant_weave",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "corrosive_aura_spell",
+    "type": "SPELL",
+    "name": { "str": "Caustic Feedback", "//~": "NO_I18N" },
+    "copy-from": "corrosive_aura_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_caustic_aura",
+    "type": "SPELL",
+    "name": "Caustic Aura",
+    "copy-from": "biomancer_caustic_aura",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_caustic_aura_plus",
+    "type": "SPELL",
+    "name": "Improved Caustic Aura",
+    "copy-from": "biomancer_caustic_aura_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_swim_frog",
+    "type": "SPELL",
+    "name": "Limbs of the Frog",
+    "copy-from": "biomancer_swim_frog",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_giant_growth",
+    "type": "SPELL",
+    "name": "Giant Growth",
+    "copy-from": "biomancer_giant_growth",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_remove_instability",
+    "type": "SPELL",
+    "name": "Preserve Genetic Stability",
+    "copy-from": "biomancer_remove_instability",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_carrion_feast",
+    "type": "SPELL",
+    "name": "Carrion Feast",
+    "copy-from": "biomancer_carrion_feast",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_lashing_tentacles",
+    "type": "SPELL",
+    "name": "Lashing Tentacles",
+    "copy-from": "biomancer_lashing_tentacles",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_cure_disease_minor",
+    "type": "SPELL",
+    "name": "Cure Disease, Minor",
+    "copy-from": "biomancer_cure_disease_minor",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_hyper_regeneration",
+    "type": "SPELL",
+    "name": "Rapid Regeneration",
+    "copy-from": "biomancer_hyper_regeneration",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_slow_bleeding",
+    "type": "SPELL",
+    "name": "Halt Bleeding",
+    "copy-from": "biomancer_slow_bleeding",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_scalpel_fingers",
+    "type": "SPELL",
+    "name": "Flensing Fingers",
+    "copy-from": "biomancer_scalpel_fingers",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_caustic_blood",
+    "type": "SPELL",
+    "name": "Caustic Blood",
+    "copy-from": "biomancer_caustic_blood",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_eat_tons_of_food",
+    "type": "SPELL",
+    "name": "Gluttonous Consumption",
+    "copy-from": "biomancer_eat_tons_of_food",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "biomancer_get_more_blood",
+    "type": "SPELL",
+    "name": "Carmine Infusion",
+    "copy-from": "biomancer_get_more_blood",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

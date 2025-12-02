@@ -1,8 +1,69 @@
 [
   {
-    "id": "mon_gozu",
+    "id": "mon_amigara_horror",
     "type": "MONSTER",
-    "copy-from": "mon_gozu",
-    "death_drops": "gozu_unique_drops"
+    "name": { "str": "amigara horror" },
+    "copy-from": "mon_amigara_horror",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_flaming_eye",
+    "type": "MONSTER",
+    "name": { "str": "flaming eye" },
+    "copy-from": "mon_flaming_eye",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_flying_polyp",
+    "type": "MONSTER",
+    "name": { "str": "flying polyp" },
+    "copy-from": "mon_flying_polyp",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_star_vampire",
+    "type": "MONSTER",
+    "//": "Star vampires are split into two: The fanged version draws blood very, very quickly, while the coiling version isn't as fast, but its hards are quite hard to escape from.",
+    "//2": "These variations are concealed from the player, with the differences only being visible via examining the vampire and reading the description. This removes visible, awkward gamification, while still keeping the intent of the split. (less walking corpse pyrrhic victories)",
+    "name": { "str": "star vampire" },
+    "copy-from": "mon_star_vampire",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_unseen_hunter",
+    "type": "MONSTER",
+    "name": { "str": "unseen hunter" },
+    "copy-from": "mon_unseen_hunter",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "//1": "牛頭だけのユニークドロップ品を設定(ミノタウロスの斧)",
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "gozu_unique_drops",
+    "entries": [
+      { "item": "PSY_magi_axe_minotaur", "prob": 20 }
+    ]
+  },
+  {
+    "id": "mon_nether_huntsman",
+    "type": "MONSTER",
+    "name": { "str": "eldritch huntsman", "str_pl": "eldritch huntsmen" },
+    "copy-from": "mon_nether_huntsman",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_nether_unviable_stomper",
+    "type": "MONSTER",
+    "name": { "str": "eldritch stomper" },
+    "copy-from": "mon_nether_unviable_stomper",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_nether_cucumber",
+    "type": "MONSTER",
+    "name": { "str": "waterbed skulker" },
+    "copy-from": "mon_nether_cucumber",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
   }
 ]

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "SPELL",
+    "id": "storm_chain_master",
+    "name": "Storm Chain",
+    "copy-from": "storm_chain_master",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "storm_elemental_electric_melee",
+    "type": "SPELL",
+    "name": "Galvanic",
+    "copy-from": "storm_elemental_electric_melee",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "id": "druid_veggrasp",
+    "type": "SPELL",
+    "name": "Vegetative Grasp",
+    "copy-from": "druid_veggrasp",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_rootstrike",
+    "type": "SPELL",
+    "name": "Root Strike",
+    "copy-from": "druid_rootstrike",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_woodshaft",
+    "type": "SPELL",
+    "name": "Wooden Shaft",
+    "copy-from": "druid_woodshaft",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_naturebow1",
+    "type": "SPELL",
+    "name": "Nature's Bow",
+    "copy-from": "druid_naturebow1",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_naturequiver1",
+    "type": "SPELL",
+    "name": { "str": "Nature's Quiver", "//~": "NO_I18N" },
+    "copy-from": "druid_naturequiver1",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_naturebow1_plus",
+    "type": "SPELL",
+    "name": "Improved Nature's Bow",
+    "copy-from": "druid_naturebow1_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_naturequiver1_plus",
+    "type": "SPELL",
+    "name": { "str": "Nature's Quiver", "//~": "NO_I18N" },
+    "copy-from": "druid_naturequiver1_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_naturearrows1_plus",
+    "type": "SPELL",
+    "name": { "str": "Nature's Arrows", "//~": "NO_I18N" },
+    "copy-from": "druid_naturearrows1_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "recover_sleepiness",
+    "type": "SPELL",
+    "name": "Nature's Trance",
+    "copy-from": "recover_sleepiness",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_cats",
+    "type": "SPELL",
+    "name": { "str": "Bag of Cats" },
+    "copy-from": "summon_cats",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_bear",
+    "type": "SPELL",
+    "name": "Cause Bear",
+    "copy-from": "summon_bear",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "fungicide",
+    "type": "SPELL",
+    "name": "Kill Fungus",
+    "copy-from": "fungicide",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "purify_seed",
+    "type": "SPELL",
+    "name": "Purification Seed",
+    "copy-from": "purify_seed",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druidic_regrowth",
+    "type": "SPELL",
+    "name": "Sacrificial Regrowth",
+    "copy-from": "druidic_regrowth",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druidic_healing",
+    "type": "SPELL",
+    "name": "Sacrificial Healing",
+    "copy-from": "druidic_healing",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_tornskin",
+    "type": "SPELL",
+    "name": "Tornskin",
+    "copy-from": "druid_tornskin",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_feralform",
+    "type": "SPELL",
+    "name": "Feral Form",
+    "copy-from": "druid_feralform",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "フェラルフォームの前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "druid_feralform_plus",
+    "type": "SPELL",
+    "name": "Enhanced Feral Form",
+    "copy-from": "druid_feralform_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "フェラルフォーム+の前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "summon_wolf_druid",
+    "type": "SPELL",
+    "name": "Summon Wolf",
+    "copy-from": "summon_wolf_druid",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_natures_commune",
+    "type": "SPELL",
+    "name": "Communion with Nature",
+    "copy-from": "druid_natures_commune",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_growth",
+    "type": "SPELL",
+    "spell_class": "DRUID",
+    "name": "Seed of Growth",
+    "copy-from": "druid_growth",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "cause_rot",
+    "type": "SPELL",
+    "name": "Cause Rot",
+    "copy-from": "cause_rot",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_healing",
+    "type": "SPELL",
+    "name": "Restoration",
+    "copy-from": "druid_healing",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_healing_herb",
+    "type": "SPELL",
+    "name": "Floral Healing",
+    "copy-from": "druid_healing_herb",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_bandage_heal",
+    "type": "SPELL",
+    "name": "Vegetative Poultice",
+    "copy-from": "druid_bandage_heal",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_whisper_leaves",
+    "type": "SPELL",
+    "name": "Whisper of the Leaves",
+    "copy-from": "druid_whisper_leaves",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_harvest_hunter",
+    "type": "SPELL",
+    "name": "Harvest of the Hunter",
+    "copy-from": "druid_harvest_hunter",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_summon_tanglevine",
+    "type": "SPELL",
+    "name": "Summon Tanglevine",
+    "copy-from": "druid_summon_tanglevine",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_beguile_savage_beast",
+    "type": "SPELL",
+    "name": "Beguiling the Savage Beast",
+    "copy-from": "druid_beguile_savage_beast",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_bramble_spear",
+    "type": "SPELL",
+    "name": "Spear of Brambles",
+    "copy-from": "druid_bramble_spear",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_bramble_spear_enhanced",
+    "type": "SPELL",
+    "name": "Enhanced Spear of Brambles",
+    "copy-from": "druid_bramble_spear_enhanced",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_thorn_skin",
+    "type": "SPELL",
+    "name": "Thornskin",
+    "copy-from": "druid_thorn_skin",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_renew_forest_spell",
+    "type": "SPELL",
+    "name": "Renewing the Forest",
+    "copy-from": "druid_renew_forest_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_wood_living_tree_spell",
+    "type": "SPELL",
+    "name": "Shape Wood",
+    "copy-from": "druid_wood_living_tree_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_anti_heat",
+    "type": "SPELL",
+    "name": "Water's Cooling Touch",
+    "copy-from": "druid_anti_heat",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_breathing_underwater",
+    "type": "SPELL",
+    "name": "Aquatic Mantle",
+    "copy-from": "druid_breathing_underwater",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_disinfectant",
+    "type": "SPELL",
+    "name": "Wash the Wounds Clean",
+    "copy-from": "druid_disinfectant",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_water_walking",
+    "type": "SPELL",
+    "name": "Water Strider's Walk",
+    "copy-from": "druid_water_walking",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_traverse_the_wilds",
+    "type": "SPELL",
+    "name": "Traverse the Wilds",
+    "copy-from": "druid_traverse_the_wilds",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_bearmantle",
+    "type": "SPELL",
+    "name": "Bearmantle",
+    "copy-from": "druid_bearmantle",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_goodberry",
+    "type": "SPELL",
+    "name": "Goodberry",
+    "copy-from": "druid_goodberry",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_create_temporary_spring",
+    "type": "SPELL",
+    "name": "Fountain of the Depths",
+    "copy-from": "druid_create_temporary_spring",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "druid_turn_tree_into_treant",
+    "type": "SPELL",
+    "copy-from": "druid_turn_tree_into_treant",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

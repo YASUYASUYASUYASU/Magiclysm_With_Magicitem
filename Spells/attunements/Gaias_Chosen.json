@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gaiaschosen_samsara",
+    "type": "SPELL",
+    "spell_class": "GAIAS_CHOSEN",
+    "name": "Samsara",
+    "copy-from": "gaiaschosen_samsara",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "dust_reborn",
+    "type": "SPELL",
+    "name": "Dust Reborn",
+    "copy-from": "dust_reborn",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "terra_armor",
+    "type": "SPELL",
+    "name": "Terra Armor",
+    "copy-from": "terra_armor",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

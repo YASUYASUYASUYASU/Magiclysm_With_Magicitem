@@ -1,0 +1,88 @@
+[
+  {
+    "type": "recipe",
+    "result": "PSY_magi_454_magic",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
+    "activity_level": "LIGHT_EXERCISE",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 7 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "pebble",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_454_magic_magus",
+    "copy-from": "PSY_magi_454_magic",
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_magus",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_454_magic_fire",
+    "copy-from": "PSY_magi_454_magic",
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_kelvinist",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_454_magic_thunder",
+    "copy-from": "PSY_magi_454_magic",
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_stormshaper",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_454_magic_earth",
+    "copy-from": "PSY_magi_454_magic",
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_earthshaper",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_454_magic_wood",
+    "copy-from": "PSY_magi_454_magic",
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_druid",  1 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_454_magic_bio",
+    "copy-from": "PSY_magi_454_magic",
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_biomancer",  1 ] ]
+     ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gravitymage_graviton",
+    "type": "SPELL",
+    "spell_class": "GRAVITY_MAGE",
+    "name": "Graviton Polarization",
+    "copy-from": "gravitymage_graviton",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "type": "SPELL",
+    "id": "gravity_mage_leap",
+    "name": "Gravity Leap",
+    "copy-from": "gravity_mage_leap",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "gravity_mage_melee",
+    "type": "SPELL",
+    "name": "Tactile Telekinesis",
+    "copy-from": "gravity_mage_melee",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

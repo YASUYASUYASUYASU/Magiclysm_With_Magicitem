@@ -1,0 +1,195 @@
+[
+  {
+    "id": "crystallize_mana",
+    "type": "SPELL",
+    "name": "Crystallize Mana",
+    "copy-from": "crystallize_mana",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "crystallize_mana_1",
+    "type": "SPELL",
+    "name": { "str": "Crystallize Mana (1)", "//~": "NO_I18N" },
+    "copy-from": "crystallize_mana_1",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "crystallize_mana_crystal_5",
+    "type": "SPELL",
+    "name": { "str": "Crystallize Mana (5)", "//~": "NO_I18N" },
+    "copy-from": "crystallize_mana_crystal_5",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "dark_sight",
+    "type": "SPELL",
+    "name": "Dark Sight",
+    "copy-from": "dark_sight",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "megablast",
+    "type": "SPELL",
+    "name": "Megablast",
+    "copy-from": "dark_sight",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "create_atomic_light",
+    "type": "SPELL",
+    "name": "Magical Light",
+    "copy-from": "create_atomic_light",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "blinding_flash",
+    "type": "SPELL",
+    "name": { "str": "Blinding Flash" },
+    "copy-from": "blinding_flash",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "ethereal_grasp",
+    "type": "SPELL",
+    "name": "Ethereal Grasp",
+    "copy-from": "ethereal_grasp",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "obfuscated_body",
+    "type": "SPELL",
+    "name": "Obfuscated Body",
+    "copy-from": "obfuscated_body",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "obfuscated_body_plus",
+    "type": "SPELL",
+    "name": "Improved Obfuscated Body",
+    "copy-from": "obfuscated_body_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "protection_aura",
+    "type": "SPELL",
+    "name": { "str": "Aura of Protection" },
+    "copy-from": "protection_aura",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "protection_aura_plus",
+    "type": "SPELL",
+    "name": { "str": "Improved Aura of Protection" },
+    "copy-from": "protection_aura_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "translocate_self",
+    "type": "SPELL",
+    "name": "Translocate Self",
+    "copy-from": "translocate_self",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "acid_resistance",
+    "type": "SPELL",
+    "name": { "str": "Acid Resistance" },
+    "copy-from": "acid_resistance",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "acid_resistance_greater",
+    "type": "SPELL",
+    "name": "Greater Acid Resistance",
+    "copy-from": "acid_resistance_greater",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "thought_shield",
+    "type": "SPELL",
+    "name": "Thought Shield",
+    "copy-from": "thought_shield",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "thought_shield_plus",
+    "type": "SPELL",
+    "name": "Thought Suit",
+    "copy-from": "thought_shield_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "sound_bomb",
+    "type": "SPELL",
+    "name": "Sound Bomb",
+    "copy-from": "sound_bomb",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "classless_watch_spell",
+    "type": "SPELL",
+    "name": "Knowing the Day and the Hour",
+    "copy-from": "classless_watch_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "classless_clean_clothing_and_self",
+    "type": "SPELL",
+    "name": "Freshen Up",
+    "copy-from": "classless_clean_clothing_and_self",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "classless_easy_sleep_spell",
+    "type": "SPELL",
+    "name": "Peaceful Rest",
+    "copy-from": "classless_easy_sleep_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "classless_dispel_magic",
+    "type": "SPELL",
+    "name": "Dispel Magic",
+    "copy-from": "classless_dispel_magic",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "classless_disjunction",
+    "type": "SPELL",
+    "name": "Disjunction",
+    "copy-from": "classless_disjunction",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "classless_restore_crystal_mana",
+    "//": "This spell does not have a corresponding Dabbler hobby because it's literally useless on its own.",
+    "type": "SPELL",
+    "name": "Mana Extraction",
+    "copy-from": "classless_restore_crystal_mana",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

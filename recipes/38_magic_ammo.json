@@ -78,5 +78,17 @@
     "components": [
        [ [ "rune_druid",  1 ] ]
      ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_38_magic_bio",
+    "copy-from": "PSY_magi_38_magic",
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_biomancer",  1 ] ]
+     ]
   }
 ]

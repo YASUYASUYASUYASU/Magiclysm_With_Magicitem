@@ -1,0 +1,30 @@
+[
+  {
+    "id": "summon_golem_clay",
+    "type": "SPELL",
+    "spell_class": "GOLEMANCER",
+    "name": "Summon Clay Golem",
+    "copy-from": "summon_golem_clay",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "サモンゴーレムの前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "summon_golem_focus",
+    "type": "SPELL",
+    "spell_class": "NONE",
+    "name": { "str": "Give Back Core", "//~": "NO_I18N" },
+    "copy-from": "summon_golem_focus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "type": "SPELL",
+    "id": "golem_push",
+    "name": "Golem Push",
+    "copy-from": "golem_push",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

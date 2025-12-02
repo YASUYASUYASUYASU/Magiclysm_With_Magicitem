@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mon_dog_zombie_hulk",
+    "type": "MONSTER",
+    "name": { "str": "hulking horror" },
+    "copy-from": "mon_dog_zombie_hulk",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombear_acidic",
+    "type": "MONSTER",
+    "name": { "str": "acidic zombear" },
+    "copy-from": "mon_zombear_acidic",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_horse_white",
+    "type": "MONSTER",
+    "name": { "str": "acidic zombie horse" },
+    "copy-from": "mon_zombie_horse_white",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_horse_red",
+    "type": "MONSTER",
+    "name": { "str": "sinewy warhorse" },
+    "copy-from": "mon_zombie_horse_red",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_horse_black",
+    "type": "MONSTER",
+    "name": { "str": "smoldering stallion" },
+    "copy-from": "mon_zombie_horse_black",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  },
+  {
+    "id": "mon_zombie_horse_pale",
+    "type": "MONSTER",
+    "name": { "str": "pale charger" },
+    "copy-from": "mon_zombie_horse_pale",
+    "death_drops": { "subtype": "collection", "items": [ { "group": "zombie_death_drops_boss", "prob": 15} ] }
+  }
+]

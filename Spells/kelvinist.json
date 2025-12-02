@@ -1,0 +1,254 @@
+[
+  {
+    "id": "point_flare",
+    "type": "SPELL",
+    "name": "Point Flare",
+    "copy-from": "point_flare",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "nova_flare",
+    "type": "SPELL",
+    "name": "Nova Flare",
+    "copy-from": "nova_flare",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "create_lighter",
+    "type": "SPELL",
+    "name": "Finger Firelighter",
+    "copy-from": "create_lighter",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "ice_spike",
+    "type": "SPELL",
+    "name": "Ice Spike",
+    "copy-from": "ice_spike",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "各種ケルビニストの氷魔法に鈍足効果を付与(実験的)",
+    "effect_str": "slow_freeze_effect"
+  },
+  {
+    "id": "fireball",
+    "type": "SPELL",
+    "name": "Fireball",
+    "copy-from": "fireball",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "cone_cold",
+    "type": "SPELL",
+    "name": "Cone of Cold",
+    "copy-from": "cone_cold",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "各種ケルビニストの氷魔法に鈍足効果を付与(実験的)",
+    "effect_str": "slow_freeze_effect"
+  },
+  {
+    "id": "burning_hands",
+    "type": "SPELL",
+    "name": { "str": "Burning Hands" },
+    "copy-from": "burning_hands",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "frost_spray",
+    "type": "SPELL",
+    "name": "Frost Spray",
+    "copy-from": "frost_spray",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "各種ケルビニストの氷魔法に鈍足効果を付与(実験的)",
+    "effect_str": "slow_freeze_effect"
+  },
+  {
+    "id": "chilling_touch",
+    "type": "SPELL",
+    "name": "Chilling Touch",
+    "copy-from": "chilling_touch",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "glide_ice",
+    "type": "SPELL",
+    "name": "Glide on Ice",
+    "copy-from": "glide_ice",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "glide_ice_plus",
+    "type": "SPELL",
+    "name": "Enhanced Glide on Ice",
+    "copy-from": "glide_ice_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "hoary_blast",
+    "type": "SPELL",
+    "name": "Hoary Blast",
+    "copy-from": "hoary_blast",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "ice_shield",
+    "type": "SPELL",
+    "name": "Ice Shield",
+    "copy-from": "ice_shield",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "ice_shield_plus",
+    "type": "SPELL",
+    "name": "Enhanced Ice Shield",
+    "copy-from": "ice_shield_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "frost_armor",
+    "type": "SPELL",
+    "name": "Frost Armor",
+    "copy-from": "frost_armor",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "frost_armor_plus",
+    "type": "SPELL",
+    "name": "Enhanced Frost Armor",
+    "copy-from": "frost_armor_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_summon_flamesword",
+    "type": "SPELL",
+    "name": "Flamesword",
+    "copy-from": "kelvinist_summon_flamesword",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "フレイムソードの前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "kelvinist_summon_flamesword_plus",
+    "type": "SPELL",
+    "name": "Enhanced Flamesword",
+    "copy-from": "kelvinist_summon_flamesword_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "フレイムソード+の前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "kelvinist_flamebreath",
+    "type": "SPELL",
+    "name": { "str": "Flamebreath" },
+    "copy-from": "kelvinist_flamebreath",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "フレイムブレスの前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "freezing_touch",
+    "type": "SPELL",
+    "name": "Freezing Touch",
+    "copy-from": "freezing_touch",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_anti_cold",
+    "type": "SPELL",
+    "name": "Cloak of Warmth",
+    "copy-from": "kelvinist_anti_cold",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_anti_heat",
+    "type": "SPELL",
+    "name": "Cloak of Chill",
+    "copy-from": "kelvinist_anti_heat",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_persuasion_spell",
+    "type": "SPELL",
+    "name": "Flames of Passion",
+    "copy-from": "kelvinist_persuasion_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_extinguish_fire_spell",
+    "type": "SPELL",
+    "name": "Extinguish",
+    "copy-from": "kelvinist_extinguish_fire_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_summon_freezer_spell",
+    "type": "SPELL",
+    "name": { "str": "Freezer Field" },
+    "copy-from": "kelvinist_summon_freezer_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_no_emotion_spell",
+    "type": "SPELL",
+    "name": "The Rime-Covered Heart",
+    "copy-from": "kelvinist_no_emotion_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_firebolt",
+    "type": "SPELL",
+    "name": "Firebolt",
+    "copy-from": "kelvinist_firebolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_heat_food",
+    "type": "SPELL",
+    "name": "Baking Hands",
+    "copy-from": "kelvinist_heat_food",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_set_everyone_on_fire",
+    "type": "SPELL",
+    "name": "Flames of the Apocalypse",
+    "copy-from": "kelvinist_set_everyone_on_fire",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "kelvinist_set_everyone_on_fire_secondary",
+    "type": "SPELL",
+    "name": { "str": "Flames of the Apocalypse Target", "//~": "NO_I18N" },
+    "copy-from": "kelvinist_set_everyone_on_fire_secondary",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "banishment_greater",
+    "type": "SPELL",
+    "name": "Greater Banishment",
+    "copy-from": "banishment_greater",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "demonic_possession",
+    "type": "SPELL",
+    "name": "Demonic Possession",
+    "copy-from": "demonic_possession",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "demonic_possession_real",
+    "type": "SPELL",
+    "name": "Demonic Possession Real",
+    "copy-from": "demonic_possession_real",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

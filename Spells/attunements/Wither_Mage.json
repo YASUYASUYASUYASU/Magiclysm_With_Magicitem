@@ -1,0 +1,18 @@
+[
+  {
+    "type": "SPELL",
+    "id": "assassin_strike",
+    "name": "Assassin Strike",
+    "copy-from": "assassin_strike",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "type": "SPELL",
+    "id": "life_drain",
+    "name": "Life Drain",
+    "copy-from": "life_drain",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

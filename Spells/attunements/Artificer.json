@@ -1,0 +1,18 @@
+[
+  {
+    "id": "spy_wasp",
+    "type": "SPELL",
+    "name": "Spy Wasp",
+    "copy-from": "spy_wasp",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "artificer_toolkit",
+    "type": "SPELL",
+    "name": "Artificer's Toolkit",
+    "copy-from": "artificer_toolkit",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

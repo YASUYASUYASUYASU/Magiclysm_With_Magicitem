@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "MSX++ZaragaTiles", "MshockXottoplus" ],
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "MSX++ZaragaTiles" ],
     "tiles-new": [
       {
         "file": "tiles/Magiclysm_With_Magicitem_large.png",
@@ -86,6 +86,21 @@
           { "id": "overlay_worn_PSY_magi_fencer_boots"      ,"fg": 46, "rotates": false },
           { "id": "PSY_magi_magic_rapier_estoc"             ,"fg": 47, "rotates": false },
           { "id": "overlay_wielded_PSY_magi_magic_rapier_estoc"    ,"fg": 48, "rotates": false }
+        ]
+      },
+      {
+        "file": "tiles/Magiclysm_With_Magicitem_normal_add1.png",
+        "sprite_height":32,
+        "sprite_width":32,
+        "tiles": [
+          { "id": "PSY_magi_spear_steel"                    ,"fg": 49, "rotates": false },
+          { "id": "overlay_wielded_PSY_magi_spear_steel"    ,"fg": 50, "rotates": false },
+          { "id": "PSY_magi_axe_minotaur"                   ,"fg": 51, "rotates": false },
+          { "id": "overlay_wielded_PSY_magi_axe_minotaur"   ,"fg": 52, "rotates": false },
+          { "id": "PSY_magi_magic_scarf"                    ,"fg": 53, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_magic_scarf"       ,"fg": 54, "rotates": false },
+          { "id": "PSY_magi_magic_scarf_loose"              ,"fg": 53, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_magic_scarf_loose" ,"fg": 54, "rotates": false }
         ]
       }
     ]

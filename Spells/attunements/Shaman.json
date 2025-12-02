@@ -1,0 +1,18 @@
+[
+  {
+    "id": "butterfly_swarm",
+    "type": "SPELL",
+    "name": { "str": "Butterfly Swarm" },
+    "copy-from": "butterfly_swarm",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_shambling_mound",
+    "type": "SPELL",
+    "name": { "str": "Call of Mound" },
+    "copy-from": "summon_shambling_mound",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

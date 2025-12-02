@@ -1,0 +1,258 @@
+[
+  {
+    "id": "jolt",
+    "type": "SPELL",
+    "name": "Jolt",
+    "copy-from": "jolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "shocking_lash_base",
+    "type": "SPELL",
+    "name": { "str": "Shocking Lash Base", "//~": "NO_I18N" },
+    "copy-from": "shocking_lash_base",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "lightning_bolt",
+    "type": "SPELL",
+    "name": "Lightning Bolt",
+    "copy-from": "lightning_bolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "windstrike",
+    "type": "SPELL",
+    "name": "Windstrike",
+    "copy-from": "windstrike",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "windrun",
+    "type": "SPELL",
+    "name": "Windrunning",
+    "copy-from": "windrun",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "storm_hammer",
+    "type": "SPELL",
+    "name": "Call Stormhammer",
+    "copy-from": "storm_hammer",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "storm_hammer_plus",
+    "type": "SPELL",
+    "name": "Enhanced Call Stormhammer",
+    "copy-from": "storm_hammer_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "lightning_blast",
+    "type": "SPELL",
+    "name": "Lightning Blast",
+    "copy-from": "lightning_blast",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "lightning_storm",
+    "type": "SPELL",
+    "name": { "ctxt": "spell", "str": "Lightning Storm" },
+    "copy-from": "lightning_storm",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_ionization",
+    "type": "SPELL",
+    "name": "Ionization",
+    "copy-from": "stormshaper_ionization",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_wall_of_fog",
+    "type": "SPELL",
+    "name": "Wall of Fog",
+    "copy-from": "stormshaper_wall_of_fog",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_repelling_arc",
+    "type": "SPELL",
+    "name": "Repelling Arc",
+    "copy-from": "stormshaper_repelling_arc",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_repelling_arc_plus",
+    "type": "SPELL",
+    "name": "Enhanced Repelling Arc",
+    "copy-from": "stormshaper_repelling_arc_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormfist",
+    "type": "SPELL",
+    "name": "Stormfist",
+    "copy-from": "stormfist",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormfist_plus",
+    "type": "SPELL",
+    "name": "Enhanced Stormfist",
+    "copy-from": "stormfist_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "create_electric_lighter",
+    "type": "SPELL",
+    "name": "Fire Spark",
+    "copy-from": "create_electric_lighter",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "storm_shipwrecker",
+    "type": "SPELL",
+    "name": { "str": "Shipwrecker" },
+    "copy-from": "storm_shipwrecker",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "explosive_decompression",
+    "type": "SPELL",
+    "name": "Explosive Decompression",
+    "copy-from": "explosive_decompression",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "vacuum_decompression",
+    "type": "SPELL",
+    "name": "Vacuum Decompression",
+    "copy-from": "vacuum_decompression",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "air_bubble",
+    "type": "SPELL",
+    "name": "Air Bubble",
+    "copy-from": "air_bubble",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "storm_superconductor",
+    "type": "SPELL",
+    "name": { "str": "Superconductor" },
+    "copy-from": "storm_superconductor",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "type": "SPELL",
+    "id": "shocking_dash",
+    "name": "Shocking Dash",
+    "copy-from": "shocking_dash",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "type": "SPELL",
+    "id": "shocking_teleport",
+    "name": "Shocking Teleport",
+    "copy-from": "shocking_teleport",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "toxtricity",
+    "type": "SPELL",
+    "name": "Toxtricity",
+    "copy-from": "toxtricity",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "electric_eye",
+    "type": "SPELL",
+    "name": "Electric Eye",
+    "copy-from": "electric_eye",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "electric_waves",
+    "type": "SPELL",
+    "name": "Electric Waves",
+    "copy-from": "electric_waves",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "electric_arts",
+    "type": "SPELL",
+    "name": "Electric Arts",
+    "copy-from": "electric_arts",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_teravolt",
+    "type": "SPELL",
+    "name": "Summon Teravolt",
+    "copy-from": "summon_teravolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_cloak_of_fog",
+    "type": "SPELL",
+    "name": "Cloak of Fog",
+    "copy-from": "stormshaper_cloak_of_fog",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_heart_of_hurricane",
+    "type": "SPELL",
+    "name": "Heart of the Hurricane",
+    "copy-from": "stormshaper_heart_of_hurricane",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_cloak_of_frog",
+    "type": "SPELL",
+    "name": "Cloak of Frog",
+    "copy-from": "stormshaper_cloak_of_frog",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stormshaper_loud_voice_spell",
+    "type": "SPELL",
+    "name": "Thundering Voice",
+    "copy-from": "stormshaper_loud_voice_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

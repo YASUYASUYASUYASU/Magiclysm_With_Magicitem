@@ -1,0 +1,27 @@
+[
+  {
+    "id": "burning_trail",
+    "type": "SPELL",
+    "name": "Burning Trail",
+    "copy-from": "burning_trail",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "immolate",
+    "type": "SPELL",
+    "name": "Immolate",
+    "copy-from": "immolate",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "cleansingflame_hermes_heal",
+    "type": "SPELL",
+    "spell_class": "CLEANSING_FLAME",
+    "name": "Hermes Reborn",
+    "copy-from": "cleansingflame_hermes_heal",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

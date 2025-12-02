@@ -1,0 +1,26 @@
+[
+  {
+    "id": "summon_subzero_talons",
+    "type": "SPELL",
+    "name": "Subzero Talons",
+    "copy-from": "summon_subzero_talons",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "cold_heart",
+    "type": "SPELL",
+    "name": "Cold Heart",
+    "copy-from": "cold_heart",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "iceelemental_frostcrystal",
+    "type": "SPELL",
+    "name": "Form Everfrost",
+    "copy-from": "iceelemental_frostcrystal",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

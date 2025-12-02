@@ -1,5 +1,6 @@
 [
   {
+    "//1": "各種魔法杖のレシピ",  
     "type": "recipe",
     "result": "PSY_magi_stave_magic_light_healing_1",
     "category": "CC_PSY_MWMI",
@@ -29,7 +30,7 @@
     "difficulty": 4,
     "time": "15 m",
     "autolearn": true,
-    "qualities": [ { "id": "CHISEL", "level": 2 }, { "id": "MANA_INFUSE", "level": 1 } ],
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -60,6 +61,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_pain_split_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -71,6 +73,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bio_grotesque_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -82,6 +85,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bio_grotesque_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -93,6 +97,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bio_grotesque_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -104,6 +109,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bio_acidicspray_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -115,6 +121,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bio_acidicspray_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -126,6 +133,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bio_acidicspray_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -137,6 +145,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_druid_veggrasp_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -148,6 +157,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_druid_veggrasp_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -159,6 +169,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_druid_veggrasp_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -170,6 +181,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_druid_rootstrike_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -181,6 +193,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_druid_rootstrike_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -192,6 +205,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_druid_rootstrike_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -203,6 +217,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_cats_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -214,6 +229,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_cats_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -225,6 +241,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_cats_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -236,6 +253,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_shardspray_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -247,6 +265,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_shardspray_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -258,6 +277,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_shardspray_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -269,6 +289,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_piercing_bolt_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -280,6 +301,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_piercing_bolt_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -291,6 +313,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_piercing_bolt_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -302,6 +325,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_shardstorm_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -313,6 +337,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_shardstorm_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -324,6 +349,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_eshaper_shardstorm_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -335,6 +361,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_nova_flare_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -346,6 +373,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_nova_flare_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -357,6 +385,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_nova_flare_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -368,6 +397,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_ice_spike_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -379,6 +409,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_ice_spike_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -390,6 +421,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_ice_spike_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -401,6 +433,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_frost_spray_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -412,6 +445,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_frost_spray_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -423,6 +457,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_frost_spray_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -434,6 +469,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_freezing_touch_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -445,6 +481,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_freezing_touch_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -456,6 +493,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_freezing_touch_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -467,6 +505,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_phase_door_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -478,6 +517,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_phase_door_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -489,6 +529,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_phase_door_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -500,6 +541,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_gravity_well_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -511,6 +553,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_gravity_well_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -522,6 +565,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_gravity_well_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -533,6 +577,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_magus_mana_bolt_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -544,6 +589,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_magus_mana_bolt_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -555,6 +601,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_magus_mana_bolt_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -566,6 +613,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_lightning_bolt_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -577,6 +625,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_lightning_bolt_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -588,6 +637,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_lightning_bolt_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -599,6 +649,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_lightning_storm_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -610,6 +661,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_lightning_storm_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -621,6 +673,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_lightning_storm_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -632,6 +685,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_stormshaper_ionization_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -643,6 +697,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_stormshaper_ionization_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -654,6 +709,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_stormshaper_ionization_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -665,6 +721,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_improved_knock_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -676,6 +733,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bless_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -687,6 +745,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bless_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -698,6 +757,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_bless_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -709,6 +769,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_spirit_armor_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -720,6 +781,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_spirit_armor_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -731,6 +793,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_spirit_armor_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -742,6 +805,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_smite_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -753,6 +817,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_smite_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -764,6 +829,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_smite_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -775,6 +841,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_skeleton_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -786,6 +853,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_skeleton_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -797,6 +865,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_skeleton_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -808,6 +877,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_decayed_pouncer_1",
     "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -819,6 +889,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_decayed_pouncer_2",
     "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
@@ -830,6 +901,7 @@
     "type": "recipe",
     "result": "PSY_magi_stave_magic_summon_decayed_pouncer_3",
     "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [
        [ [ "crystallized_mana", 200 ] ],
        [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],

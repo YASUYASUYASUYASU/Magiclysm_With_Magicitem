@@ -1,0 +1,244 @@
+[
+  {
+    "id": "stonefist",
+    "type": "SPELL",
+    "name": "Stonefist",
+    "copy-from": "stonefist",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "stonefist_plus",
+    "type": "SPELL",
+    "name": "Improved Stonefist",
+    "copy-from": "stonefist_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "seismic_stomp",
+    "type": "SPELL",
+    "name": "Seismic Stomp",
+    "copy-from": "seismic_stomp",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "recover_stamina",
+    "type": "SPELL",
+    "name": "Stone's Endurance",
+    "copy-from": "recover_stamina",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "eshaper_shardspray",
+    "type": "SPELL",
+    "name": "Shardspray",
+    "copy-from": "eshaper_shardspray",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level",
+    "//1": "シャードスプレーの前提の材料(アイテム)を削除する(難易度低下)",
+    "components": ""
+  },
+  {
+    "id": "eshaper_piercing_bolt",
+    "type": "SPELL",
+    "name": "Piercing Bolt",
+    "copy-from": "eshaper_piercing_bolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "eshaper_shardstorm",
+    "type": "SPELL",
+    "name": "Shardstorm",
+    "copy-from": "eshaper_shardstorm",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "eshaper_rockbolt",
+    "type": "SPELL",
+    "name": "Rockbolt",
+    "copy-from": "eshaper_rockbolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "move_earth",
+    "type": "SPELL",
+    "name": "Move Earth",
+    "copy-from": "move_earth",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "clairvoyance",
+    "type": "SPELL",
+    "name": "Clairvoyance",
+    "copy-from": "clairvoyance",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_stoneskin",
+    "type": "SPELL",
+    "name": "Stoneskin",
+    "copy-from": "earthshaper_stoneskin",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_stoneskin_plus",
+    "type": "SPELL",
+    "name": "Improved Stoneskin",
+    "copy-from": "earthshaper_stoneskin_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_pillar",
+    "type": "SPELL",
+    "name": "Pillar of Stone",
+    "copy-from": "earthshaper_pillar",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "pertifying_touch",
+    "type": "SPELL",
+    "name": "Petrifying Touch",
+    "copy-from": "pertifying_touch",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "reactive_armor",
+    "type": "SPELL",
+    "name": "Reactive Armor",
+    "copy-from": "reactive_armor",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "eshaper_impalement",
+    "type": "SPELL",
+    "name": "Impalement",
+    "copy-from": "eshaper_impalement",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "eshaper_impalement_moves",
+    "type": "SPELL",
+    "name": { "str": "Impalement Moves Removing", "//~": "NO_I18N" },
+    "copy-from": "eshaper_impalement_moves",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "eshaper_spawn_tools",
+    "type": "SPELL",
+    "name": "Utility Molding",
+    "copy-from": "eshaper_spawn_tools",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "shape_of_dust",
+    "type": "SPELL",
+    "name": "Shape of Dust",
+    "copy-from": "shape_of_dust",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_eshaper_golem",
+    "type": "SPELL",
+    "name": "Summon Earthshaper's Golem",
+    "copy-from": "summon_eshaper_golem",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_boulder",
+    "type": "SPELL",
+    "name": "Summon Boulder",
+    "copy-from": "earthshaper_boulder",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_reveal_world_map",
+    "type": "SPELL",
+    "name": "Reading the Earthbones",
+    "copy-from": "earthshaper_reveal_world_map",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_danger_sense",
+    "type": "SPELL",
+    "name": "Tremorsense",
+    "copy-from": "earthshaper_danger_sense",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_fortitude_of_stone",
+    "type": "SPELL",
+    "name": "Stones' Fortitude",
+    "copy-from": "earthshaper_fortitude_of_stone",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_turning_of_earth",
+    "type": "SPELL",
+    "name": "The Turning of the Earth",
+    "copy-from": "earthshaper_turning_of_earth",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_granite_aegis",
+    "type": "SPELL",
+    "name": "Granite Aegis",
+    "copy-from": "earthshaper_granite_aegis",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_harden_earth",
+    "type": "SPELL",
+    "name": "Harden Earth",
+    "copy-from": "earthshaper_harden_earth",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_sleep_in_earth",
+    "type": "SPELL",
+    "name": "Stone Slumber",
+    "copy-from": "earthshaper_sleep_in_earth",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_repair_metal_stone",
+    "type": "SPELL",
+    "name": "Fault-Mending Chant",
+    "copy-from": "earthshaper_repair_metal_stone",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "earthshaper_diggable_teleport",
+    "type": "SPELL",
+    "name": "Earth Gate",
+    "copy-from": "earthshaper_diggable_teleport",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

@@ -1,57 +1,65 @@
 [
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_defense_lesser_xl",
-    "name": { "str": "XL防御の篭手", "str_pl": "XL防御の篭手" },
+    "name": { "str": "XL防御の篭手", "str_pl": "XL防御の篭手[MWMI]" },
     "copy-from": "mbracer_defense_lesser",
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_lightning_lesser_xl",
-    "name": { "str": "XL電光の篭手", "str_pl": "XL電光の篭手" },
+    "name": { "str": "XL電光の篭手", "str_pl": "XL電光の篭手[MWMI]" },
     "copy-from": "mbracer_lightning_lesser",
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_defense_greater_xl",
-    "name": { "str": "XL鉄壁の篭手", "str_pl": "XL鉄壁の篭手" },
+    "name": { "str": "XL鉄壁の篭手", "str_pl": "XL鉄壁の篭手[MWMI]" },
     "copy-from": "mbracer_defense_greater",
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_lightning_greater_xl",
-    "name": { "str": "XL雷撃の篭手", "str_pl": "XL雷撃の篭手" },
+    "name": { "str": "XL雷撃の篭手", "str_pl": "XL雷撃の篭手[MWMI]" },
     "copy-from": "mbracer_lightning_greater",
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_defense_lesser_xs",
-    "name": { "str": "XS防御の篭手", "str_pl": "XS防御の篭手" },
+    "name": { "str": "XS防御の篭手", "str_pl": "XS防御の篭手[MWMI]" },
     "copy-from": "mbracer_defense_lesser",
     "extend": { "flags": [ "UNDERSIZE" ] }
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_lightning_lesser_xs",
-    "name": { "str": "XS電光の篭手", "str_pl": "XS電光の篭手" },
+    "name": { "str": "XS電光の篭手", "str_pl": "XS電光の篭手[MWMI]" },
     "copy-from": "mbracer_lightning_lesser",
     "extend": { "flags": [ "UNDERSIZE" ] }
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_defense_greater_xs",
-    "name": { "str": "XS鉄壁の篭手", "str_pl": "XS鉄壁の篭手" },
+    "name": { "str": "XS鉄壁の篭手", "str_pl": "XS鉄壁の篭手[MWMI]" },
     "copy-from": "mbracer_defense_greater",
     "extend": { "flags": [ "UNDERSIZE" ] }
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "TOOL", "ARMOR" ],
     "id": "PSY_magi_mbracer_lightning_greater_xs",
-    "name": { "str": "XS雷撃の篭手", "str_pl": "XS雷撃の篭手" },
+    "name": { "str": "XS雷撃の篭手", "str_pl": "XS雷撃の篭手[MWMI]" },
     "copy-from": "mbracer_lightning_greater",
     "extend": { "flags": [ "UNDERSIZE" ] }
   }

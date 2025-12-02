@@ -5,6 +5,14 @@
     "activity_level": "NO_EXERCISE",
     "result": "dragon_essence",
     "copy-from": "dragon_essence",
+    "qualities": [
+      { "id": "CONCENTRATE", "level": 1 },
+      { "id": "FINE_DISTILL", "level": 1 },
+      { "id": "SEPARATE", "level": 1 },
+      { "id": "CONTAIN", "level": 1 },
+      { "id": "MANA_FOCUS", "level": 1 }
+    ],
+    "tools": [ [ [ "food_processor", 1 ] ], [ [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "dragon_scale", 4, "LIST" ], [ "meat_dragon", 40 ] ] ],
     "time": "30 m"
   },
@@ -15,6 +23,15 @@
     "result": "dragon_essence",
     "copy-from": "dragon_essence",
     "id_suffix": "with_blood",
+    "qualities": [
+      { "id": "CONCENTRATE", "level": 1 },
+      { "id": "FINE_DISTILL", "level": 1 },
+      { "id": "SEPARATE", "level": 1 },
+      { "id": "CONTAIN", "level": 1 },
+      { "id": "MANA_FOCUS", "level": 1 },
+      { "id": "MAGIC_CAULDRON", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
     "components": [ [ [ "dragon_scale", 6, "LIST" ], [ "meat_dragon", 60 ] ], [ [ "dragon_blood", 500 ] ] ],
     "time": "30 m"
   }

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "quake",
+    "type": "SPELL",
+    "name": "Quake",
+    "description": "Cause a localized earthquake, knocking down enemies and overturning the earth.",
+    "copy-from": "quake",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

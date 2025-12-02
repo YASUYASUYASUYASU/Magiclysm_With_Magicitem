@@ -1,0 +1,270 @@
+[
+  {
+    "type": "jmath_function",
+    "id": "magic_test_func_get_level",
+    "num_args": 1,
+    "return": "_0 / 1000"
+  },
+  {
+    "type": "jmath_function",
+    "id": "magic_test_func_exp_for_level",
+    "num_args": 1,
+    "return": "1000 * _0"
+  },
+  {
+    "id": "smite",
+    "type": "SPELL",
+    "copy-from": "smite",
+    "name": "Smite",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "recover_mana",
+    "type": "SPELL",
+    "copy-from": "recover_mana",
+    "name": "Life Conversion",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "recover_pain",
+    "type": "SPELL",
+    "copy-from": "recover_pain",
+    "name": "Mind over Pain",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_undead",
+    "type": "SPELL",
+    "copy-from": "summon_undead",
+    "name": "Summon Undead",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "abstract": "summon_abstract_zombie",
+    "type": "SPELL",
+    "copy-from": "summon_abstract_zombie",
+    "name": { "str": "Abstract Summon Zombie", "//~": "NO_I18N" },
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_undead_swarm",
+    "type": "SPELL",
+    "copy-from": "summon_undead_swarm",
+    "name": "Summon Undead Swarm",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "abstract": "summon_abstract_swarm",
+    "type": "SPELL",
+    "copy-from": "summon_abstract_swarm",
+    "name": { "str": "Abstract Summon Swarm", "//~": "NO_I18N" },
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "necrotic_gaze",
+    "type": "SPELL",
+    "copy-from": "necrotic_gaze",
+    "name": "Necrotic Gaze",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "dominate",
+    "type": "SPELL",
+    "copy-from": "dominate",
+    "name": "Domination",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "life_detonation",
+    "type": "SPELL",
+    "copy-from": "life_detonation",
+    "name": "Life Detonation",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "life_detonation_explosion",
+    "type": "SPELL",
+    "copy-from": "life_detonation_explosion",
+    "name": { "str": "Life Detonation Explosion", "//~": "NO_I18N" },
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "convert",
+    "type": "SPELL",
+    "name": "Convert",
+    "copy-from": "convert",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "soulrend",
+    "type": "SPELL",
+    "name": "Soulrend",
+    "copy-from": "soulrend",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "disruption_bolt",
+    "type": "SPELL",
+    "name": "Disruption Bolt",
+    "copy-from": "disruption_bolt",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "wrathful_spirits",
+    "type": "SPELL",
+    "name": "Wrathful Spirits",
+    "copy-from": "wrathful_spirits",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "spirit_walk",
+    "type": "SPELL",
+    "name": "Spirit Walk",
+    "copy-from": "spirit_walk",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "banishment_lesser",
+    "type": "SPELL",
+    "name": "Lesser Banishment",
+    "copy-from": "banishment_lesser",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "summon_wisps",
+    "type": "SPELL",
+    "name": "Ignus Fatuus",
+    "copy-from": "summon_wisps",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "bleed",
+    "type": "SPELL",
+    "name": "Bleed",
+    "copy-from": "bleed",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_summon_decaying_boneclub",
+    "type": "SPELL",
+    "name": { "str": "Decaying Boneclub" },
+    "copy-from": "animist_summon_decaying_boneclub",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_summon_decaying_boneclub_plus",
+    "type": "SPELL",
+    "name": { "str": "Improved Decaying Boneclub" },
+    "copy-from": "animist_summon_decaying_boneclub_plus",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "rupture",
+    "type": "SPELL",
+    "name": "Rupture",
+    "copy-from": "rupture",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "devour",
+    "type": "SPELL",
+    "name": "Devour",
+    "copy-from": "devour",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_sense_outsiders",
+    "type": "SPELL",
+    "name": "Sense animist_sense_outsiders",
+    "copy-from": "devour",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_summon_watcher",
+    "type": "SPELL",
+    "name": { "str": "Summon Watcher Spirit" },
+    "copy-from": "animist_summon_watcher",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_luck_bone",
+    "type": "SPELL",
+    "name": { "str": "Osseous Luck" },
+    "copy-from": "animist_luck_bone",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_spirit_walking",
+    "type": "SPELL",
+    "name": { "str": "Spirit-Walking" },
+    "copy-from": "animist_spirit_walking",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_add_evasion_spell",
+    "type": "SPELL",
+    "name": "Guardian Spirit",
+    "copy-from": "animist_add_evasion_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_slow_food_rotting_spell",
+    "type": "SPELL",
+    "name": "Abjure Spirits of Rot",
+    "copy-from": "animist_slow_food_rotting_spell",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_magic_fissile",
+    "type": "SPELL",
+    "name": "Magic Fissile",
+    "copy-from": "animist_magic_fissile",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_cast_spells_when_silent",
+    "type": "SPELL",
+    "name": "The Inner Voice",
+    "copy-from": "animist_cast_spells_when_silent",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "animist_do_psionic_damage_to_head",
+    "type": "SPELL",
+    "name": "Mind Crush",
+    "copy-from": "animist_do_psionic_damage_to_head",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

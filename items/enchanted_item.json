@@ -1,703 +1,820 @@
 [
   {
     "id": "PSY_magi_mnecklace_wizardry_minor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔力のネックレスLv1[MWMI]" },
-    "description": "封印された巻物の絵が刻まれた、銅製のネックレスです。マナ容量がわずかに増加します。",
+    "description": "封印された巻物の絵が刻まれた、銅製のネックレスです。マナ容量がわずかに増加します。[最大マナ+200]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 200 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 200 } ] } ]
   },
   {
     "id": "PSY_magi_mnecklace_wizardry_lesser",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔力のネックレスLv2[MWMI]" },
-    "description": "封印された巻物の絵が刻まれた、銅製のネックレスです。マナ容量が多少増加します。",
+    "description": "封印された巻物の絵が刻まれた、銅製のネックレスです。マナ容量が多少増加します。[最大マナ+400]",
     "copy-from": "PSY_magi_mnecklace_wizardry_minor",
     "price_postapoc": "5000 USD",
     "material": [ "silver" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 400 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 400 } ] } ]
   },
     {
     "id": "PSY_magi_mnecklace_wizardry_moderate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔力のネックレスLv3[MWMI]" },
-    "description": "封印された巻物の絵が刻まれた、金製のネックレスです。マナ容量が増加します。",
+    "description": "封印された巻物の絵が刻まれた、金製のネックレスです。マナ容量が増加します。[最大マナ+600]",
     "copy-from": "PSY_magi_mnecklace_wizardry_minor",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 600 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 600 } ] } ] 
   },
     {
     "id": "PSY_magi_mnecklace_wizardry_greater",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔力のネックレスLv4[MWMI]" },
-    "description": "封印された巻物の絵が刻まれた、プラチナ製のネックレスです。マナ容量が大幅に増加します。",
+    "description": "封印された巻物の絵が刻まれた、プラチナ製のネックレスです。マナ容量が大幅に増加します。[最大マナ+1200]",
     "copy-from": "PSY_magi_mnecklace_wizardry_minor",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 1200 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 1200 } ] } ] 
   },
   {
     "id": "PSY_magi_mnecklace_dodge_bonus",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "ウナギのネックレス[MWMI]" },
-    "description": "とぐろを巻くウナギを象った銀のネックレスです。着用すると1ターンで回避できる攻撃回数が1増加します。",
+    "description": "とぐろを巻くウナギを象った銀のネックレスです。着用すると1ターンで回避できる攻撃回数が1増加します。[１ターンの回避回数+1]",
     "copy-from": "silver_necklace",
     "price_postapoc": "7000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 1 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 1 } ] } ] 
   },
   {
     "id": "PSY_magi_mnecklace_dodge_bonus_2",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "双頭ウナギのネックレス[MWMI]" },
-    "description": "とぐろを巻くウナギを象った金のネックレスです。着用すると1ターンで回避できる攻撃回数が2増加します。",
+    "description": "とぐろを巻くウナギを象った金のネックレスです。着用すると1ターンで回避できる攻撃回数が2増加します。[１ターンの回避回数+2]",
     "copy-from": "PSY_magi_mnecklace_dodge_bonus",
     "price_postapoc": "8000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 2 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 2 } ] } ] 
   },
 
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_strength_1",
     "name": { "str": "筋力のネックレス+1[MWMI]" },
-    "description": "着用すると少し強くなれる銅製のネックレスです。",
+    "description": "着用すると少し強くなれる銅製のネックレスです。[着用時に筋力+1]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_strength_2",
     "name": { "str": "筋力のネックレス+2[MWMI]" },
-    "description": "着用するとそこそこ強くなれる銀製のネックレスです。",
+    "description": "着用するとそこそこ強くなれる銀製のネックレスです。[着用時に筋力+2]",
     "copy-from": "silver_necklace",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 2 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 2 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_strength_3",
     "name": { "str": "筋力のネックレス+3[MWMI]" },
-    "description": "着用するとかなり強くなれる金製のネックレスです。",
+    "description": "着用するとかなり強くなれる金製のネックレスです。[着用時に筋力+3]",
     "copy-from": "PSY_magi_mnecklace_strength_1",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 3 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 3 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_strength_4",
     "name": { "str": "筋力のネックレス+4[MWMI]" },
-    "description": "着用すると驚くほど強くなれるプラチナ製のネックレスです。",
+    "description": "着用すると驚くほど強くなれるプラチナ製のネックレスです。[着用時に筋力+4]",
     "copy-from": "PSY_magi_mnecklace_strength_1",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 4 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 4 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_dexterity_1",
     "name": { "str": "器用のネックレス+1[MWMI]" },
-    "description": "着用すると少し機敏になれる銅製のネックレスです。",
+    "description": "着用すると少し機敏になれる銅製のネックレスです。[着用時に器用+1]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 1 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 1 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_dexterity_2",
     "name": { "str": "器用のネックレス+2[MWMI]" },
-    "description": "着用するとそこそこ機敏になれる銀製のネックレスです。",
+    "description": "着用するとそこそこ機敏になれる銀製のネックレスです。[着用時に器用+2]",
     "copy-from": "PSY_magi_mnecklace_dexterity_1",
     "price_postapoc": "5000 USD",
     "material": [ "silver" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 2 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 2 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_dexterity_3",
     "name": { "str": "器用のネックレス+3[MWMI]" },
-    "description": "着用するとかなり機敏になれる金製のネックレスです。",
+    "description": "着用するとかなり機敏になれる金製のネックレスです。[着用時に器用+3]",
     "copy-from": "PSY_magi_mnecklace_dexterity_1",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 3 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 3 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_dexterity_4",
     "name": { "str": "器用のネックレス+4[MWMI]" },
-    "description": "着用すると驚くほど機敏になれるプラチナ製のネックレスです。",
+    "description": "着用すると驚くほど機敏になれるプラチナ製のネックレスです。[着用時に器用+4]",
     "copy-from": "PSY_magi_mnecklace_dexterity_1",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 4 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 4 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_intelligence_1",
     "name": { "str": "知性のネックレス+1[MWMI]" },
-    "description": "着用すると少し賢くなれる銅製のネックレスです。",
+    "description": "着用すると少し賢くなれる銅製のネックレスです。[着用時に知性+1]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 1 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 1 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_intelligence_2",
     "name": { "str": "知性のネックレス+2[MWMI]" },
-    "description": "着用するとそこそこ賢くなれる銀製のネックレスです。",
+    "description": "着用するとそこそこ賢くなれる銀製のネックレスです。[着用時に知性+2]",
     "copy-from": "PSY_magi_mnecklace_intelligence_1",
     "price_postapoc": "5000 USD",
     "material": [ "silver" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 2 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 2 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_intelligence_3",
     "name": { "str": "知性のネックレス+3[MWMI]" },
-    "description": "着用するとかなり賢くなれる金製のネックレスです。",
+    "description": "着用するとかなり賢くなれる金製のネックレスです。[着用時に知性+3]",
     "copy-from": "PSY_magi_mnecklace_intelligence_1",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 3 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 3 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_intelligence_4",
     "name": { "str": "知性のネックレス+4[MWMI]" },
-    "description": "着用すると驚くほど賢くなれるプラチナ製のネックレスです。",
+    "description": "着用すると驚くほど賢くなれるプラチナ製のネックレスです。[着用時に知性+4]",
     "copy-from": "PSY_magi_mnecklace_intelligence_1",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 4 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 4 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_perception_1",
     "name": { "str": "感覚のネックレス+1[MWMI]" },
-    "description": "着用すると少し鋭くなれる銅製のネックレスです。",
+    "description": "着用すると少し鋭くなれる銅製のネックレスです。[着用時に感覚+1]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 1 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 1 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_perception_2",
     "name": { "str": "感覚のネックレス+2[MWMI]" },
-    "description": "着用するとそこそこ鋭くなれる銀製のネックレスです。",
+    "description": "着用するとそこそこ鋭くなれる銀製のネックレスです。[着用時に感覚+2]",
     "copy-from": "PSY_magi_mnecklace_perception_1",
     "price_postapoc": "5000 USD",
     "material": [ "silver" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 2 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 2 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_perception_3",
     "name": { "str": "感覚のネックレス+3[MWMI]" },
-    "description": "着用するとかなり鋭くなれる金製のネックレスです。",
+    "description": "着用するとかなり鋭くなれる金製のネックレスです。[着用時に感覚+3]",
     "copy-from": "PSY_magi_mnecklace_perception_1",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 3 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 3 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_perception_4",
     "name": { "str": "感覚のネックレス+4[MWMI]" },
-    "description": "着用すると驚くほど鋭くなれるプラチナ製のネックレスです。",
+    "description": "着用すると驚くほど鋭くなれるプラチナ製のネックレスです。[着用時に感覚+4]",
     "copy-from": "PSY_magi_mnecklace_perception_1",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_speed_3",
     "name": { "str": "速度のネックレス+3[MWMI]" },
-    "description": "着用すると少し素早くなれる銅製のネックレスです。",
+    "description": "着用すると少し素早くなれる銅製のネックレスです。[着用時に速度+3]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 3 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 3 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_speed_5",
     "name": { "str": "速度のネックレス+5[MWMI]" },
-    "description": "着用するとそこそこ素早くなれる銀製のネックレスです。",
+    "description": "着用するとそこそこ素早くなれる銀製のネックレスです。[着用時に速度+5]",
     "copy-from": "PSY_magi_mnecklace_speed_3",
     "price_postapoc": "5000 USD",
     "material": [ "silver" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 5 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 5 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_speed_7",
     "name": { "str": "速度のネックレス+7[MWMI]" },
-    "description": "着用するとかなり素早くなれる金製のネックレスです。",
+    "description": "着用するとかなり素早くなれる金製のネックレスです。[着用時に速度+7]",
     "copy-from": "PSY_magi_mnecklace_speed_3",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 7 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 7 } ] } ] 
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_speed_10",
     "name": { "str": "速度のネックレス+10[MWMI]" },
-    "description": "着用すると驚くほど素早くなれるプラチナ製のネックレスです。",
+    "description": "着用すると驚くほど素早くなれるプラチナ製のネックレスです。[着用時に速度+10]",
     "copy-from": "PSY_magi_mnecklace_speed_3",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 10 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 10 } ] } ] 
   },
     {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_protection_2",
     "name": { "str": "防御のネックレス+2[MWMI]" },
-    "description": "着用するとダメージを少し軽減する銅製のネックレスです。",
+    "description": "着用するとダメージを少し軽減する銅製のネックレスです。[着用時に斬撃・打撃・刺突ダメージ2軽減 銃弾ダメージ1軽減]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
     "material": [ "copper" ],
-    "flags": [ "FANCY" ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_CUT", "add": -2 },
-            { "value": "ARMOR_BASH", "add": -2 },
-            { "value": "ARMOR_STAB", "add": -2 },
-            { "value": "ARMOR_BULLET", "add": -1 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "incoming_damage_mod": [
+          { "type": "cut", "add": -2 },
+          { "type": "bash", "add": -2 },
+          { "type": "stab", "add": -2 },
+          { "type": "bullet", "add": -1 }
+        ]
+      }
+    ]
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_protection_4",
     "name": { "str": "防御のネックレス+4[MWMI]" },
-    "description": "着用するとダメージをそこそこ軽減する銀製のネックレスです。",
+    "description": "着用するとダメージをそこそこ軽減する銀製のネックレスです。[着用時に斬撃・打撃・刺突ダメージ4軽減 銃弾ダメージ2軽減]",
     "copy-from": "PSY_magi_mnecklace_protection_2",
     "price_postapoc": "5000 USD",
     "material": [ "silver" ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_CUT", "add": -4 },
-            { "value": "ARMOR_BASH", "add": -4 },
-            { "value": "ARMOR_STAB", "add": -4 },
-            { "value": "ARMOR_BULLET", "add": -2 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "incoming_damage_mod": [
+          { "type": "cut", "add": -4 },
+          { "type": "bash", "add": -4 },
+          { "type": "stab", "add": -4 },
+          { "type": "bullet", "add": -2 }
+        ]
+      }
+    ]
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_protection_6",
     "name": { "str": "防御のネックレス+6[MWMI]" },
-    "description": "着用するとダメージをかなり軽減する金製のネックレスです。",
+    "description": "着用するとダメージをかなり軽減する金製のネックレスです。[着用時に斬撃・打撃・刺突ダメージ6軽減 銃弾ダメージ3軽減]",
     "copy-from": "PSY_magi_mnecklace_protection_2",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_CUT", "add": -6 },
-            { "value": "ARMOR_BASH", "add": -6 },
-            { "value": "ARMOR_STAB", "add": -6 },
-            { "value": "ARMOR_BULLET", "add": -3 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "incoming_damage_mod": [
+          { "type": "cut", "add": -6 },
+          { "type": "bash", "add": -6 },
+          { "type": "stab", "add": -6 },
+          { "type": "bullet", "add": -3 }
+        ]
+      }
+    ]
   },
   {
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "id": "PSY_magi_mnecklace_protection_8",
     "name": { "str": "防御のネックレス+8[MWMI]" },
-    "description": "着用するとダメージを驚くほど軽減するプラチナ製のネックレスです。",
+    "description": "着用するとダメージを驚くほど軽減するプラチナ製のネックレスです。[着用時に斬撃・打撃・刺突ダメージ8軽減 銃弾ダメージ4軽減]",
     "copy-from": "PSY_magi_mnecklace_protection_2",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_CUT", "add": -8 },
-            { "value": "ARMOR_BASH", "add": -8 },
-            { "value": "ARMOR_STAB", "add": -8 },
-            { "value": "ARMOR_BULLET", "add": -4 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "incoming_damage_mod": [
+          { "type": "cut", "add": -8 },
+          { "type": "bash", "add": -8 },
+          { "type": "stab", "add": -8 },
+          { "type": "bullet", "add": -4 }
+        ]
+      }
+    ]
   },
   {
     "id": "PSY_magi_mnecklace_stamina_minor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "リカオンのネックレス+1[MWMI]" },
-    "description": "凛々しいリカオンを象った、銅製のネックレスです。スタミナがわずかに増加します。",
+    "description": "凛々しいリカオンを象った、銅製のネックレスです。スタミナがわずかに増加します。[着用時に最大スタミナ+1000]",
     "copy-from": "copper_necklace",
     "price_postapoc": "3000 USD",
-    "flags": [ "FANCY" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 1000 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 1000 } ] } ] 
   },
   {
     "id": "PSY_magi_mnecklace_stamina_lesser",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "リカオンのネックレス+2[MWMI]" },
-    "description": "凛々しいリカオンを象った、銀製のネックレスです。スタミナが多少増加します。",
+    "description": "凛々しいリカオンを象った、銀製のネックレスです。スタミナが多少増加します。[着用時に最大スタミナ+2000]",
     "copy-from": "PSY_magi_mnecklace_stamina_minor",
     "price_postapoc": "5000 USD",
     "material": [ "silver" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 2000 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 2000 } ] } ] 
   },
     {
     "id": "PSY_magi_mnecklace_stamina_moderate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "リカオンのネックレス+3[MWMI]" },
-    "description": "凛々しいリカオンを象った、金製のネックレスです。スタミナが増加します。",
+    "description": "凛々しいリカオンを象った、金製のネックレスです。スタミナが増加します。[着用時に最大スタミナ+3000]",
     "copy-from": "PSY_magi_mnecklace_stamina_minor",
     "price_postapoc": "7000 USD",
     "material": [ "gold" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 3000 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 3000 } ] } ] 
   },
     {
     "id": "PSY_magi_mnecklace_stamina_greater",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "リカオンのネックレス+4[MWMI]" },
-    "description": "凛々しいリカオンを象った、プラチナ製のネックレスです。スタミナが大幅に増加します。",
+    "description": "凛々しいリカオンを象った、プラチナ製のネックレスです。スタミナが大幅に増加します。[着用時に最大スタミナ+4000]",
     "copy-from": "PSY_magi_mnecklace_stamina_minor",
     "price_postapoc": "9000 USD",
     "material": [ "platinum" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 4000 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 4000 } ] } ] 
   },
   {
     "id": "PSY_magi_mring_eye",
-    "type": "TOOL_ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": "奇妙な眼の指輪[MWMI]",
-    "description": "奇妙な目玉が彫られた指輪です。ずっと見ていると、不思議な気分になってきます…",
+    "description": "奇妙な目玉が彫られた指輪です。ずっと見ていると、不思議な気分になってきます…[着用時にテレポートを無効化しフレーミングアイの睨みを無効]",
     "copy-from": "gold_ring",
     "price_postapoc": "6000 USD",
     "material": [ "gold" ],
-    "flags": [ "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "FANCY", "ONLY_ONE", "SKINTIGHT","DIMENSIONAL_ANCHOR" ]
+    "flags": [ "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "SKINTIGHT","DIMENSIONAL_ANCHOR" ]
   },
   {
     "id": "PSY_magi_mnecklace_eye",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "奇妙な眼のネックレス[MWMI]" },
-    "description": "奇妙な目玉が彫られたネックレスです。ずっと見ていると、不思議な気分になってきます…",
+    "description": "奇妙な目玉が彫られたネックレスです。ずっと見ていると、不思議な気分になってきます…[着用時にテレポートを無効化しフレーミングアイの睨みを無効]",
     "copy-from": "gold_necklace",
     "price_postapoc": "6000 USD",
     "material": [ "gold" ],
-    "flags": [ "FANCY", "DIMENSIONAL_ANCHOR" ]
+    "flags": [ "DIMENSIONAL_ANCHOR" ]
   },
   {
     "id": "PSY_magi_mnecklace_safe_1",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "防護のネックレス[MWMI]" },
-    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。",
+    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。[着用時に環境防護+2]",
     "copy-from": "gold_necklace",
     "price_postapoc": "1000 USD",
     "environmental_protection": 2,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
   },
   {
     "id": "PSY_magi_mnecklace_safe_2",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "防護のネックレス+1[MWMI]" },
-    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。",
+    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。[着用時に環境防護+4]",
     "copy-from": "PSY_magi_mnecklace_safe_1",
     "price_postapoc": "2000 USD",
     "material": [ "gold" ],
     "environmental_protection": 4,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ]
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID",  "NONCONDUCTIVE" ]
   },
   {
     "id": "PSY_magi_mnecklace_safe_3",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "防護のネックレス+2[MWMI]" },
-    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。",
+    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。[着用時に環境防護+6]",
     "copy-from": "PSY_magi_mnecklace_safe_1",
     "price_postapoc": "4000 USD",
     "material": [ "gold" ],
     "environmental_protection": 6,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ]
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID",  "NONCONDUCTIVE" ]
   },
   {
     "id": "PSY_magi_mnecklace_safe_4",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "防護のネックレス+3[MWMI]" },
-    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。",
+    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。[着用時に環境防護+8]",
     "copy-from": "PSY_magi_mnecklace_safe_1",
     "price_postapoc": "6000 USD",
     "material": [ "gold" ],
     "environmental_protection": 8,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
   },
   {
     "id": "PSY_magi_mnecklace_safe_5",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "防護のネックレス+4[MWMI]" },
-    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。",
+    "description": "セーフマークが彫られたネックレスです。装備することで効果を発揮します。[着用時に環境防護+10]",
     "copy-from": "PSY_magi_mnecklace_safe_1",
     "price_postapoc": "8000 USD",
     "material": [ "gold" ],
     "environmental_protection": 10,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
   },
   {
     "id": "PSY_magi_mnecklace_angel_wing",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "天使の羽のネックレス[MWMI]" },
-    "description": "天使を象った羽のネックレスです。これを身に着けることで魔力による翼が発生し、高所からの落下ダメージを無効化します。",
+    "description": "天使を象った羽のネックレスです。これを身に着けることで魔力による翼が発生し、高所からの落下ダメージを無効化します。[着用時に落下ダメージ無効]",
     "copy-from": "gold_necklace",
     "price_postapoc": "4000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_angel_wing" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_angel_wing" } ]
   },
   {
     "id": "PSY_magi_bracelet_reaction_buffer_minor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔道式分散緩衝器+1[MWMI]" },
-    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。",
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。[着用時に射撃武器の分散を10%低下]",
     "copy-from": "copper_bracelet",
     "price_postapoc": "3000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.10 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.10 } ] } ] 
   },
   {
     "id": "PSY_magi_bracelet_reaction_buffer_lesser",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔道式分散緩衝器+2[MWMI]" },
-    "description": "見たことがない文字が掘られた銀製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。",
+    "description": "見たことがない文字が掘られた銀製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。[着用時に射撃武器の分散を15%低下]",
     "copy-from": "silver_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.15 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.15 } ] } ] 
   },
   {
     "id": "PSY_magi_bracelet_reaction_buffer_moderate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔道式分散緩衝器+3[MWMI]" },
-    "description": "見たことがない文字が掘られた金製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。",
+    "description": "見たことがない文字が掘られた金製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。[着用時に射撃武器の分散を20%低下]",
     "copy-from": "gold_bracelet",
     "price_postapoc": "7000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.20 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.20 } ] } ] 
   },
   {
     "id": "PSY_magi_bracelet_reaction_buffer_greater",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "魔道式分散緩衝器+4[MWMI]" },
-    "description": "見たことがない文字が掘られたプラチナ製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。",
+    "description": "見たことがない文字が掘られたプラチナ製の腕輪です。これを身に着けることで射撃武器の分散を低下させることができます。[着用時に射撃武器の分散を25%低下]",
     "copy-from": "platinum_bracelet",
     "price_postapoc": "9000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.25 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.25 } ] } ] 
   },
   {
     "id": "PSY_magi_mnecklace_fire_safe_1",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "火のアミュレット+1[MWMI]" },
-    "description": "マナクリスタルに炎が彫られたアミュレットです。装備することで熱ダメージを軽減します。",
+    "description": "マナクリスタルに炎が彫られたアミュレットです。装備することで熱ダメージを軽減します。[着用時に受ける熱ダメージを20%低下させる]",
     "copy-from": "PSY_magi_mnecklace_safe_1",
     "price_postapoc": "2000 USD",
     "material": [ "gold" ],
     "environmental_protection": 4,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ],
-    "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT" , "multiply": -0.20} ] } ]
-    }
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID",  "NONCONDUCTIVE" ],
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "incoming_damage_mod": [ { "type": "ARMOR_HEAT" , "multiply": -0.20} ] } ]
   },
   {
     "id": "PSY_magi_mnecklace_electric_safe_1",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "雷のアミュレット+1[MWMI]" },
-    "description": "マナクリスタルに雷が彫られたアミュレットです。装備することで雷ダメージを軽減します。",
+    "description": "マナクリスタルに雷が彫られたアミュレットです。装備することで雷ダメージを軽減します。[着用時に受ける雷ダメージを20%低下させる]",
     "copy-from": "PSY_magi_mnecklace_safe_1",
     "price_postapoc": "4000 USD",
     "material": [ "gold" ],
     "environmental_protection": 6,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ],
-    "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ELEC" , "multiply": -0.20} ] } ]
-    }
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID",  "NONCONDUCTIVE" ],
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "incoming_damage_mod": [ { "type": "ARMOR_ELEC" , "multiply": -0.20} ] } ]
   },
   {
     "id": "PSY_magi_mnecklace_acid_safe_1",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "酸のアミュレット+1[MWMI]" },
-    "description": "マナクリスタルに酸で模様が彫られたアミュレットです。装備することで酸ダメージを軽減します。",
+    "description": "マナクリスタルに酸で模様が彫られたアミュレットです。装備することで酸ダメージを軽減します。[着用時に受ける酸ダメージを20%低下させる]",
     "copy-from": "PSY_magi_mnecklace_safe_1",
     "price_postapoc": "6000 USD",
     "material": [ "gold" ],
     "environmental_protection": 8,
     "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ],
-    "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ACID" , "multiply": -0.20} ] } ]
-    }
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ],
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "incoming_damage_mod": [ { "type": "ARMOR_ACID" , "multiply": -0.20} ] } ]
   },
   {
     "id": "PSY_magi_bracelet_attack_cost_minor",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "瞬撃の腕輪+1[MWMI]" },
-    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
+    "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。[着用時に近接攻撃の攻撃コスト10%低下]",
     "copy-from": "copper_bracelet",
     "price_postapoc": "3000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.10 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.10 } ] } ] 
   },
   {
     "id": "PSY_magi_bracelet_attack_cost_lesser",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "瞬撃の腕輪+2[MWMI]" },
-    "description": "見たことがない文字が掘られた銀製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
+    "description": "見たことがない文字が掘られた銀製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。[着用時に近接攻撃の攻撃コスト15%低下]",
     "copy-from": "silver_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.15 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.15 } ] } ] 
   },
   {
     "id": "PSY_magi_bracelet_attack_cost_moderate",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "瞬撃の腕輪+3[MWMI]" },
-    "description": "見たことがない文字が掘られた金製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
+    "description": "見たことがない文字が掘られた金製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。[着用時に近接攻撃の攻撃コスト20%低下]",
     "copy-from": "gold_bracelet",
     "price_postapoc": "7000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.20 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.20 } ] } ] 
   },
   {
     "id": "PSY_magi_bracelet_attack_cost_greater",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "瞬撃の腕輪+4[MWMI]" },
-    "description": "見たことがない文字が掘られたプラチナ製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。",
+    "description": "見たことがない文字が掘られたプラチナ製の腕輪です。これを身に着けることで近接攻撃のコストを下げる効果が発動します。[着用時に近接攻撃の攻撃コスト25%低下]",
     "copy-from": "platinum_bracelet",
     "price_postapoc": "9000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.25 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_SPEED", "multiply": -0.25 } ] } ] 
   },
   {
     "id": "PSY_magi_grab_power",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "☆パワーグラブ[MWMI]" },
-    "description": "装備すると強大な力が湧いてくるグローブです。装備することで効果を発揮します",
+    "description": "装備すると強大な力が湧いてくるグローブです。装備することで効果を発揮します[筋力+6]",
     "copy-from": "gloves_leather",
     "price_postapoc": "9000 USD",
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 6 } ] } ] }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 6 } ] } ] 
   },
   {
     "id": "PSY_magi_tiara_1",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "☆虹の水環[MWMI]" },
-    "description": "強力な防御魔法の施された水環です。装備することで、熱・雷に強い耐性を得ることができます",
+    "description": "強力な防御魔法の施された水環です。装備することで、熱・雷に強い耐性を得ることができます[熱ダメージ20軽減 雷ダメージ20軽減]",
     "copy-from": "copper_circlet",
     "price_postapoc": "9000 USD",
-    "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT", "add": -20 },{ "value": "ARMOR_ELEC", "add": -20 } ] } ]
-    }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "incoming_damage_mod": [ { "type": "ARMOR_HEAT", "add": -20 },{ "type": "ARMOR_ELEC", "add": -20 } ] } ]
   },
   {
     "id": "PSY_magi_gaurd_1",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "☆ワンダーバングル[MWMI]" },
-    "description": "射撃武器に対するダメージ軽減魔法を施された腕輪です。これを身に着けることで射撃系武器のダメージを大幅に軽減することができます。",
+    "description": "射撃武器に対するダメージ軽減魔法を施された腕輪です。これを身に着けることで射撃系武器のダメージを大幅に軽減することができます。[刺突ダメージ20軽減 銃弾ダメージ20軽減]",
     "copy-from": "platinum_bracelet",
     "price_postapoc": "9000 USD",
-    "relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_STAB", "add": -20 },{ "value": "ARMOR_BULLET", "add": -20 } ] } ]
-    }
+    "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "incoming_damage_mod": [ { "type": "stab", "add": -20 },{ "type": "bullet", "add": -20 } ] } ]
   },
   {
     "id": "PSY_magi_bracelet_magicstill",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "不動詠唱の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを20%上昇させる代わりに詠唱成功に腕、脚、手の動作制限が詠唱に影響しなくなります。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_still" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_still" } ] 
   },
   {
     "id": "PSY_magi_bracelet_magicquicken",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "高速詠唱の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを100%上昇させる代わりに詠唱速度を95%軽減させます。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_quicken" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_quicken" } ] 
   },
   {
     "id": "PSY_magi_bracelet_magicwiden",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "範囲拡大の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%上昇させる代わりに効果範囲を100%拡大させます。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_widen" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_widen" } ] 
   },
   {
     "id": "PSY_magi_bracelet_magicreach",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "射程延長の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%上昇させる代わりに射程距離を100%拡大させます。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_reach" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_reach" } ] 
   },
   {
     "id": "PSY_magi_bracelet_magicsilent",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "無音詠唱の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを20%上昇させる代わりに詠唱時の音を100%軽減させます。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_silent" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_silent" } ] 
   },
   {
     "id": "PSY_magi_bracelet_magiccareful",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "緻密詠唱の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法の詠唱時間を200%にする代わりに魔法の詠唱何度を-5させます。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_careful" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_careful" } ] 
   },
   {
     "id": "PSY_magi_bracelet_magicintuitive",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "無心詠唱の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを20%増加させる代わりに集中力が詠唱に影響しなくなります。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_intuitive" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_intuitive" } ] 
   },
   {
     "id": "PSY_magi_bracelet_magicreduction",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "マナ軽減の腕輪[MWMI]" },
     "description": "見たことがない文字が掘られた銅製の腕輪です。これを身に着けることで魔法のコストを50%軽減させる代わりに魔法の難易度が3上昇します。",
     "copy-from": "copper_bracelet",
     "price_postapoc": "5000 USD",
-    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_metamagic_reduction" } ] }
+    "passive_effects": [ { "id": "PSY_magi_ench_metamagic_reduction" } ] 
+  },
+  {
+    "id": "PSY_magi_pendant_mugus_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "メイガスの首飾り[MWMI]" },
+    "description": "メイガスの紋章が彫られたネックレスです。装備することで効果を発揮します。[メイガスの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_pendant_animist_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "アニミストの首飾り[MWMI]" },
+    "description": "アニミストの紋章が彫られたネックレスです。装備することで効果を発揮します。[アニミストの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_pendant_biomancer_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "バイオマンサーの首飾り[MWMI]" },
+    "description": "バイオマンサーの紋章が彫られたネックレスです。装備することで効果を発揮します。[バイオマンサーの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_pendant_druid_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "ドルイドの首飾り[MWMI]" },
+    "description": "ドルイドの紋章が彫られたネックレスです。装備することで効果を発揮します。[ドルイドの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_pendant_earthshaper_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "アースシェイパーの首飾り[MWMI]" },
+    "description": "アースシェイパーの紋章が彫られたネックレスです。装備することで効果を発揮します。[アースシェイパーの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_pendant_kelvinist_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "ケルビニストの首飾り[MWMI]" },
+    "description": "ケルビニストの紋章が彫られたネックレスです。装備することで効果を発揮します。[ケルビニストの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_pendant_stormshaper_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "ストームシェイパーの首飾り[MWMI]" },
+    "description": "ストームシェイパーの紋章が彫られたネックレスです。装備することで効果を発揮します。[ストームシェイパーの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_pendant_technomancer_1",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
+    "name": { "str": "テクノマンサーの首飾り[MWMI]" },
+    "description": "テクノマンサーの紋章が彫られたネックレスです。装備することで効果を発揮します。[テクノマンサーの属する魔法の詠唱LV+1]",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "TRADER_AVOID", "NONCONDUCTIVE" ]
   }
 ]

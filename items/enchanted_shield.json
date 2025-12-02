@@ -1,10 +1,11 @@
 [
   {
     "id": "PSY_magi_shield_kite_thunder",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "雷のカイトシールド[MWMI]" },
     "category": "armor",
-    "description": "雷の力が宿ったカイトシールドです。装備することで雷ダメージを軽減します",
+    "description": "雷の力が宿ったカイトシールドです。装備することで雷ダメージを軽減します[着用時に斬撃・打撃・刺突ダメージ2軽減 銃弾ダメージを1軽減 雷ダメージを5軽減]",
     "weight": "3175 g",
     "volume": "4 L",
     "price": "900 USD",
@@ -20,66 +21,62 @@
       { "covers": [ "hand_l", "hand_r" ], "coverage": 90, "encumbrance": 10 },
       { "covers": [ "arm_l", "arm_r" ], "specifically_covers": [ "arm_lower_l", "arm_lower_r" ], "coverage": 50 }
     ],
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_CUT", "add": -2 },
-            { "value": "ARMOR_BASH", "add": -2 },
-            { "value": "ARMOR_STAB", "add": -2 },
-            { "value": "ARMOR_BULLET", "add": -1 },
-            { "value": "ARMOR_ELEC", "add": -5 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "incoming_damage_mod": [
+          { "type": "cut", "add": -2 },
+          { "type": "bash", "add": -2 },
+          { "type": "stab", "add": -2 },
+          { "type": "bullet", "add": -1 },
+          { "type": "elec", "add": -5 }
+        ]
+      }
+    ]
   },
   {
     "id": "PSY_magi_shield_kite_fleeze",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "氷のヒーターシールド[MWMI]" },
     "category": "armor",
-    "description": "氷の力が宿ったヒーターシールドです。装備することで氷ダメージを軽減します",
+    "description": "氷の力が宿ったヒーターシールドです。装備することで熱ダメージを軽減します[着用時に斬撃・打撃・刺突ダメージ2軽減 銃弾ダメージを1軽減 熱ダメージを5軽減]",
     "copy-from": "PSY_magi_shield_kite_thunder",
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_CUT", "add": -2 },
-            { "value": "ARMOR_BASH", "add": -2 },
-            { "value": "ARMOR_STAB", "add": -2 },
-            { "value": "ARMOR_BULLET", "add": -1 },
-            { "value": "ARMOR_COLD", "add": -5 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "incoming_damage_mod": [
+          { "type": "cut", "add": -2 },
+          { "type": "bash", "add": -2 },
+          { "type": "stab", "add": -2 },
+          { "type": "bullet", "add": -1 },
+          { "type": "heat", "add": -5 }
+        ]
+      }
+    ]
   },
   {
     "id": "PSY_magi_shield_kite_fire",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR", "ARTIFACT" ],
     "name": { "str": "炎のヒーターシールド[MWMI]" },
     "category": "armor",
-    "description": "炎の力が宿ったヒーターシールドです。装備することで炎ダメージを軽減します",
+    "description": "炎の力が宿ったヒーターシールドです。装備することで氷ダメージを軽減します[着用時に斬撃・打撃・刺突ダメージ2軽減 銃弾ダメージを1軽減 熱ダメージを5軽減]",
     "copy-from": "PSY_magi_shield_kite_thunder",
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "ARMOR_CUT", "add": -2 },
-            { "value": "ARMOR_BASH", "add": -2 },
-            { "value": "ARMOR_STAB", "add": -2 },
-            { "value": "ARMOR_BULLET", "add": -1 },
-            { "value": "ARMOR_HEAT", "add": -5 }
-          ]
-        }
-      ]
-    }
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+        "incoming_damage_mod": [
+          { "type": "cut", "add": -2 },
+          { "type": "bash", "add": -2 },
+          { "type": "stab", "add": -2 },
+          { "type": "bullet", "add": -1 },
+          { "type": "cold", "add": -5 }
+        ]
+      }
+    ]
   }
 ]

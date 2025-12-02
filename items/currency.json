@@ -1,7 +1,7 @@
 [
   {
     "//1": "デナリウス金貨の値段を上昇(帰るアイテムが増えたため)",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "currency",
     "id": "denarius",
     "name": { "str": "denarius", "str_pl": "denarii" },

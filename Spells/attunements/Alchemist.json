@@ -1,0 +1,26 @@
+[
+  {
+    "id": "alchemist_make_potion_starter",
+    "type": "SPELL",
+    "name": { "str": "Infuse water" },
+    "copy-from": "alchemist_make_potion_starter",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "alchemist_make_potion_bomb",
+    "type": "SPELL",
+    "name": "Manafusion Bomb",
+    "copy-from": "alchemist_make_potion_bomb",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "alchemist_make_potion_trap",
+    "type": "SPELL",
+    "name": "Manafusion Trap",
+    "copy-from": "alchemist_make_potion_trap",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]

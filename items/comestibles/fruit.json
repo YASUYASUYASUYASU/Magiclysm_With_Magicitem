@@ -1,11 +1,12 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "PSY_magi_magic_fruit",
     "name": { "str": "マジックフルーツ[MWMI]" },
     "copy-from": "apple",
     "healthy": 4,
-    "description": "マナを注入したフルーツです。食べるとマナが回復します。",
+    "description": "マナを注入したフルーツです。食べるとマナが回復します。[マナ 250回復]",
     "fun": 5,
     "vitamins": [ [ "vitC", 17 ], [ "iron", 1 ] ],
     "use_action": { "type": "cast_spell", "spell_id": "potion_recover_mana", "no_fail": true, "level": 1 }

@@ -1,0 +1,106 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_magus_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "MAGUS" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_mugus_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('MAGUS') = limit_caster_level_boost(u_level_boost, u_school_level('MAGUS') )" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_animist_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "ANIMIST" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_animist_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('ANIMIST') = limit_caster_level_boost(u_level_boost, u_school_level('ANIMIST') )" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_biomancer_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "BIOMANCER" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_biomancer_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('BIOMANCER') = limit_caster_level_boost(u_level_boost, u_school_level('BIOMANCER') )" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_druid_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "DRUID" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_druid_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('DRUID') = limit_caster_level_boost(u_level_boost, u_school_level('DRUID') )" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_earthshaper_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "EARTHSHAPER" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_earthshaper_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('EARTHSHAPER') = limit_caster_level_boost(u_level_boost, u_school_level('EARTHSHAPER') )" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_kelvinist_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "KELVINIST" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_kelvinist_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('KELVINIST') = limit_caster_level_boost(u_level_boost, u_school_level('KELVINIST') )" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_stormshaper_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "STORMSHAPER" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_stormshaper_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('STORMSHAPER') = limit_caster_level_boost(u_level_boost, u_school_level('STORMSHAPER') )" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PSY_technomancer_caster_level_boost",
+    "eoc_type": "EVENT",
+    "required_event": "opens_spellbook",
+    "condition": { "u_has_trait": "TECHNOMANCER" },
+    "effect": [
+      { "math": [ "u_level_boost = u_item_count('PSY_magi_pendant_technomancer_1')" ] },
+      {
+        "math": [ "u_school_level_adjustment('TECHNOMANCER') = limit_caster_level_boost(u_level_boost, u_school_level('TECHNOMANCER') )" ]
+      }
+    ]
+  }
+]

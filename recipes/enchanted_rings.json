@@ -65,6 +65,7 @@
     "result": "mring_strength_3",
     "copy-from": "mring_wizardry_lesser",
     "difficulty": 4,
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
     "components": [ 
       [ [ "mring_strength_2", 2 ] ]
     ]

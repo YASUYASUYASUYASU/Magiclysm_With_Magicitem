@@ -1,0 +1,26 @@
+[
+  {
+    "id": "spear_of_light",
+    "type": "SPELL",
+    "name": "Spear of Light",
+    "copy-from": "spear_of_light",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "illusionist_hologram",
+    "type": "SPELL",
+    "name": "Battle Holograms",
+    "copy-from": "illusionist_hologram",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  },
+  {
+    "id": "illusionist_transposition",
+    "type": "SPELL",
+    "name": "Illusion Transposition",
+    "copy-from": "illusionist_transposition",
+    "get_level_formula_id": "magic_test_func_get_level",
+    "exp_for_level_formula_id": "magic_test_func_exp_for_level"
+  }
+]
